@@ -18,30 +18,7 @@ Releasable and sharable by tenth of June.
 - [ ] Have 5-10 tactical tasks by end of week
 
 # Site Structure
-
-## Home
-* Why Apprentice?
-* What is this?
-* Who can list?
-
-## Upcoming Apprenticeships
-* A simple listing page with all the apprenticeships (maybe packaged in a JSON file)
-	* when
-	* link
-	* image
-	* who
-	* abstract
-	* location
-
-## Submit Apprenticeship
-* A form to allow companies to submit their apprenticeship info
-	* fields would mimic the above datasets
-	* Should send an email to someone at Sparkbox
-
-## By Apprentices for Apprentices
-* Info on who we are
-	* Kasey Bio/Picture/Contact
-	* Lauren Bio/Picture/Contact
-	* Dan Bio/Picture/Contact
-* Info on what we did as apprentices at Sparkbox
-* Info on who Sparkbox is
+* [Home](content/01-home.md)
+* [Upcoming Apprenticeships](content/02-upcoming-apprenticeships.md)
+* [Submit Apprenticeship](content/03-submit-apprenticeship.md)
+* [By Apprentices for Apprentices](content/04-by-apprentices-for-apprentices.md)
