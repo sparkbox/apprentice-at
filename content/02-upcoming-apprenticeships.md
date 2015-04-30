@@ -72,11 +72,11 @@
 * **Location**: Troy, MI
 * **Link**: [learn more and apply](https://riis.applicantpro.com/jobs/179486-27866.html)
 
-## Sherwin-Williams - Web Engineer Professional Apprentice®
+## Sherwin-Williams
 * **Application Deadline**: ?
 * **When**: ?
 * **Duration**: 1 year (up to 28 hours per week)
-* **Abstract**: Join The Sherwin-Williams Company’s award winning Professional Apprentice® Program. This is not a standard Co-op program. Students will be given the opportunity to acquire real-world skills that give them an added edge in the workplace through experience with this Fortune 500 Company.
+* **Abstract**: Join The Sherwin-Williams Company’s award winning Web Engineer Professional Apprentice® Program. This is not a standard Co-op program. Students will be given the opportunity to acquire real-world skills that give them an added edge in the workplace through experience with this Fortune 500 Company.
 * **Location**: Cleveland, OH
 * **Link**: [learn more and apply](http://careers.sherwin-williams.com/jobs/18892)
 
