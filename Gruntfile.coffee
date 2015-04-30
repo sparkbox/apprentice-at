@@ -6,4 +6,4 @@ module.exports = (grunt) ->
   grunt.loadTasks "grunt"
  
   # Default task
-  grunt.registerTask "default", ["sass", "assemble"]
+  grunt.registerTask "default", "watch"
