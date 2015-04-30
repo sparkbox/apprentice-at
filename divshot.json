@@ -1,3 +1,4 @@
 {
-  "name": "apprenticeship-web-project"
+  "name": "apprenticeship-web-project",
+  "root": "dist"
 }
