@@ -1,4 +1,4 @@
-# Apprentice Web Project
+# Apprenticeship Web Project
 A repository for the Sparkbox Apprentices to build the so-called Apprenticeship Marketplace.
 
 * full stack web app
