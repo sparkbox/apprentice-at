@@ -16,7 +16,7 @@
 * **Location**: Boston, MA
 * **Link**: [learn more and apply](http://chc.tbe.taleo.net/chc05/ats/careers/requisition.jsp?org=BOSTGLOB&cws=1&rid=264&source=Indeed.com)
 
-## DevMynd (Development and Design) 
+## DevMynd
 * **Application Deadline**: ?
 * **When**: ?
 * **Duration**: 3-6 months (depends on skill level)
