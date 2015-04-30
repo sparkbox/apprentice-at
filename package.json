@@ -1,0 +1,24 @@
+{
+  "name": "grunt-test",
+  "version": "0.0.1",
+  "description": "A test at setting up a new Grunt project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sparkbox/apprenticeship-web-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sparkbox/apprenticeship-web-project/issues"
+  },
+  "homepage": "https://github.com/sparkbox/apprenticeship-web-project",
+  "devDependencies": {
+    "assemble": "^0.4.42",
+    "grunt": "^0.4.5",
+    "grunt-sass": "^0.18.1"
+  }
+}
