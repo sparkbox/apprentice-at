@@ -19,23 +19,31 @@ Releasable and sharable by tenth of June.
 To install and run the website you will need to download [Node](https://nodejs.org/download/).
 
 1. Clone the Repo
+
   ```$ git clone git@github.com:sparkbox/apprenticeship-web-project.git```
 1. Change Directory
+
   ```$ cd apprenticeship-web-project```
 1. Install Grunt
+
   ```$ npm install -g grunt-cli```
 1. Install Node Modules
+
   ```$ npm install```
 
 ## Command Line Interface
 
 1. ```$ grunt```
+
   Creates ```dist/``` folder. 
 1. ```$ grunt --watch```
+
   Watches for changes to files and runs sass, autoprefixer and assemble as needed. Livereload is enabled to refresh pages after changes are made.
 1. ```$ grunt sass```
+
   Will compile all sass files in the ```scss/``` folder into the ```dist/css/``` folder.
 1. ```$ grunt autoprefix```
+
   Updates css files in ```dist/css/``` to include necessary browser prefixes.
 1. ```$ grunt assemble```
   Generates static site templates into ```dist/```.
