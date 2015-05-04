@@ -4,3 +4,7 @@ deployment:
     commands:
       - npm install -g divshot-cli
       - divshot push staging --token $DIVSHOT_TOKEN
+
+test:
+  override:
+    - ./node_modules/.bin/grunt ci
