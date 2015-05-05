@@ -1,6 +1,6 @@
 test:
   override:
-    - ./node_modules/.bin/grunt
+    - ./node_modules/.bin/grunt ci
 
 deployment:
   development:
