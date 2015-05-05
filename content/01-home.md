@@ -1,7 +1,7 @@
-# Home
+# Apprenticeships
+Apprenticeships are an age-old method for learning a skilled trade — be it blacksmithing, tailoring, or carpentry. Apprentices spend time learning alongside masters of their craft, so that one day they too can become masters (while also earning a little money). So why should learning to build the web be any different? 
+* [learn more about apprenticeships](/about)
+* [submit your apprenticeship](/submit)
 
-## Apprenticeships summary: Age-old method to learn a craft. Building the web is a craft. (link to About)
-
-## Link to submit your own apprenticeship
-
-## Apprenticeships will get pulled in from YAML file
+## Available Apprenticeships
+<!-- Apprenticeships get pulled in from YAML file below here -->
