@@ -46,7 +46,8 @@ To install and run the website you will need to download [Node](https://nodejs.o
 
   Updates css files in ```dist/css/``` to include necessary browser prefixes.
 1. ```$ grunt assemble```
-  Generates static site templates into ```dist/```.
+  
+Generates static site templates into ```dist/```.
 
 
 
