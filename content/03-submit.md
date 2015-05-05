@@ -1,4 +1,3 @@
-# Submit
 * Intro Text - they’re great, submit yours (might be space to link to both Homepage and About)
 * Guidelines:
     * Must be paid
