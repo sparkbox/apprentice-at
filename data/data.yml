@@ -1,0 +1,169 @@
+apprenticeships:
+  - apprenticeship:
+      company: 8th Light
+      deadline: rolling
+      timeframe: rolling
+      duration: 3-12 months
+      location: ["Chicago, IL", "Los Angeles, CA", "London, UK"]
+      category: web development
+      cta: learn more and apply
+      company_url: http://8thlight.com/
+      apply_url: https://8thlight.com/apprenticeship/
+      summary: | 
+        We provide a small salary (with benefits) as apprentices learn multiple programming languages, design principles, test-driven development, clean architecture, and software development processes.
+  - apprenticeship:
+      company: Boston Globe Media
+      deadline:
+      timeframe:
+      duration: 6 months
+      location: ["Boston, MA"]
+      category: web development
+      cta: learn more and apply
+      company_url: http://www.bostonglobe.com/
+      apply_url: http://chc.tbe.taleo.net/chc05/ats/careers/requisition.jsp?org=BOSTGLOB&cws=1&rid=264&source=Indeed.com
+      summary: | 
+        Our Developer Apprentice position is available for talented junior developers. Apprentices will gain full-stack experience working on high-traffic media sites in a fast-paced, entrepreneurially minded organization pushing to innovate in news.
+  - apprenticeship:
+      company: DevMynd
+      deadline:
+      timeframe:
+      duration: 3-6 months
+      location: ["Chicago, IL"]
+      category: web development
+      cta: learn more and apply
+      company_url: https://devmynd.com/
+      apply_url: https://devmynd.com/jobs/apprenticeship/
+      summary: | 
+        As an apprentice in our design and development program, you will split your time between working on real client projects alongside our engineers, and learning efforts (reading, blogging, exercises and challenges, as well as a personal project).
+  - apprenticeship:
+      company: DevMynd
+      deadline:
+      timeframe:
+      duration: 3-6 months
+      location: ["Chicago, IL"]
+      category: web design
+      cta: learn more and apply
+      company_url: https://devmynd.com/
+      apply_url: https://devmynd.com/jobs/apprenticeship/
+      summary: |
+        As an apprentice in our design and development program, you will split your time between working on real client projects alongside our engineers, and learning efforts (reading, blogging, exercises and challenges, as well as a personal project). 
+  - apprenticeship:
+      company: Fresh Tilled Soil
+      deadline: 'June 8, 2015'
+      timeframe: June - November
+      duration: 4 months
+      location: ["Watertown, MA"]
+      category:
+      cta: learn more and apply
+      company_url: http://www.freshtilledsoil.com/
+      apply_url: http://www.freshtilledsoil.com/aux/
+      summary: | 
+        We turn promising designers and developers into user experience pros through structured learning, one-on-one mentorship, and real-world experience. Our apprentices are early career web professionals who aspire to be leaders in the field by building beautiful, engaging web and mobile products. 
+  - apprenticeship:
+      company: Lockheed Martin
+      deadline:
+      timeframe:
+      duration:
+      location: ["Springfield, MO"]
+      category: web development
+      cta: learn more and apply
+      company_url: http://www.lockheedmartin.com/
+      apply_url: 'http://search.lockheedmartinjobs.com/ShowJob/Id/30744/Multi%20Media,%20GIS%20Developer%20Apprentice'
+      summary: | 
+        The GIS Developer Apprentice will assist in the design, development, and testing of GIS applications, while implementing solutions using ESRI’s ArcGIS suite. The apprentice will use ArcGIS for server geoprocessing services and collaborate in creating intuitive user interfaces and tools that will appeal to both novice and expert users of geospatial applications.
+  - apprenticeship:
+      company: Logical Media Group
+      deadline:
+      timeframe:
+      duration:
+      location: ["Chicago, IL"]
+      category: web development
+      cta: learn more and apply
+      company_url: http://www.logicalmediagroup.com/
+      apply_url: http://www.indeed.com/cmp/Logical-Media-Group/jobs/Wordpress-Developer-Apprentice-f69ecba4e444d70d?sjdu=QwrRXKrqZ3CNX5W-O9jEvW9kAlEKJhSVFnYBmcB0y6lqHvqGeG5KLLAXkn5r_OwzVHmpw7S7TH97eYJbGoyIuv2ykA_ctx1dqecIbb7ND9E
+      summary: | 
+        We’re looking to hire a recent college graduate to fulfill the duties of a Wordpress developer apprentice. We are looking for a detail-oriented, highly-motivated and tenacious individual who is excited about becoming a part of a rapidly-expanding company in a booming industry.
+  - apprenticeship:
+      company: Merge
+      deadline: rolling
+      timeframe: rolling
+      duration: 3 months
+      location: ["Greenville, SC"]
+      category: web development
+      cta: learn more and apply
+      company_url: http://www.mergeagency.com/
+      apply_url: http://www.mergeagency.com/careers
+      summary: | 
+        Ours is a 12-week apprenticeship program for web developers. You will work side by side with our experienced team members and be mentored in high-level digital initiatives by our team, which includes our Creative Director, Digital Strategist, Project Manager and Merge’s CEO.
+  - apprenticeship:
+      company: Nerdery
+      deadline: rolling
+      timeframe: rolling
+      duration: 3 months
+      location: ["Minneapolis, MN"]
+      category: web development
+      cta: learn more and apply
+      company_url: https://nerdery.com/
+      apply_url: https://nerdery.com/careers
+      summary: | 
+        Apprentices selected for our program will develop their user experience skills through 12 weeks of focused, real-world work experience, close mentoring, workshops, and detailed tracking of their development.
+  - apprenticeship:
+      company: Sherwin-Williams
+      deadline:
+      timeframe:
+      duration: 12 months
+      location: ["Cleveland, OH"]
+      category: web development
+      cta: learn more and apply
+      company_url: http://www.sherwin-williams.com/
+      apply_url: http://careers.sherwin-williams.com/jobs/18892
+      summary: | 
+        Join The Sherwin-Williams Company’s award winning Web Engineer Professional Apprentice® Program. This is not a standard Co-op program. Students will be given the opportunity to acquire real-world skills that give them an added edge in the workplace through experience with this Fortune 500 Company.
+  - apprenticeship:
+      company: Sparkbox
+      deadline: 'October 31, 2015'
+      timeframe: January - June
+      duration: 6 months
+      location: ["Dayton, OH"]
+      category: web development
+      cta: learn more and apply
+      company_url: http://seesparkbox.com
+      apply_url: http://apprentices.seesparkbox.com
+      summary: | 
+        We’re looking for those interested in an apprenticeship in web development — frontend, backend, or anything code related. What we’re looking for most, however, are individuals who are excited to make their mark on the web industry.
+  - apprenticeship:
+      company: thoughtbot
+      deadline: rolling
+      timeframe: rolling
+      duration: 3 months
+      location: ["Boston, MA", "San Francisco, CA"]
+      category: web design
+      cta: learn more and apply
+      company_url: https://thoughtbot.com/
+      apply_url: http://www.apprentice.io/
+      summary: | 
+        We want those ready to advance to the next level in their career. The program is ideal for designers with experience with graphical design for the web or iOS as well as HTML and CSS.
+  - apprenticeship:
+      company: thoughtbot
+      deadline: rolling
+      timeframe: rolling
+      duration: 3 months
+      location: ["Boston, MA", "San Francisco, CA"]
+      category: web development
+      cta: learn more and apply
+      company_url: https://thoughtbot.com/
+      apply_url: http://www.apprentice.io/
+      summary: | 
+        We want those ready to advance to the next level in their career. The program is ideal for intermediate developers and designers looking to build upon an already-strong foundation.
+  - apprenticeship:
+      company: thoughtbot
+      deadline: rolling
+      timeframe: rolling
+      duration: 3 months
+      location: ["Boston, MA", "San Francisco, CA"]
+      category: mobile development
+      cta: learn more and apply
+      company_url: https://thoughtbot.com/
+      apply_url: http://www.apprentice.io/
+      summary: | 
+        We want those ready to advance to the next level in their career. The program is ideal for developers at an intermediate level with Objective-C or Swift.

@@ -1,3 +1,26 @@
-<h1>Apprenticeship Web Project</h1>
+---
+title: home
+description:
+content: content/01-home.md
+---
+<div class="content">
+  {{{md content }}}
+</div>
 
-{{> _foo test}}
+<ul class="list">
+  {{#forEach apprenticeships}}
+    <li class="apprenticeship">
+      <h3 class="apprenticeship__company">Company: <a href="apprenticeship.company_url">{{apprenticeship.company}}</a></h3>
+        <p class="apprenticeship__summary">{{apprenticeship.summary}}</p>
+        <ul class="apprenticeship__details">
+          <li><b>Deadline:</b> {{apprenticeship.deadline}}</li>
+          <li><b>Timeframe:</b> {{apprenticeship.timeframe}}</li>
+          <li><b>Duration:</b> {{apprenticeship.duration}}</li>
+          <li><b>Location:</b> {{apprenticeship.location}}</li>
+          <li><b>Category:</b> {{apprenticeship.category}}</li>
+        </ul>
+        <p><a class="apprenticeship__cta" href="{{apprenticeship.apply_url}}">{{apprenticeship.cta}}</a></p>
+
+    </li>
+{{/forEach}}
+</ul>
