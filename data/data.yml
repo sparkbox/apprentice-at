@@ -1,3 +1,26 @@
+people:
+  - person:
+      name: Dan Rosenthal
+      person_url: http://danrosenthal.me/
+      github_url: https://github.com/danrosenthal
+      twitter_url: https://twitter.com/danmrosenthal
+      summary: |
+        I’m an apprentice at Sparkbox in Dayton, where I’m learning the tools to build a better web. Before that, I wrote frontend code and copy for Uncrate and Devour. Web content and responsive design are my thing. When I’m not being a desk monkey, you can find me in my home town of Cincinnati. There I’m most likely tinkering with my ‘33 Ford Hotrod, keeping my Netflix queue in check, or putting the finishing touches on my latest Lego Star Wars set. I’m passionate about the intersection of content and frontend code and am constantly working to improve my skills in JavaScript and Ruby.
+  - person:
+      name: Kasey Bonifacio
+      person_url: http://kaseybon.com/
+      github_url: https://github.com/kaseybon
+      twitter_url: https://twitter.com/_kaseybon
+      summary: |
+        I am passionate about web development and am constantly learning new ways to make the web more awesome. I already have 3 years of frontend design and development under my belt, and for the last 4 months, I have been an apprentice at Sparkbox, learning all things code. Once finished, I plan to be on the path to become a full-stack developer. When I can pry myself away from the computer, I can be found spending time with family, cooking, or being crafty.
+  - person:
+      name: Lauren Dorman
+      person_url: http://laurendorman.io
+      github_url: http://github.com/laurendorman
+      twitter_url: http://twitter.com/laurendorman
+      summary: |
+        Hi, I’m Lauren. I’m an apprentice at Sparkbox in Dayton, Ohio. I am a multi-city transplant, most recently transplanted from Chicago, Illinois. I am a designer and frontend developer who is passionate about making the web both beautiful and usable. I pride myself in staying in the loop on current design trends and practices. I am a firm believer that learning is something that you should never stop doing. There is always an opportunity to grow, learn, and share best practices with people around you. When my eyes aren't glued to a screen, I enjoy cycling, discovering new tunes, and traveling.
+
 apprenticeships:
   - apprenticeship:
       company: 8th Light
