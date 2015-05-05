@@ -1,10 +1,10 @@
+test:
+  override:
+    - ./node_modules/.bin/grunt ci
+
 deployment:
   development:
     branch: master
     commands:
       - npm install -g divshot-cli
-      - divshot push staging --token $DIVSHOT_TOKEN
-
-test:
-  override:
-    - ./node_modules/.bin/grunt ci
+      - divshot push development --token $DIVSHOT_TOKEN
