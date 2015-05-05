@@ -4,12 +4,13 @@ apprenticeships:
       deadline:
       timeframe:
       duration:
-      location:
+      location: [""]
       category:
-      cta:
+      cta: learn more and apply
       company_url:
       apply_url:
-      summary: 
+      summary: | 
+
   - apprenticeship:
       company: 8th Light
       deadline: rolling
@@ -45,3 +46,15 @@ apprenticeships:
       company_url:
       apply_url:
       summary: 
+  - apprenticeship:
+      company:
+      deadline:
+      timeframe:
+      duration:
+      location: [""]
+      category:
+      cta: learn more and apply
+      company_url:
+      apply_url:
+      summary: | 
+        
