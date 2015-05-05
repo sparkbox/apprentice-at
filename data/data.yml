@@ -14,7 +14,31 @@ apprenticeships:
       company: 8th Light
       deadline: rolling
       timeframe: rolling
-      duration: 
+      duration: 3-12 months
+      location: ["Chicago, IL", "Los Angeles, CA", "London, UK"]
+      category: web development
+      cta: learn more and apply
+      company_url: http://8thlight.com/
+      apply_url: https://8thlight.com/apprenticeship/
+      summary: | 
+        We provide a small salary (with benefits) as apprentices learn multiple programming languages, design principles, test-driven development, clean architecture, and software development processes.
+  - apprenticeship:
+      company: Boston Globe Media
+      deadline:
+      timeframe:
+      duration: 6 months
+      location: ["Boston, MA"]
+      category: web development
+      cta: learn more and apply
+      company_url: http://www.bostonglobe.com/
+      apply_url: http://chc.tbe.taleo.net/chc05/ats/careers/requisition.jsp?org=BOSTGLOB&cws=1&rid=264&source=Indeed.com
+      summary: | 
+        Our Developer Apprentice position is available for talented junior developers. Apprentices will gain full-stack experience working on high-traffic media sites in a fast-paced, entrepreneurially minded organization pushing to innovate in news.
+  - apprenticeship:
+      company: DevMynd
+      deadline:
+      timeframe:
+      duration: 3-6 months
       location:
       category:
       cta:
