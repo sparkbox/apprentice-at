@@ -2,22 +2,7 @@
 
 ## Apprenticeships summary: Age-old method to learn a craft. Building the web is a craft. (link to About)
 
-Listing of available apprenticeships with:
-* Paid (yes or no with error out, if no)
-* Company
-* Link to company website
-* Application Deadline
-* Timeframe (optional)
-* Duration (_x_ months)
-* Summary/Abstract (hint-type text: “What will the apprentices spend their time doing? How much of an education focus is there? What languages will be studied?”)
-* Location or Remote
-* Link to learn more
-
 ## Link to submit your own apprenticeship
-
-
-
-# Upcoming Apprenticeships
 
 ## 8th Light
 * **Application Deadline**: Rolling basis

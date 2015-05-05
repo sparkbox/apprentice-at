@@ -1,0 +1,23 @@
+apprenticeships:
+  - apprenticeship:
+      company:
+      deadline:
+      timeframe:
+      duration:
+      location:
+      category:
+      cta:
+      company_url:
+      apply_url:
+      summary: 
+  - apprenticeship:
+      company: 8th Light
+      deadline: rolling
+      timeframe: rolling
+      duration: 
+      location:
+      category:
+      cta:
+      company_url:
+      apply_url:
+      summary: 
