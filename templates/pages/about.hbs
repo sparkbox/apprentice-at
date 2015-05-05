@@ -1,8 +1,14 @@
 ---
-title: about
+title: About
 description:
 content: content/02-about.md
 ---
+
+<h1>{{page.title}}</h1>
 <div class="content">
   {{{md content }}}
 </div>
+
+<ul class="list">
+  {{> _person}}
+</ul>
