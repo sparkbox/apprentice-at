@@ -3,15 +3,16 @@ module.exports = (grunt) ->
   stylesheets:
     files: "scss/**/*"
     tasks: "sass:dev"
-
-  partials:
-    files: ["templates/**/*", "data/*"]
-    tasks: ["assemble"]
     options:
       livereload: true
+  
+  autoprefixer:
+    files: 'dist/css/*':'dist/css/*'
+    tasks: "autoprefixer"
 
-  livereload:
-    files: "dist/css/*"
+  partials:
+    files: ["templates/**/*", "data/*", "content/*"]
+    tasks: "assemble"
     options:
       livereload: true
 
