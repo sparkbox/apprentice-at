@@ -97,7 +97,7 @@ apprenticeships:
   - apprenticeship:
       company: Hashrocket
       deadline:
-      timeframe: ?
+      timeframe:
       duration: 6 months
       location: ["Chicago, IL", "Jacksonville Beach, FL"]
       category:
