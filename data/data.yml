@@ -32,7 +32,7 @@ apprenticeships:
       cta: learn more and apply
       company_url: http://8thlight.com/
       apply_url: https://8thlight.com/apprenticeship/
-      summary: | 
+      summary: |
         We provide a small salary (with benefits) as apprentices learn multiple programming languages, design principles, test-driven development, clean architecture, and software development processes.
   - apprenticeship:
       company: Boston Globe Media
@@ -44,8 +44,20 @@ apprenticeships:
       cta: learn more and apply
       company_url: http://www.bostonglobe.com/
       apply_url: http://chc.tbe.taleo.net/chc05/ats/careers/requisition.jsp?org=BOSTGLOB&cws=1&rid=264&source=Indeed.com
-      summary: | 
+      summary: |
         Our Developer Apprentice position is available for talented junior developers. Apprentices will gain full-stack experience working on high-traffic media sites in a fast-paced, entrepreneurially minded organization pushing to innovate in news.
+  - apprenticeship:
+      company: Detroit Labs
+      deadline:
+      timeframe:
+      duration: 3 months
+      location: ["Detroit, MI"]
+      category: web development
+      cta: learn more and apply
+      company_url: http://detroitlabs/.com/
+      apply_url: http://www.detroitlabs.com/apprentice/
+      summary: |
+        Our Apprentice Program is a 3-month immersive training experience in software and mobile development. Apprentices receive classroom and hands-on training in programming fundamentals and app development, work side-by-side with Detroit Labs developers, and gain experience with all aspects of creating software including team collaboration, pairing, testing, CI, presenting, and project management.
   - apprenticeship:
       company: DevMynd
       deadline:
@@ -56,7 +68,7 @@ apprenticeships:
       cta: learn more and apply
       company_url: https://devmynd.com/
       apply_url: https://devmynd.com/jobs/apprenticeship/
-      summary: | 
+      summary: |
         As an apprentice in our design and development program, you will split your time between working on real client projects alongside our engineers, and learning efforts (reading, blogging, exercises and challenges, as well as a personal project).
   - apprenticeship:
       company: DevMynd
@@ -69,7 +81,7 @@ apprenticeships:
       company_url: https://devmynd.com/
       apply_url: https://devmynd.com/jobs/apprenticeship/
       summary: |
-        As an apprentice in our design and development program, you will split your time between working on real client projects alongside our engineers, and learning efforts (reading, blogging, exercises and challenges, as well as a personal project). 
+        As an apprentice in our design and development program, you will split your time between working on real client projects alongside our engineers, and learning efforts (reading, blogging, exercises and challenges, as well as a personal project).
   - apprenticeship:
       company: Fresh Tilled Soil
       deadline: 'June 8, 2015'
@@ -80,8 +92,48 @@ apprenticeships:
       cta: learn more and apply
       company_url: http://www.freshtilledsoil.com/
       apply_url: http://www.freshtilledsoil.com/aux/
-      summary: | 
-        We turn promising designers and developers into user experience pros through structured learning, one-on-one mentorship, and real-world experience. Our apprentices are early career web professionals who aspire to be leaders in the field by building beautiful, engaging web and mobile products. 
+      summary: |
+        We turn promising designers and developers into user experience pros through structured learning, one-on-one mentorship, and real-world experience. Our apprentices are early career web professionals who aspire to be leaders in the field by building beautiful, engaging web and mobile products.
+  - apprenticeship:
+      company: Hashrocket
+      deadline:
+      timeframe: ?
+      duration: 6 months
+      location: ["Chicago, IL", "Jacksonville Beach, FL"]
+      category:
+      cta: learn more and apply
+      company_url: http://www.hashrocket.com/
+      apply_url: http://www.hashrocket.com/contact-us/jobs/apprentice/
+      summary: |
+        The Hashrocket apprenticeship is a six-month salaried program that is designed to take candidates with some professional software development experience and turn them into world class Rails consultants. Once you enter our program, you will be immersed in a hybrid learning environment where you will be pairing with other apprentices as well as seasoned Rocketeers. You'll work on client projects and smaller training apps to build up your Rails knowledge. Our goal (and yours) will be to help you finish our program ready to be promoted to full-time Rocketeer status.
+ - apprenticeship:
+      company: Hungry Academy
+      deadline:
+      timeframe:
+      duration:
+      location: ["Washington DC"]
+      category: software engineering
+      cta: learn more and apply
+      company_url: http://www.hungryacademy.com/
+      apply_url: http://www.hungryacademy.com/apprenticeship
+      summary: |
+        We'll pay you while you become an excellent developer. You'll be trained by Jeff Casimir and the team from JumpstartLab while being mentored by LivingSocial engineers.
+If you survive the five-month program, you’ll be offered a position on LivingSocial’s elite engineering team (18-month commitment required). Applications will be considered as they come in and must be submitted by January 9th, 2012 Hungry Academy will be onsite at LivingSocial's DC office from March through July.
+  - apprenticeship:
+      company: IFTTT
+      deadline:
+      timeframe: Ended
+      duration:
+      location: ["San Francisco, CA"]
+      category: software engineering
+      cta: learn more and apply
+      company_url: http://www.ifttt.com/
+      apply_url: http://www.ifttt.com/apprenticeship
+      summary: |
+        Three-month program, paid and full-time, with the hopes of having you on the team as an Engineer afterwards.
+Have a blast working alongside a top-notch team. We’re in it for the journey. We’re a unique, well-rounded bunch with loads of interests outside technology.
+Hack on exciting stacks in our service-oriented architecture. Get experience working with things like Rails, Node.js, Redis, and PostgreSQL at scale.
+Get stocked with IFTTT-enabled gear. Deck out your living room with Hue light bulbs or graph your sleep patterns with the Jawbone UP.
   - apprenticeship:
       company: Lockheed Martin
       deadline:
@@ -91,8 +143,8 @@ apprenticeships:
       category: web development
       cta: learn more and apply
       company_url: http://www.lockheedmartin.com/
-      apply_url: 'http://search.lockheedmartinjobs.com/ShowJob/Id/30744/Multi%20Media,%20GIS%20Developer%20Apprentice'
-      summary: | 
+      apply_url: http://search.lockheedmartinjobs.com/ShowJob/Id/30744/Multi%20Media,%20GIS%20Developer%20Apprentice
+      summary: |
         The GIS Developer Apprentice will assist in the design, development, and testing of GIS applications, while implementing solutions using ESRI’s ArcGIS suite. The apprentice will use ArcGIS for server geoprocessing services and collaborate in creating intuitive user interfaces and tools that will appeal to both novice and expert users of geospatial applications.
   - apprenticeship:
       company: Logical Media Group
@@ -104,7 +156,7 @@ apprenticeships:
       cta: learn more and apply
       company_url: http://www.logicalmediagroup.com/
       apply_url: http://www.indeed.com/cmp/Logical-Media-Group/jobs/Wordpress-Developer-Apprentice-f69ecba4e444d70d?sjdu=QwrRXKrqZ3CNX5W-O9jEvW9kAlEKJhSVFnYBmcB0y6lqHvqGeG5KLLAXkn5r_OwzVHmpw7S7TH97eYJbGoyIuv2ykA_ctx1dqecIbb7ND9E
-      summary: | 
+      summary: |
         We’re looking to hire a recent college graduate to fulfill the duties of a Wordpress developer apprentice. We are looking for a detail-oriented, highly-motivated and tenacious individual who is excited about becoming a part of a rapidly-expanding company in a booming industry.
   - apprenticeship:
       company: Merge
@@ -116,7 +168,7 @@ apprenticeships:
       cta: learn more and apply
       company_url: http://www.mergeagency.com/
       apply_url: http://www.mergeagency.com/careers
-      summary: | 
+      summary: |
         Ours is a 12-week apprenticeship program for web developers. You will work side by side with our experienced team members and be mentored in high-level digital initiatives by our team, which includes our Creative Director, Digital Strategist, Project Manager and Merge’s CEO.
   - apprenticeship:
       company: Nerdery
@@ -128,7 +180,7 @@ apprenticeships:
       cta: learn more and apply
       company_url: https://nerdery.com/
       apply_url: https://nerdery.com/careers
-      summary: | 
+      summary: |
         Apprentices selected for our program will develop their user experience skills through 12 weeks of focused, real-world work experience, close mentoring, workshops, and detailed tracking of their development.
   - apprenticeship:
       company: Sherwin-Williams
@@ -140,7 +192,7 @@ apprenticeships:
       cta: learn more and apply
       company_url: http://www.sherwin-williams.com/
       apply_url: http://careers.sherwin-williams.com/jobs/18892
-      summary: | 
+      summary: |
         Join The Sherwin-Williams Company’s award winning Web Engineer Professional Apprentice® Program. This is not a standard Co-op program. Students will be given the opportunity to acquire real-world skills that give them an added edge in the workplace through experience with this Fortune 500 Company.
   - apprenticeship:
       company: Sparkbox
@@ -152,7 +204,7 @@ apprenticeships:
       cta: learn more and apply
       company_url: http://seesparkbox.com
       apply_url: http://apprentices.seesparkbox.com
-      summary: | 
+      summary: |
         We’re looking for those interested in an apprenticeship in web development — frontend, backend, or anything code related. What we’re looking for most, however, are individuals who are excited to make their mark on the web industry.
   - apprenticeship:
       company: thoughtbot
@@ -164,7 +216,7 @@ apprenticeships:
       cta: learn more and apply
       company_url: https://thoughtbot.com/
       apply_url: http://www.apprentice.io/
-      summary: | 
+      summary: |
         We want those ready to advance to the next level in their career. The program is ideal for designers with experience with graphical design for the web or iOS as well as HTML and CSS.
   - apprenticeship:
       company: thoughtbot
@@ -176,7 +228,7 @@ apprenticeships:
       cta: learn more and apply
       company_url: https://thoughtbot.com/
       apply_url: http://www.apprentice.io/
-      summary: | 
+      summary: |
         We want those ready to advance to the next level in their career. The program is ideal for intermediate developers and designers looking to build upon an already-strong foundation.
   - apprenticeship:
       company: thoughtbot
@@ -188,5 +240,17 @@ apprenticeships:
       cta: learn more and apply
       company_url: https://thoughtbot.com/
       apply_url: http://www.apprentice.io/
-      summary: | 
+      summary: |
         We want those ready to advance to the next level in their career. The program is ideal for developers at an intermediate level with Objective-C or Swift.
+  - apprenticeship:
+      company: Upstatement
+      deadline: rolling
+      timeframe: rolling
+      duration:
+      location: ["Boston, MA"]
+      category: web development
+      cta: learn more and apply
+      company_url: https://www.upstatement.com/
+      apply_url: http://www.upstatement.com/careers/development-apprentice/
+      summary: |
+        Upstatement is seeking interested applicants for our Development Apprenticeship program! Being an apprentice at Upstatement means there’s less coffee-fetching and more git fetching. By the end of your tenure, you will have a broader view of the fast-paced consulting services industry as well as increased programming and communications skills. These alone would make you a formidable resource to any company. This is a paid position where you’ll get more experience with Front-end Development, WordPress, and the art of client services.
