@@ -54,7 +54,7 @@ apprenticeships:
       location: ["Detroit, MI"]
       category: web development
       cta: learn more and apply
-      company_url: http://detroitlabs/.com/
+      company_url: http://detroitlabs.com/
       apply_url: http://www.detroitlabs.com/apprentice/
       summary: |
         Our Apprentice Program is an immersive training experience in software and mobile development involving classroom and hands-on training in programming fundamentals and app development. You'll gain experience in team collaboration, pairing, testing, CI, presenting, and project management.
