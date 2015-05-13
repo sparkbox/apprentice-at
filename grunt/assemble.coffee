@@ -1,13 +1,13 @@
 module.exports = (grunt) ->
   grunt.config "assemble",
     options:
-      partials: "templates/partials/*"
-      data: "data/*.yml"
-      layoutdir: "templates/layouts/"
+      partials: "source/templates/partials/*"
+      data: "source/data/*.yml"
+      layoutdir: "source/templates/layouts/"
       layout: ['default.hbs']
     files:
       expand: true
-      cwd: 'templates/pages'
+      cwd: 'source/templates/pages'
       src: ['*.hbs']
       dest: 'dist/'
 

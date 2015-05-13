@@ -5,7 +5,7 @@ module.exports = (grunt) ->
       sourceMap: true
     files: [
       expand: true # Enable dynamic expansion.
-      cwd: "scss/" # Src matches are relative to this path.
+      cwd: "source/scss/" # Src matches are relative to this path.
       src: ["**/*.scss"] # Actual pattern(s) to match.
       dest: "dist/css/" # Destination path prefix.
       ext: ".css" # Dest filepaths will have this extension.
