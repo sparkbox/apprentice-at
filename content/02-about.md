@@ -1,6 +1,6 @@
-We know that the standard education model can’t keep up with the web’s universe—curriculum becomes outdated as the tech we use quickly morphs into something new. Technologies come and go at light speed—far too fast for our education system to keep up. But the industry still needs qualified recruits as it grows towards a brighter future.
-
 ## Intensive mission training
+We know that the standard education model can’t keep up with the web’s universe—curriculum becomes outdated as the tech we use quickly morphs into something new. Technologies come and go at light speed—far too fast for our education system to keep up. But the industry still needs qualified recruits as it grows toward a brighter future.
+
 Apprenticeships are temporary training programs (usually three months to a year), focused on teaching the process of building quality, intentional code to solve problems. Apprentices work alongside seasoned professionals, learning the tools of the trade in the real world—gaining experience that will benefit them (and the web as a whole) for a lifetime.
 
 * [submit your apprenticeship](/submit.html)
