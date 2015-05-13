@@ -9,7 +9,7 @@ module.exports = (grunt) ->
   grunt.registerTask "ci", ["assemble", "sass", "autoprefixer"]
 
   # Build Task
-  grunt.registerTask "build", ["assemble", "sass", "autoprefixer", "watch"]
+  grunt.registerTask "build", ["assemble", "sass", "autoprefixer", "copy:main", "watch"]
  
   # Default task
   grunt.registerTask "default", "build"
