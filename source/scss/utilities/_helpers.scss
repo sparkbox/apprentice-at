@@ -1,0 +1,14 @@
+%bg--light {
+  background: $c--white;
+}
+%bg--dark {
+  background: $c--blue-whale;
+}
+%rounded--top {
+  border-top-left-radius: $round;
+  border-top-right-radius: $round;
+}
+%rounded--bottom {
+  border-bottom-left-radius: $round;
+  border-bottom-right-radius: $round;
+}

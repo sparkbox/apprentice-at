@@ -5,7 +5,7 @@ body {
   font-family: $primary-font;
 }
 article, aside, footer, header, nav, section { display: block; }
-h1, h2, h3, h4, h5, h6 { font-family: $heading-font; }
+h1, h2, h3, h4, h5, h6 { font-family: $heading-font; font-weight: normal;}
 h1 { font-size: 2em; }
 h2 { font-size: 1.5em; }
 h3 { font-size: 1.2em; }
@@ -13,5 +13,5 @@ ul, ol {
   list-style: none;
   padding-left: 0;
 }
-p { line-height: 1.2; }
+p { line-height: 1.375; }
 img { max-width: 100%; }

@@ -1,0 +1,16 @@
+.wrapper {
+  width: 100%;
+  background: $c--blue-whale;
+  overflow: auto;
+  height: auto;
+}
+.wrapper__inner {
+  width: 100%;
+  max-width: 62rem;
+  overflow: auto;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2rem;
+  box-sizing: border-box;
+}
