@@ -1,11 +1,14 @@
-.bg--white {
+%bg--light {
   background: $c--white;
 }
-.rounded--top {
-  border-top-left-radius: .25rem;
-  border-top-right-radius: .25rem;
+%bg--dark {
+  background: $c--blue-whale;
 }
-.rounded--bottom {
-  border-bottom-left-radius: .25rem;
-  border-bottom-right-radius: .25rem;
+%rounded--top {
+  border-top-left-radius: $round;
+  border-top-right-radius: $round;
+}
+%rounded--bottom {
+  border-bottom-left-radius: $round;
+  border-bottom-right-radius: $round;
 }
