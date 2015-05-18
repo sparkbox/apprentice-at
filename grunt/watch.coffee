@@ -2,7 +2,7 @@ module.exports = (grunt) ->
   grunt.config "watch",
   stylesheets:
     files: "source/scss/**/*"
-    tasks: "source/sass:dev"
+    tasks: "sass"
     options:
       livereload: true
   
