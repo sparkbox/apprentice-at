@@ -240,10 +240,12 @@ apprenticeships:
         By the end of your tenure, you will have a broader view of the fast-paced consulting services industry as well as increased programming and communications skills, experience with Front-end Development, WordPress, and the art of client services.
 
 home:
-  content:
-    - item: 
-        text: |
-          Houston, we have a problem—with the web’s ever-changing nature, formal education no longer provides the training needed to produce capable web builders. So we look to methods of the past to train for careers of the future. Enter the apprenticeship—an opportunity to sustainably satisfy the growing need for talented web professionals.
+  title:  Apprenticeships
+  description:
+  section_header: Available Apprenticeships
+  content_callout:
+    text: 
+      - paragraph: "Houston, we have a problem—with the web’s ever-changing nature, formal education no longer provides the training needed to produce capable web builders. So we look to methods of the past to train for careers of the future. Enter the apprenticeship—an opportunity to sustainably satisfy the growing need for talented web professionals."
   nav:
     - item:
       text: learn more about apprenticeships
@@ -253,23 +255,25 @@ home:
       url: /submit.html
 
 about:
-  content:
-    - item: 
-        text: |
-          We know that the standard education model can’t keep up with the web’s universe—curriculum becomes outdated as the tech we use quickly morphs into something new. Technologies come and go at light speed—far too fast for our education system to keep up. But the industry still needs qualified recruits as it grows towards a brighter future.
-          Apprenticeships are temporary training programs (usually three months to a year), focused on teaching the process of building quality, intentional code to solve problems. Apprentices work alongside seasoned professionals, learning the tools of the trade in the real world, instead of a classroom—gaining experience that will benefit them (and the web as a whole) for a lifetime.
-    - item:
-        text: |
-          ## Apprentices Learn While in Orbit
-          Apprentices get the benefit of learning from people who have been around the solar system—gaining practical knowledge of an industry where the barrier to entry can sometimes feel high. And they get paid to do it. Forget about shelling out your life savings for some boot camp, or going into debt to attend college.
-    - item:
-        text: |
-          ## Test-Flight Potential Hires
-          And they’re not just good for the apprentices—companies who hire apprentices benefit too. Imagine getting the opportunity to take a test-flight before you hire, letting you know if recruits are the right fit for the long term. Not only that, you get to train them to work the way your team does, so they’ll be ready to fly come launch day.
-    - item:
-        text: |
-          ## Why we built this site
-          As apprentices ourselves, we learned firsthand the value of participating in an apprenticeship. Getting immersed in code was the best way to learn a modern approach to building the web. We got to pair with professional developers, had regular reviews, and dove deep into the world of Object Oriented Programming, Test Driven Development, and creating modular frontend code. It was the best way possible to expand on our existing industry experience, and it gave us the tools we needed for a successful career on the web.
+  title: About Apprenticeships
+  description:
+  section_header: About the apprentices
+  content_intro:
+    text:
+      - paragraph: "We know that the standard education model can’t keep up with the web’s universe—curriculum becomes outdated as the tech we use quickly morphs into something new. Technologies come and go at light speed—far too fast for our education system to keep up. But the industry still needs qualified recruits as it grows towards a brighter future."
+      - paragraph: "Apprenticeships are temporary training programs (usually three months to a year), focused on teaching the process of building quality, intentional code to solve problems. Apprentices work alongside seasoned professionals, learning the tools of the trade in the real world, instead of a classroom—gaining experience that will benefit them (and the web as a whole) for a lifetime."
+  content_apprentice:
+    header: Apprentices Learn While in Orbit
+    text: 
+      - paragraph: "Apprentices get the benefit of learning from people who have been around the solar system—gaining practical knowledge of an industry where the barrier to entry can sometimes feel high. And they get paid to do it. Forget about shelling out your life savings for some boot camp, or going into debt to attend college."
+  content_company:
+    header: Test-Flight Potential Hires
+    text:
+      - paragraph: "And they’re not just good for the apprentices—companies who hire apprentices benefit too. Imagine getting the opportunity to take a test-flight before you hire, letting you know if recruits are the right fit for the long term. Not only that, you get to train them to work the way your team does, so they’ll be ready to fly come launch day."
+  content_why:
+    header: Why we built this site
+    text:
+      - paragraph: "As apprentices ourselves, we learned firsthand the value of participating in an apprenticeship. Getting immersed in code was the best way to learn a modern approach to building the web. We got to pair with professional developers, had regular reviews, and dove deep into the world of Object Oriented Programming, Test Driven Development, and creating modular frontend code. It was the best way possible to expand on our existing industry experience, and it gave us the tools we needed for a successful career on the web."
   nav:
     - item:
       text: submit your apprenticeship
