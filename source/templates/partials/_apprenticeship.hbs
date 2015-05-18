@@ -6,7 +6,13 @@
       <li><b>Deadline:</b> {{apprenticeship.deadline}}</li>
       <li><b>Timeframe:</b> {{apprenticeship.timeframe}}</li>
       <li><b>Duration:</b> {{apprenticeship.duration}}</li>
-      <li><b>Location:</b> {{apprenticeship.location}}</li>
+      <li><b>Location:</b> 
+        <ul>
+          {{#each apprenticeship.location}}
+            <li>{{ . }}</li>
+          {{/each}}
+        </ul>
+      </li>
       <li><b>Category:</b> {{apprenticeship.category}}</li>
     </ul>
     <p><a class="apprenticeship__cta" href="{{apprenticeship.apply_url}}">{{apprenticeship.cta}}</a></p>
