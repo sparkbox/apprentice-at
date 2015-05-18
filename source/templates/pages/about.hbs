@@ -1,14 +1,8 @@
----
-title: About
-description:
-content: content/02-about.md
----
+<h1>{{ about.title }}</h1>
+{{> _content about.content_intro }}
+{{> _content about.content_apprentice }}
+{{> _content about.content_company }}
+{{> _content about.content_why }}
+<h1>{{ about.section_header }}</h1>
+{{> _person }}
 
-<h1>{{page.title}}</h1>
-<div class="content">
-  {{{md content }}}
-</div>
-
-<ul class="list">
-  {{> _person}}
-</ul>

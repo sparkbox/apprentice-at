@@ -1,20 +1,24 @@
-{{#forEach apprenticeships}}
-<li class="apprenticeship">
-  <h3 class="apprenticeship__company">Company: <a href="{{apprenticeship.company_url}}">{{apprenticeship.company}}</a></h3>
-    <p class="apprenticeship__summary">{{apprenticeship.summary}}</p>
-    <ul class="apprenticeship__details">
-      <li><b>Deadline:</b> {{apprenticeship.deadline}}</li>
-      <li><b>Timeframe:</b> {{apprenticeship.timeframe}}</li>
-      <li><b>Duration:</b> {{apprenticeship.duration}}</li>
-      <li><b>Location:</b> 
-        <ul>
-          {{#each apprenticeship.location}}
-            <li>{{ . }}</li>
-          {{/each}}
+ <section class="wrapper">
+  <ul class="wrapper__inner list">
+    {{#forEach apprenticeships}}
+    <li class="apprenticeship">
+      <h3 class="apprenticeship__company">Company: <a href="{{apprenticeship.company_url}}">{{apprenticeship.company}}</a></h3>
+        <p class="apprenticeship__summary">{{apprenticeship.summary}}</p>
+        <ul class="apprenticeship__details">
+          <li><b>Deadline:</b> {{apprenticeship.deadline}}</li>
+          <li><b>Timeframe:</b> {{apprenticeship.timeframe}}</li>
+          <li><b>Duration:</b> {{apprenticeship.duration}}</li>
+          <li><b>Location:</b> 
+            <ul>
+              {{#each apprenticeship.location}}
+                <li>{{ . }}</li>
+              {{/each}}
+            </ul>
+          </li>
+          <li><b>Category:</b> {{apprenticeship.category}}</li>
         </ul>
-      </li>
-      <li><b>Category:</b> {{apprenticeship.category}}</li>
-    </ul>
-    <p><a class="apprenticeship__cta" href="{{apprenticeship.apply_url}}">{{apprenticeship.cta}}</a></p>
-</li>
-{{/forEach}}
+        <p><a class="apprenticeship__cta" href="{{apprenticeship.apply_url}}">{{apprenticeship.cta}}</a></p>
+    </li>
+    {{/forEach}}
+  </ul>
+</section>
