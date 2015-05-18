@@ -1,8 +1,16 @@
-<h1>{{ about.title }}</h1>
-{{> _content about.content_intro }}
-{{> _content about.content_apprentice }}
-{{> _content about.content_company }}
-{{> _content about.content_why }}
-<h1>{{ about.section_header }}</h1>
+<div class="wrapper">
+  <div class="wrapper__inner">
+    <h1>{{ about.title }}</h1>
+  </div>
+</div>
+{{> _content--whitebg-top about.content_intro }}
+{{> _content--whitebg about.content_apprentice }}
+{{> _content--whitebg about.content_company }}
+{{> _content--whitebg-bottom about.content_why }}
+<div class="wrapper">
+  <div class="wrapper__inner">
+    <h1>{{ about.section_header }}</h1>
+  </div>
+</div>
 {{> _person }}
 
