@@ -1,10 +1,10 @@
 .wrapper {
-  width: 100%;
-  background: $c--blue-whale;
+  max-width: 1000px;
+  margin: auto;
   overflow: auto;
   height: auto;
 }
-.wrapper__inner {
+/*.wrapper__inner {
   overflow: auto;
   height: auto;
   width: 94%;
@@ -17,4 +17,4 @@
     max-width: 62rem;
   }
 
-}
+}*/

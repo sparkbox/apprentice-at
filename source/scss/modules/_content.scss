@@ -1,9 +1,11 @@
 .content {
-  @extend %bg--light;
+  /*@extend %bg--light;*/
   color: $c--deep-sea-green;
+  background: white;
+  border-radius: $round;
 }
 
-.content--dark {
+/*.content--dark {
   @extend %bg--dark;
   color: $c--white;
 }
@@ -14,4 +16,4 @@
 
 .content--bottom {
   @extend %rounded--bottom;
-}
+}*/
