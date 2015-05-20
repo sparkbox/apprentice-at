@@ -1,16 +1,23 @@
-<div class="wrapper">
-  <div class="wrapper__inner">
-    <h1>{{ about.title }}</h1>
-  </div>
-</div>
-{{> _content--top about.content_intro }}
-{{> _content about.content_apprentice }}
-{{> _content about.content_company }}
-{{> _content--bottom about.content_why }}
-<div class="wrapper">
-  <div class="wrapper__inner">
-    <h1>{{ about.section_header }}</h1>
-  </div>
-</div>
-{{> _person }}
+    [ SITE__HEADER--INSIDE ]
 
+    <main class="wrapper">
+   
+      <section class="content">
+        {{> _content__header about.section_headers.header_one }}
+        {{> _content about.content_intro }}
+        {{> _content about.content_apprentice }}
+        {{> _content about.content_company }}
+      </section>
+
+      {{> _content__aside about.content_pullout }}
+
+      <section class="content">
+        {{> _content__header about.section_headers.header_two }}
+        {{> _content about.content_why }}
+        {{> _person }}
+      </section>
+
+    </main>
+
+    [ SITE__FOOTER ]
+    

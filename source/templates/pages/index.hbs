@@ -1,12 +1,15 @@
-<div class="wrapper">
-  <div class="wrapper__inner">
-    <h1>{{ home.title }}</h1>
-  </div>
-</div>
-{{> _content--top home.content_callout }}
-<div class="wrapper">
-  <div class="wrapper__inner">
-    <h1>{{ home.section_header }}</h1>
-  </div>
-</div>
-{{> _apprenticeship }}
+    [ SITE__HEADER ]
+
+    <main class="wrapper">
+   
+      <section class="content">
+        {{> _content home.content_callout }}
+        {{> _content__header home.section_header }}
+        {{> _apprenticeship }}
+        
+      </section>
+
+    </main>
+
+    [ SITE__FOOTER ]
+    
