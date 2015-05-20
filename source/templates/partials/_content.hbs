@@ -1,8 +1,6 @@
-<div class="wrapper">
-  <section class="wrapper__inner content">
-    {{#if header}}<h2 class="content__header">{{ header }}</h2>{{/if}}
-    {{#forEach text}}
-    <p>{{ paragraph }}</p>
-    {{/forEach}}
-  </section>
-</div>
+<section class="content__block">
+  {{#if header}}<h3>{{ header }}</h3>{{/if}}
+  {{#forEach text}}
+  <p>{{ paragraph }}</p>
+  {{/forEach}}
+</section>
