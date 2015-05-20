@@ -1,0 +1,18 @@
+.apprenticeship {
+  @extend %bg--white;
+}
+
+.apprenticeship__header,
+.apprenticeship__description {
+  float: left;
+  width: 66.666666666%;
+}
+
+.apprenticeship__description {
+
+}
+
+.apprenticeship__details {
+  float: right;
+  width: 33.333333333%;
+}

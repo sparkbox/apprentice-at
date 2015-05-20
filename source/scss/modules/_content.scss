@@ -3,11 +3,6 @@
   color: $c--deep-sea-green;
 }
 
-.content--dark {
-  @extend %bg--dark;
-  color: $c--white;
-}
-
 .content--top {
   @extend %rounded--top;
 }
