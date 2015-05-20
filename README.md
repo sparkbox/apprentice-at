@@ -19,35 +19,56 @@ Releasable and sharable by tenth of June.
 To install and run the website you will need to download [Node](https://nodejs.org/download/).
 
 1. Clone the Repo
+```$ git clone git@github.com:sparkbox/apprenticeship-web-project.git```
 
-  ```$ git clone git@github.com:sparkbox/apprenticeship-web-project.git```
 1. Change Directory
+```$ cd apprenticeship-web-project```
 
-  ```$ cd apprenticeship-web-project```
 1. Install Grunt
+```$ npm install -g grunt-cli```
 
-  ```$ npm install -g grunt-cli```
 1. Install Node Modules
-
-  ```$ npm install```
+```$ npm install```
 
 ## Command Line Interface
 
-1. ```$ grunt```
+1. Create ```dist/``` folder, and trigger default grunt tasks.
+```$ grunt```
 
-  Creates ```dist/``` folder. 
-1. ```$ grunt --watch```
+1. Watch for changes to files and run sass, autoprefixer, copy and assemble as needed. Livereload is enabled to refresh pages after changes are made.
+```$ grunt --watch```
 
-  Watches for changes to files and runs sass, autoprefixer and assemble as needed. Livereload is enabled to refresh pages after changes are made.
-1. ```$ grunt sass```
+1. Compile all sass files in the ```scss/``` folder into the ```dist/css/``` folder.
+```$ grunt sass```
 
-  Will compile all sass files in the ```scss/``` folder into the ```dist/css/``` folder.
-1. ```$ grunt autoprefix```
+1. Update css files in ```dist/css/``` to include necessary browser prefixes.
+```$ grunt autoprefix```
 
-  Updates css files in ```dist/css/``` to include necessary browser prefixes.
-1. ```$ grunt assemble```
+1. Generate static site templates into ```dist/```.
+```$ grunt assemble```
   
-Generates static site templates into ```dist/```.
+1. Wipe out everything in dist/ and run grunt contrib copy to regenerate everything from public/ into dist/.
+```$ grunt everything-clean```
+
+	
+
+## Divshot CLI Documentation
+1. Spin up a local development server at ```http://localhost:3474```.
+```$ divshot server``` 
+	
+1. **Don’t do this**: Move your local development repo to divshot staging. This should be avoided, as Circle CI handles deployment to staging.
+```$ divshot push staging```
+
+1. Promote divshot environment from environment to environment.
+```$ divshot promote [FROM_ENVIRONMENT] [TO_ENVIRONMENT]```
+**Ex:** ```$ divshot promote staging production```
+
+1. Revert an environment to a previous release
+```$ divshot rollback [ENVIRONMENT]```
+**Ex:** ```$ divshot rollback production```
+
+
+
 
 
 
