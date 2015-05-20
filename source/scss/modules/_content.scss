@@ -1,12 +1,6 @@
 .content {
-  @extend %bg--light;
+  /*@extend %bg--light;*/
   color: $c--deep-sea-green;
-}
-
-.content--top {
-  @extend %rounded--top;
-}
-
-.content--bottom {
-  @extend %rounded--bottom;
+  background: white;
+  border-radius: $round;
 }

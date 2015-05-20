@@ -1,6 +1,6 @@
 .wrapper {
-  width: 100%;
-  background: $c--blue-whale;
+  max-width: 62em;
+  margin: auto;
   overflow: auto;
   height: auto;
 }
@@ -16,5 +16,4 @@
     width: 100%;
     max-width: 62rem;
   }
-
 }
