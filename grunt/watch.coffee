@@ -16,4 +16,8 @@ module.exports = (grunt) ->
     options:
       livereload: true
 
+  public:
+    files: [ "public/**/*" ]
+    tasks: "copy:main"
+
   grunt.loadNpmTasks 'grunt-contrib-watch'
