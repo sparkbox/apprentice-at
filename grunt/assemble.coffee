@@ -1,14 +1,18 @@
 module.exports = (grunt) ->
   grunt.config "assemble",
     options:
+      plugins: 'assemble-contrib-permalinks'
       partials: "source/templates/partials/*"
       data: "source/data/*.yml"
       layoutdir: "source/templates/layouts/"
       layout: ['default.hbs']
+      permalinks:
+        preset: 'pretty'
     files:
       expand: true
       cwd: 'source/templates/pages'
       src: ['*.hbs']
       dest: 'dist/'
+      ext: '.html'
 
   grunt.loadNpmTasks 'assemble'
