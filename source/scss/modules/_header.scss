@@ -1,0 +1,16 @@
+.header {
+  padding: $space--big;
+  color: $c--ice-cold;
+  text-align: center;
+  background: url(../assets/img/inside-header-bg.svg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  .no-svg & {
+    background: url(../assets/img/inside-header-bg.jpg);
+  }
+}
+.header__title {
+  font-size: 40px;
+  font-family: $heading-font;
+}
