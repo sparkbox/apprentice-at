@@ -1,18 +1,30 @@
+.list,
+.list__item {
+  overflow: auto;
+  height: auto;
+}
+
 .apprenticeship {
   @extend %bg--white;
+  overflow: auto;
+  height: auto;
+  padding-top: $space--big;
+  padding-bottom: $space--big;
 }
 
-.apprenticeship__header,
-.apprenticeship__description {
+.apprenticeship__content {
   float: left;
   width: 66.666666666%;
+  padding-right: $space--big;
+  box-sizing: border-box;
 }
-
-.apprenticeship__description {
-
+.apprenticeship__header {
+  margin-top: 0;
 }
 
 .apprenticeship__details {
-  float: right;
   width: 33.333333333%;
+  padding-left: $space--big;
+  box-sizing: border-box;
+  float: right;
 }
