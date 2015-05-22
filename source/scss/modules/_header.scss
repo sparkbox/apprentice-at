@@ -1,7 +1,9 @@
 .header {
-  padding: $space--big;
   color: $c--ice-cold;
-  text-align: center;
+  text-align: center;  
+}
+.header--inside {
+  padding: $space--big;
   background: url(../assets/img/inside-header-bg.svg);
   background-repeat: no-repeat;
   background-position: top center;
