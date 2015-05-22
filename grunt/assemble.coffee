@@ -6,6 +6,7 @@ module.exports = (grunt) ->
       data: "source/data/*.yml"
       layoutdir: "source/templates/layouts/"
       layout: ['default.hbs']
+      assets: "dist/assets"
       permalinks:
         preset: 'pretty'
     files:

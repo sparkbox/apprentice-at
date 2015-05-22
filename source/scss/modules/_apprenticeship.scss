@@ -1,0 +1,21 @@
+.list,
+.list__item {
+  overflow: auto;
+  height: auto;
+}
+
+.apprenticeship {
+  @extend %bg--white;
+  overflow: auto;
+  height: auto;
+  padding-top: $space--big;
+  padding-bottom: $space--big;
+}
+
+.apprenticeship__content {
+}
+.apprenticeship__header {
+  margin-top: 0;
+}
+.apprenticeship__details {
+}
