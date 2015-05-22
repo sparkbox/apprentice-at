@@ -1,0 +1,40 @@
+.pullout {
+  text-align: center;
+  color: $c--white;
+  font-size: 18px;
+  letter-spacing: 1px;
+  background: url(../img/pullout-bg.svg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  position: relative;
+  .no-svg & {
+    background: url(../img/pullout-bg.png);
+  }
+  &:after {
+    content: '';
+    display: block;
+    height: 100px;
+    width: 100px;
+    background: url(../img/pullout-after.svg);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: contain;
+    position: absolute;
+    bottom: 0;
+    right: 30px;
+    z-index: -1;
+    .no-svg & {
+      background: url(../img/pullout-after.png);
+    }
+  }
+  
+}
+.pullout__block {
+  padding: $space--small;
+  @media (min-width: 600px) {
+    padding: $space--small ($space--small * 3);
+  }
+  @media (min-width: 800px) {
+    padding: $space--small ($space--small * 6);
+  }
+}
