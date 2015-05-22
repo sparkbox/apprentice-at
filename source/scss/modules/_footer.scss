@@ -1,0 +1,12 @@
+.footer {
+  @extend %bg--dark;
+  color: $c--juniper;
+  padding: 3rem 0;
+}
+.footer__text {
+  text-align: center;
+  text-transform: uppercase;
+}
+.footer__logo { display: block; margin: auto; }
+.footer__logo--icon { fill: $c--blue-whale; }
+.footer__logo--icon-box, .footer__logo--text { fill: $c--juniper; }

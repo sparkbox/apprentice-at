@@ -285,3 +285,6 @@ about:
     - item:
       text: see available apprenticeships
       url: /index.html
+
+footer:
+  text: Your vehicle for this journey provided by:
