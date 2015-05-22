@@ -1,0 +1,32 @@
+.grid {
+  width: 100%;
+  overflow: auto;
+  height: auto;
+  box-sizing: border-box;
+}
+.grid__item {
+  float: left;
+  overflow: inherit;
+  height: inherit;
+  box-sizing: inherit;
+  &--two-thirds {
+    width: 100%;
+    @include sb-media( 45em ) {
+      width: 50%;
+      padding-right: $space--big;
+    }
+    @include sb-media( 50em ) {
+      width: 66.666666666%;
+    }
+  }
+  &--one-third {
+    width: 100%;
+    @include sb-media( 45em ) {
+      width: 50%;
+      padding-left: $space--big;
+    }
+    @include sb-media( 50em ) {
+      width: 33.333333333%;
+    }
+  }
+}
