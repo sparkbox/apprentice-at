@@ -1,5 +1,4 @@
 .pullout {
-  padding: $space--big;
   text-align: center;
   color: $c--white;
   font-size: 18px;
@@ -28,10 +27,14 @@
       background: url(../assets/img/pullout-after.png);
     }
   }
+  
+}
+.pullout__block {
+  padding: $space--small;
   @media (min-width: 600px) {
-    padding: $space--big ($space--big * 3);
+    padding: $space--small ($space--small * 3);
   }
   @media (min-width: 800px) {
-    padding: $space--big ($space--big * 6);
+    padding: $space--small ($space--small * 6);
   }
 }
