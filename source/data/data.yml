@@ -296,36 +296,50 @@ submit:
     compensation:
       label: Is your apprenticeship a paid opportunity?
       name: compensation
+      id: compensation
       option_one: Yes
       option_two: No
     company:
       label: Company
-      name: company
+      name: name
+      id: company
+      placeholder: Your company
     company_website:
       label: Company website
-      name: company_website
+      name: url
+      id: company_website
+      placeholder: http://
     application_deadline:
       label: Application deadline
       name: application_deadline
+      id: application_deadline
     timeframe:
       label: Timeframe (optional)
       name: timeframe
+      id: timeframe
     duration:
       label: Duration
       name: duration
+      id: duration
     summary:
       label: Summary/Abstract
       name: summary
+      id: summary
       hint: What will the apprentices spend their time doing? How much of an education focus is there? What languages will be studied?
     location:
       label: Location(s)
       name: location
+      id: location
     learn_more:
       label: Learn more link
-      name: learn_more
+      name: url
+      id: learn_more
+      placeholder: http://
     email:
       label: Email
       name: email
+      id: email
+      placeholder: Your email
 
     nav:
     - item:
