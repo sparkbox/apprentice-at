@@ -289,9 +289,7 @@ about:
 submit:
   title: Submit an Apprenticeship
   description:
-  section_headers:
-    header_one: 
-      - header: Submit an Apprenticeship
+  section_header: Submit an Apprenticeship
   guidelines:
     text:
   form:
