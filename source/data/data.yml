@@ -312,21 +312,20 @@ submit:
       id: company_website
       type: url
       placeholder: http://
-    application_deadline:
-      label: Application deadline
-      name: application_deadline
-      id: application_deadline
-      type: date
-    timeframe:
-      label: Timeframe (optional)
-      name: timeframe
-      id: timeframe
-      type: date
     duration:
       label: Duration
       name: duration
       id: duration
       type: range
+    category:
+      label: Category
+      name: category
+      id: category
+      categories:
+        - item: web development
+        - item: software development
+        - item: mobile development
+        - item: web design
     summary:
       label: Summary/Abstract
       name: summary
@@ -340,7 +339,7 @@ submit:
       type: text
     learn_more:
       label: Learn more link
-      name: url
+      name: learn_more
       id: learn_more
       type: url
       placeholder: http://
