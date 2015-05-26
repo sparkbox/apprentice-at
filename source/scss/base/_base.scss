@@ -11,9 +11,9 @@ footer,
 header, 
 nav, 
 section,
-input,
-textarea,
-label {
+label,
+input[type='text'],
+input[type='email'] {
   display: block;
 }
 h1, 
