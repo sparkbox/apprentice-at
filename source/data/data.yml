@@ -286,5 +286,46 @@ about:
       text: see available apprenticeships
       url: /index.html
 
+submit:
+  title: Submit an Apprenticeship
+  description:
+  section_headers:
+    header_one: 
+      - header: Submit an Apprenticeship
+  guidelines:
+    text:
+  form:
+    company:
+      label: Company
+    compensation:
+      label: Is your apprenticeship a paid opportunity?
+      option_one: Yes
+      option_two: No
+    company_website:
+      label: Company website
+    application_deadline:
+      label: Application deadline
+    timeframe:
+      label: Timeframe (optional)
+    duration:
+      label: Duration
+    summary:
+      label: Summary/Abstract
+      hint: What will the apprentices spend their time doing? How much of an education focus is there? What languages will be studied?
+    location:
+      label: Location(s)
+    learn_more:
+      label: Learn more link
+    email:
+      label: Email
+
+    nav:
+    - item:
+      text: learn more about apprenticeships
+      url: /about.html
+    - item:
+      text: see available apprenticeships
+      url: /index.html
+
 footer:
   text: Your vehicle for this journey provided by:
