@@ -21,8 +21,6 @@ people:
 apprenticeships:
   - apprenticeship:
       company: 8th Light
-      deadline: rolling
-      timeframe: rolling
       duration: 3-12 months
       location: ["Chicago, IL", "Los Angeles, CA", "London, UK"]
       category: web development
@@ -33,8 +31,6 @@ apprenticeships:
         We provide a small salary (with benefits) as apprentices learn multiple programming languages, design principles, test-driven development, clean architecture, and software development processes.
   - apprenticeship:
       company: Boston Globe Media
-      deadline:
-      timeframe:
       duration: 6 months
       location: ["Boston, MA"]
       category: web development
@@ -45,8 +41,6 @@ apprenticeships:
         Our Developer Apprentice position is available for talented junior developers. Apprentices will gain full-stack experience working on high-traffic media sites in a fast-paced, entrepreneurially minded organization pushing to innovate in news.
   - apprenticeship:
       company: Detroit Labs
-      deadline:
-      timeframe:
       duration: 3 months
       location: ["Detroit, MI"]
       category: web development
@@ -57,8 +51,6 @@ apprenticeships:
         Our Apprentice Program is an immersive training experience in software and mobile development involving classroom and hands-on training in programming fundamentals and app development. You'll gain experience in team collaboration, pairing, testing, CI, presenting, and project management.
   - apprenticeship:
       company: DevMynd
-      deadline:
-      timeframe:
       duration: 3-6 months
       location: ["Chicago, IL"]
       category: web development
@@ -69,8 +61,6 @@ apprenticeships:
         As an apprentice in our design and development program, you will split your time between working on real client projects alongside our engineers, and learning efforts (reading, blogging, exercises and challenges, as well as a personal project).
   - apprenticeship:
       company: DevMynd
-      deadline:
-      timeframe:
       duration: 3-6 months
       location: ["Chicago, IL"]
       category: web design
@@ -81,8 +71,6 @@ apprenticeships:
         As an apprentice in our design and development program, you will split your time between working on real client projects alongside our engineers, and learning efforts (reading, blogging, exercises and challenges, as well as a personal project).
   - apprenticeship:
       company: Fresh Tilled Soil
-      deadline: 'June 8, 2015'
-      timeframe: June - November
       duration: 4 months
       location: ["Watertown, MA"]
       category:
@@ -93,8 +81,6 @@ apprenticeships:
         We turn promising designers and developers into user experience pros through structured learning, one-on-one mentorship, and real-world experience. Our apprentices are early career web professionals who aspire to be leaders in the field by building beautiful, engaging web and mobile products.
   - apprenticeship:
       company: Hashrocket
-      deadline:
-      timeframe:
       duration: 6 months
       location: ["Chicago, IL", "Jacksonville Beach, FL"]
       category:
@@ -105,8 +91,6 @@ apprenticeships:
         The Hashrocket apprenticeship takes candidates with some professional software development experience and turns them into world-class Rails consultants through pairing with other apprentices as well as seasoned Rocketeers. You'll work on client projects and smaller training apps to build up your Rails knowledge.
   - apprenticeship:
       company: IFTTT
-      deadline:
-      timeframe: Ended
       duration:
       location: ["San Francisco, CA"]
       category: software engineering
@@ -117,8 +101,6 @@ apprenticeships:
         You'll hack on exciting stacks in our service-oriented architecture, getting experience working with things like Rails, Node.js, Redis, and PostgreSQL at scale. You'll also stocked with IFTTT-enabled gear, so you can deck out your living room with Hue light bulbs or graph your sleep patterns with the Jawbone UP.
   - apprenticeship:
       company: Lockheed Martin
-      deadline:
-      timeframe:
       duration:
       location: ["Springfield, MO"]
       category: web development
@@ -129,8 +111,6 @@ apprenticeships:
         The GIS Developer Apprentice will assist in the design, development, and testing of GIS applications, while implementing solutions using ESRI’s ArcGIS suite. The apprentice will use ArcGIS for server geoprocessing services and collaborate in creating intuitive user interfaces and tools that will appeal to both novice and expert users of geospatial applications.
   - apprenticeship:
       company: Logical Media Group
-      deadline:
-      timeframe:
       duration:
       location: ["Chicago, IL"]
       category: web development
@@ -141,8 +121,6 @@ apprenticeships:
         We’re looking to hire a recent college graduate to fulfill the duties of a Wordpress developer apprentice. We are looking for a detail-oriented, highly-motivated and tenacious individual who is excited about becoming a part of a rapidly-expanding company in a booming industry.
   - apprenticeship:
       company: Merge
-      deadline: rolling
-      timeframe: rolling
       duration: 3 months
       location: ["Greenville, SC"]
       category: web development
@@ -153,8 +131,6 @@ apprenticeships:
         Ours is a 12-week apprenticeship program for web developers. You will work side by side with our experienced team members and be mentored in high-level digital initiatives by our team, which includes our Creative Director, Digital Strategist, Project Manager and Merge’s CEO.
   - apprenticeship:
       company: Nerdery
-      deadline: rolling
-      timeframe: rolling
       duration: 3 months
       location: ["Minneapolis, MN"]
       category: web development
@@ -165,8 +141,6 @@ apprenticeships:
         Apprentices selected for our program will develop their user experience skills through 12 weeks of focused, real-world work experience, close mentoring, workshops, and detailed tracking of their development.
   - apprenticeship:
       company: Sherwin-Williams
-      deadline:
-      timeframe:
       duration: 12 months
       location: ["Cleveland, OH"]
       category: web development
@@ -177,8 +151,6 @@ apprenticeships:
         Join The Sherwin-Williams Company’s award winning Web Engineer Professional Apprentice® Program. This is not a standard Co-op program. Students will be given the opportunity to acquire real-world skills that give them an added edge in the workplace through experience with this Fortune 500 Company.
   - apprenticeship:
       company: Sparkbox
-      deadline: 'October 31, 2015'
-      timeframe: January - June
       duration: 6 months
       location: ["Dayton, OH"]
       category: web development
@@ -189,8 +161,6 @@ apprenticeships:
         We’re looking for those interested in an apprenticeship in web development — frontend, backend, or anything code related. What we’re looking for most, however, are individuals who are excited to make their mark on the web industry.
   - apprenticeship:
       company: thoughtbot
-      deadline: rolling
-      timeframe: rolling
       duration: 3 months
       location: ["Boston, MA", "San Francisco, CA"]
       category: web design
@@ -201,8 +171,6 @@ apprenticeships:
         We want those ready to advance to the next level in their career. The program is ideal for designers with experience with graphical design for the web or iOS as well as HTML and CSS.
   - apprenticeship:
       company: thoughtbot
-      deadline: rolling
-      timeframe: rolling
       duration: 3 months
       location: ["Boston, MA", "San Francisco, CA"]
       category: web development
@@ -213,8 +181,6 @@ apprenticeships:
         We want those ready to advance to the next level in their career. The program is ideal for intermediate developers and designers looking to build upon an already-strong foundation.
   - apprenticeship:
       company: thoughtbot
-      deadline: rolling
-      timeframe: rolling
       duration: 3 months
       location: ["Boston, MA", "San Francisco, CA"]
       category: mobile development
@@ -225,8 +191,6 @@ apprenticeships:
         We want those ready to advance to the next level in their career. The program is ideal for developers at an intermediate level with Objective-C or Swift.
   - apprenticeship:
       company: Upstatement
-      deadline: rolling
-      timeframe: rolling
       duration:
       location: ["Boston, MA"]
       category: web development
