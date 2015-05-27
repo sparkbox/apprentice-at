@@ -10,7 +10,10 @@ aside,
 footer, 
 header, 
 nav, 
-section {
+section,
+label,
+input[type='text'],
+input[type='email'] {
   display: block;
 }
 h1, 

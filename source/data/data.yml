@@ -286,5 +286,80 @@ about:
       text: see available apprenticeships
       url: /index.html
 
+submit:
+  title: Submit an Apprenticeship
+  description:
+  section_header: Submit an Apprenticeship
+  guidelines:
+    text:
+  form:
+    compensation:
+      label: Is your apprenticeship a paid opportunity?
+      name: compensation
+      id: compensation
+      type: radio
+      option_one: Yes
+      option_two: No
+    company:
+      label: Company
+      name: name
+      id: company
+      type: text
+      placeholder: Your company
+    company_website:
+      label: Company website
+      name: url
+      id: company_website
+      type: url
+      placeholder: http://
+    duration:
+      label: Duration
+      name: duration
+      id: duration
+      type: range
+    category:
+      label: Category
+      name: category
+      id: category
+      categories:
+        - item: web development
+        - item: software development
+        - item: mobile development
+        - item: web design
+    summary:
+      label: Summary/Abstract
+      name: summary
+      id: summary
+      type: text
+      hint: What will the apprentices spend their time doing? How much of an education focus is there? What languages will be studied?
+    location:
+      label: Location(s)
+      name: location
+      id: location
+      type: text
+    learn_more:
+      label: Learn more link
+      name: learn_more
+      id: learn_more
+      type: url
+      placeholder: http://
+    email:
+      label: Email
+      name: email
+      id: email
+      type: email
+      placeholder: Your email
+    button:
+      text: Submit
+      type: submit
+
+    nav:
+    - item:
+      text: learn more about apprenticeships
+      url: /about.html
+    - item:
+      text: see available apprenticeships
+      url: /index.html
+
 footer:
   text: Your vehicle for this journey provided by:
