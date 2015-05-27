@@ -239,7 +239,8 @@ apprenticeships:
 home:
   title:  Apprenticeships
   description:
-  section_header: Available Apprenticeships
+  section_header: 
+    header: Available Apprenticeships
   content_callout:
     text: 
       - paragraph: "Houston, we have a problem—with the web’s ever-changing nature, formal education no longer provides the training needed to produce capable web builders. So we look to methods of the past to train for careers of the future. Enter the apprenticeship—an opportunity to sustainably satisfy the growing need for talented web professionals."
@@ -256,9 +257,9 @@ about:
   description:
   section_headers:
     header_one: 
-      - header: About Apprenticeships
+      header: About Apprenticeships
     header_two:
-      - header: About the Apprentices
+      header: About the Apprentices
   content_intro:
     text:
       - paragraph: "We know that the standard education model can’t keep up with the web’s universe—curriculum becomes outdated as the tech we use quickly morphs into something new. Technologies come and go at light speed—far too fast for our education system to keep up. But the industry still needs qualified recruits as it grows towards a brighter future."
@@ -289,7 +290,8 @@ about:
 submit:
   title: Submit an Apprenticeship
   description:
-  section_header: Submit an Apprenticeship
+  section_header: 
+    header: Submit an Apprenticeship
   guidelines:
     text:
   form:
