@@ -14,10 +14,14 @@
 }
 
 .content__callout {
+  display: none;
   font-size: 1.625em;
   text-align: center;
   p {
-    line-height: 1.6em;
+    line-height: 1.75;
+  }
+  @include sb-media( 45em ) {
+    display: block;
   }
 }
 
@@ -25,21 +29,27 @@
   display: block;
   overflow: auto;
   height: auto;
+  border-top: 4px solid $c--iceberg;
   h1 {
-    font-size: 60px;
+    font-size: 3em;
     text-align: center;
-    margin-top: 1rem;
+    margin-top: 2rem;
     margin-bottom: 1.5rem;
+    @include sb-media( 45em ) {
+      font-size: 3.75em;
+    }
   }
 }
 
 .content__header--inside {
+  border-top: none;
   margin-left: 2rem;
   margin-right: 2rem;
   margin-bottom: 3rem;
   border-bottom: 4px solid $c--iceberg;
   padding-left: 7rem;
   h1 {  
+    margin-top: 0;
     text-align: left;
     margin-bottom: 2rem;
   }
