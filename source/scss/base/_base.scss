@@ -24,22 +24,26 @@ h5,
 h6 {
   font-family: $heading-font; 
   font-weight: normal;
+  color: $c--mine-shaft;
+  a {
+    color: $c--mine-shaft;
+  }
 }
 h1 {
-  font-size: 2em;
+  font-size: 2.5em;
 }
 h2 {
-  font-size: 1.5em;
+  font-size: 2.5em;
 }
 h3 {
-  font-size: 1.2em;
+  font-size: 2.5em;
 }
 ul, ol {
   list-style: none;
   padding-left: 0;
 }
 p {
-  line-height: 1.375;
+  line-height: 1.5;
 }
 img {
   max-width: 100%;
