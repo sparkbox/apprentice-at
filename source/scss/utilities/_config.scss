@@ -8,7 +8,7 @@ $no-mq-support: false !default;
 $serve-to-nomq-max-width: 60em !default;
 
 /* Typography */
-$heading-font: Georgia, Times, serif;
+$heading-font: "bd-viewmaster", Georgia, Times, serif;
 $primary-font: Georgia, Times, serif;
 $secondary-font: Helvetica, Arial, sans-serif;
 
@@ -17,6 +17,7 @@ $c--blue-whale: #043743;
 $c--deep-sea-green: #095E59;
 $c--juniper: #68878E;
 $c--ice-cold: #B2F5F1;
+$c--iceberg: #CEF0EE;
 $c--mine-shaft: #3A3A3A;
 $c--white: #FFF;
 $c--black: #000;
