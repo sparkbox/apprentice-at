@@ -217,7 +217,7 @@ home:
       url: /submit.html
 
 about:
-  title: By Apprentices for Apprentices
+  title: About
   description:
   section_headers:
     header_one: 
@@ -252,7 +252,7 @@ about:
       url: /index.html
 
 submit:
-  title: Submit an Apprenticeship
+  title: Submit
   description:
   section_header: 
     header: Submit an Apprenticeship
