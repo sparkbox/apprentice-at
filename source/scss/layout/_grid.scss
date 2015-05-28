@@ -15,7 +15,7 @@
       width: 50%;
       padding-right: $space--big;
     }
-    @include sb-media( 50em ) {
+    @include sb-media( 60em ) {
       width: 66.666666666%;
     }
   }
@@ -25,7 +25,7 @@
       width: 50%;
       padding-left: $space--big;
     }
-    @include sb-media( 50em ) {
+    @include sb-media( 60em ) {
       width: 33.333333333%;
     }
   }
