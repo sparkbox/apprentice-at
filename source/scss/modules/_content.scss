@@ -1,6 +1,46 @@
 .content {
-  /*@extend %bg--light;*/
   color: $c--deep-sea-green;
   background: white;
   border-radius: $round;
+  padding-bottom: 4rem;
+}
+.content__section {
+  padding-left: 9rem;
+  padding-right: 9rem;
+  h1, h2, h3 {
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+  }
+}
+
+.content__callout {
+  font-size: 1.625em;
+  text-align: center;
+  p {
+    line-height: 1.6em;
+  }
+}
+
+.content__header {
+  display: block;
+  overflow: auto;
+  height: auto;
+  h1 {
+    font-size: 60px;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+  }
+}
+
+.content__header--inside {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-bottom: 3rem;
+  border-bottom: 4px solid $c--iceberg;
+  padding-left: 7rem;
+  h1 {  
+    text-align: left;
+    margin-bottom: 2rem;
+  }
 }
