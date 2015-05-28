@@ -3,17 +3,17 @@
     <main class="wrapper">
    
       <section class="wrapper__inner content">
-        {{> _content__header about.section_headers.header_one }}
-        {{> _content about.content_intro }}
-        {{> _content about.content_apprentice }}
-        {{> _content about.content_company }}
+        {{> _content__header--inside about.section_headers.header_one }}
+        {{> _content__section about.content_intro }}
+        {{> _content__section about.content_apprentice }}
+        {{> _content__section about.content_company }}
       </section>
 
       {{> _pullout about.content_pullout }}
 
       <section class="wrapper__inner content">
-        {{> _content__header about.section_headers.header_two }}
-        {{> _content about.content_why }}
+        {{> _content__header--inside about.section_headers.header_two }}
+        {{> _content__section about.content_why }}
         {{> _person }}
       </section>
 
