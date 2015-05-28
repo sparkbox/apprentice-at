@@ -13,15 +13,15 @@
       </div>
       <footer class="apprenticeship__footer grid__item grid__item--one-third">
         <ul class="apprenticeship__details list list--normal">
-          <li class="list__item"><b>Duration:</b> {{apprenticeship.duration}}</li>
-          <li class="list__item"><b>Location:</b> 
-            <ul class="list list--inline">
+          <li class="list__item"><b class="list__item__title">Duration:</b><span class="list__item__content">{{apprenticeship.duration}}</span></li>
+          <li class="list__item list__item--nested"><b class="list__item__title">Location:</b> 
+            <ul class="list">
               {{#each apprenticeship.location}}
-                <li class="list__item">{{ . }}</li>
+                <li class="list__item"><span class="list__item__content">{{ . }}</span></li>
               {{/each}}
             </ul>
           </li>
-          <li class="list__item"><b>Category:</b> {{apprenticeship.category}}</li>
+          <li class="list__item"><b class="list__item__title">Category:</b><span class="list__item__content">{{apprenticeship.category}}</span></li>
         </ul>
       </footer>
     </article>

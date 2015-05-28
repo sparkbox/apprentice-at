@@ -1,22 +1,82 @@
-.list,
+.list {
+  overflow: auto;
+  height: auto;
+}
 .list__item {
   overflow: auto;
   height: auto;
 }
+.list--block {
+  @include sb-media( 45em ) {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  > .list__item {
+    border-top: 4px solid $c--iceberg;
+    padding-top: 1rem;
+    margin-bottom: 2rem;
+    @include sb-media( 45em ) {
+      padding-left: 2rem;
+      padding-right: 2rem;
+    }
+  }
+}
+
+.list--normal {
+  .list__item__title {
+    font-family: $secondary-font;
+    float: left;
+    width: 40%;
+    display: block;
+    box-sizing: border-box;
+    line-height: 1.5;
+  }
+  .list__item__content {
+    float: left;
+    width: 60%;
+    text-transform: capitalize;
+    display: block;
+    line-height: 1.5;
+  }
+  .list__item {
+    margin-bottom: .5rem;
+  }
+}
+.list__item--nested {
+  .list__item__content {
+    width: 100%;
+  }
+  .list__item {
+    margin-bottom: 0;
+  }
+}
 
 .apprenticeship {
-  @extend %bg--white;
-  overflow: auto;
-  height: auto;
   padding-top: $space--big;
   padding-bottom: $space--big;
+  p {
+    margin-top: 0;
+  }
+  .grid__item:first-child {
+    @include sb-media( 45em ) {
+      border-right: 4px solid $c--iceberg;
+    }
+  }
 }
 
 .apprenticeship__content {
+  margin-bottom: 2rem;
+  @include sb-media( 45em ) {
+    margin-bottom: 0;
+  }
 }
 .apprenticeship__header {
   margin-top: 0;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
+  color: $c--deep-sea-green;
+  a {
+    color: inherit;
+  }
 }
 .apprenticeship__details {
 }
