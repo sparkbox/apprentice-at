@@ -1,0 +1,184 @@
+/* Animations */
+.is-animated-header {
+  display: block;
+}
+
+/* Astronaut */
+#Astronaut path {
+  animation: bounce linear 9.5s infinite;
+}
+
+@keyframes bounce {
+  0% {transform: translate(0px, 0px) rotate(0deg); } 
+  50% {transform: translate(0px, -8px) rotate(0deg); }
+  100%{transform: translate(0px, 0px) rotate(0deg); }
+}
+
+/* Small Rocket */
+#Small_Rocket {
+  .smog path {
+    opacity: 0;
+  }
+}
+
+.is-animated-header:hover {
+  .one {
+    animation: putter-one ease-out 1.25s infinite;
+  }
+  .two {
+    animation: putter-two ease-out 1.25s infinite;
+  }
+  .three {
+    animation: putter-three ease-out 1.25s infinite;
+  }
+}
+
+@keyframes putter-one {
+  0% {opacity: 0; } 
+  20% {opacity: 1; }
+  75% {opacity: 0; }
+  100%{opacity: 0; }
+}
+@keyframes putter-two {
+  0% {opacity: 0; } 
+  40% {opacity: 1; }
+  75% {opacity: 0; }
+  100%{opacity: 0; }
+}
+@keyframes putter-three {
+  0% {opacity: 0; } 
+  60% {opacity: 1; }
+  75% {opacity: 0; }
+  100%{opacity: 0; }
+}
+
+/* Twinkling Stars */
+.is-twinkling, is-twinkling path {
+  opacity: 0;
+  animation: twinkle ease-out 5s infinite;
+}
+
+.star-two {
+  animation-delay: 2s;
+  animation-duration: 8s;
+}
+.star-three {
+  animation-delay: 6s;
+  animation-duration: 18s;
+  fill: $c--white;
+}
+.star-four {
+  animation-duration: 30s;
+  fill: $c--white;
+}
+.star-five {
+  animation-delay: 10s;
+  animation-duration: 9s;
+}
+.star-six {
+  animation-delay: 6s;
+  animation-duration: 12s;
+}
+.star-seven {
+  animation-duration: 15s;
+  animation-delay: 20s;
+  fill: $c--white;
+}
+.star-eight {
+  animation-duration: 40s;
+}
+.star-nine {
+  animation-delay: 15s;
+  animation-duration: 18s;
+  fill: $c--white;
+}
+.star-ten {
+  animation-duration: 12s;
+}
+.star-eleven {
+  animation-duration: 16s;
+  fill: $c--white;
+}
+
+@keyframes twinkle {
+  0% {opacity: 0; } 
+  20% {opacity: 1; } 
+  30% {opacity: 0; }
+  100%{opacity: 0; } 
+}
+
+/* Smoke Plume */
+.large-plume, .small-plume, .lone-plume, .circle-plume {
+  animation: dash ease-out 1s forwards;
+}
+.large-order-1 {
+  stroke-dasharray: 58;
+  stroke-dashoffset: -58;
+}
+.large-order-2 {
+  stroke-dasharray: 62;
+  stroke-dashoffset: 62;
+  animation-delay: .35s;
+}
+.large-order-3 {
+  stroke-dasharray: 18;
+  stroke-dashoffset: 18;
+  animation-delay: .45s;
+}
+.large-order-4 {
+  stroke-dasharray: 77;
+  stroke-dashoffset: -77;
+  animation-delay: .55s;
+}
+.large-order-5 {
+  stroke-dasharray: 22;
+  stroke-dashoffset: -22;
+  animation-delay: .65s;
+}
+.large-order-6 {
+  stroke-dasharray: 50;
+  stroke-dashoffset: -50;
+  animation-delay: .8s;
+}
+.large-order-7 {
+  stroke-dasharray: 66;
+  stroke-dashoffset: -66;
+  animation-delay: .95s;
+}
+
+.lone-plume {
+  /*animation: dash ease-out .5s forwards;*/
+  stroke-dasharray: 10;
+  stroke-dashoffset: -10;
+}
+
+.small-order-1 {
+  stroke-dasharray: 10;
+  stroke-dashoffset: -10;
+}
+.small-order-2 {
+  stroke-dasharray: 30;
+  stroke-dashoffset: -30;
+}
+.small-order-3 {
+  stroke-dasharray: 15;
+  stroke-dashoffset: 15;
+  animation-delay: .5s;
+}
+
+.circle-order-1 {
+  stroke-dasharray: 40;
+  stroke-dashoffset: -40;
+  animation-delay: .9s;
+}
+.circle-order-2 {
+  stroke-dasharray: 23;
+  stroke-dashoffset: -23;
+  animation-delay: 1s;
+}
+
+@keyframes dash {
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
