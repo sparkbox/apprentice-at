@@ -1,6 +1,7 @@
 <ul class="list">
   {{#forEach people}}
   <li class="l-block m-person">
+    <img src="../assets/img/{{person.photo}}" alt="{{person.name}}">
     <h3 class="m-person__name">{{person.name}}</h3>
     <p class="m-person__summary">{{person.summary}}</p>
     <ul class="m-person__links">
