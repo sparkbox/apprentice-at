@@ -1,0 +1,42 @@
+.button {
+  display: inline-block;
+  padding: .75rem;
+  border: 4px solid $c--iceberg;
+  width: auto;
+  text-transform: uppercase;
+  font-family: $secondary-font;
+  font-size: .875em;
+  margin-top: 1rem;
+  font-weight: bold;
+  position: relative;
+  top: 0;
+  transition: all .2s ease-in-out;
+  box-sizing: border-box;
+  &:hover {
+    top: -4px;
+    &::after,
+    &::before {
+      content: "";
+      display: block;
+      height: 30px;
+      width: 30px;
+      position: absolute;
+      top: 15px;
+    }
+    &::after {
+      background: url(../img/cloud--left.png) center center no-repeat;
+      left: -29px;
+    }
+    &::before {
+      background: url(../img/cloud--right.png) center center no-repeat;
+      right: -29px;
+    }
+  }
+}
+
+.apprenticeship__button {
+  width: 100%;
+  @include sb-media( 45em ) {
+    width: auto;
+  }
+}
