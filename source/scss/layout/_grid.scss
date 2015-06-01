@@ -1,8 +1,15 @@
 .grid {
   width: 100%;
-  overflow: auto;
+  overflow: visible;
   height: auto;
   box-sizing: border-box;
+  &::after { 
+   content: "."; 
+   visibility: hidden; 
+   display: block; 
+   height: 0; 
+   clear: both;
+  }
 }
 .grid__item {
   float: left;
