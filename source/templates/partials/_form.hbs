@@ -1,38 +1,40 @@
-<form accept-charset="UTF-8" action="https://formkeep.com/f/d5b56b5111cf" method="POST">
-  <input type="hidden" name="utf8" value="✓">
+<section class="content__section">
+  <form accept-charset="UTF-8" action="https://formkeep.com/f/d5b56b5111cf" method="POST">
+    <input type="hidden" name="utf8" value="✓">
 
-  <label for="{{ submit.form.compensation.id }}">{{ submit.form.compensation.label }}</label>
-  <input type="{{ submit.form.compensation.type }}" name="{{ submit.form.compensation.name }}" value="{{ submit.form.compensation.option_one }}"> {{ submit.form.compensation.option_one }}
-  <input type="{{ submit.form.compensation.type }}" name="{{ submit.form.compensation.name }}" value="{{ submit.form.compensation.option_two }}"> {{ submit.form.compensation.option_two }}
+    <label class="form__label" for="{{ submit.form.compensation.id }}">{{ submit.form.compensation.label }}</label>
+    <input class="form__radio" type="{{ submit.form.compensation.type }}" name="{{ submit.form.compensation.name }}" value="{{ submit.form.compensation.option_one }}" checked> {{ submit.form.compensation.option_one }}
+    <input class="form__radio" type="{{ submit.form.compensation.type }}" name="{{ submit.form.compensation.name }}" value="{{ submit.form.compensation.option_two }}"> {{ submit.form.compensation.option_two }}
 
-  <label for="{{ submit.form.company.id }}">{{ submit.form.company.label }}</label>
-  <input type="{{ submit.form.company.type }}" name="{{ submit.form.company.name }}" id="{{ submit.form.company.id }}" placeholder="{{ submit.form.company.placeholder }}">
+    <label class="form__label" for="{{ submit.form.company.id }}">{{ submit.form.company.label }}</label>
+    <input class="form__input" type="{{ submit.form.company.type }}" name="{{ submit.form.company.name }}" id="{{ submit.form.company.id }}" placeholder="{{ submit.form.company.placeholder }}">
 
-  <label for="{{ submit.form.company_website.id }}">{{ submit.form.company_website.label }}</label>
-  <input type="{{ submit.form.company_website.type }}" name="{{ submit.form.company_website.name }}" id="{{ submit.form.company_website.id }}" placeholder="{{ submit.form.company_website.placeholder }}">
+    <label class="form__label" for="{{ submit.form.company_website.id }}">{{ submit.form.company_website.label }}</label>
+    <input class="form__input" type="{{ submit.form.company_website.type }}" name="{{ submit.form.company_website.name }}" id="{{ submit.form.company_website.id }}" placeholder="{{ submit.form.company_website.placeholder }}">
 
-  <label for="{{ submit.form.category.id }}">{{ submit.form.category.label }}</label>
-  <select name="{{ submit.form.category.name }}">
-    {{#forEach submit.form.category.categories}}
-      <option value="{{ item }}">{{ item }}</option>
-    {{/forEach}}
-  </select>
+    <label class="form__label" for="{{ submit.form.category.id }}">{{ submit.form.category.label }}</label>
+    <select class="form__select" name="{{ submit.form.category.name }}">
+      {{#forEach submit.form.category.categories}}
+        <option value="{{ item }}">{{ item }}</option>
+      {{/forEach}}
+    </select>
 
-  <label for="{{ submit.form.duration.id }}">{{ submit.form.duration.label }}</label>
-  <input type="{{ submit.form.duration.type }}" name="{{ submit.form.duration.name }}" id="{{ submit.form.duration.id }}" min="3" max="24" value="3">
-  
-  <label for="{{ submit.form.summary.id }}">{{ submit.form.summary.label }}</label>
-  <textarea type="{{ submit.form.summary.type }}" name="{{ submit.form.summary.name }}" id="{{ submit.form.summary.id }}" placeholder="{{ submit.form.summary.placeholder }}"></textarea>
-  <p>{{ submit.form.summary.hint }}</p>
+    <label class="form__label" for="{{ submit.form.duration.id }}">{{ submit.form.duration.label }}</label>
+    <input class="form__range" type="{{ submit.form.duration.type }}" name="{{ submit.form.duration.name }}" id="{{ submit.form.duration.id }}" min="3" max="24" value="3">
+    
+    <label class="form__label" for="{{ submit.form.summary.id }}">{{ submit.form.summary.label }}</label>
+    <textarea class="form__textarea" type="{{ submit.form.summary.type }}" name="{{ submit.form.summary.name }}" id="{{ submit.form.summary.id }}" placeholder="{{ submit.form.summary.placeholder }}"></textarea>
+    <p class="form__hint-text">{{ submit.form.summary.hint }}</p>
 
-  <label for="{{ submit.form.location.id }}">{{ submit.form.location.label }}</label>
-  <input type="{{ submit.form.location.type }}" name="{{ submit.form.location.name }}" id="{{ submit.form.location.id }}" placeholder="{{ submit.form.location.placeholder }}">
+    <label class="form__label" for="{{ submit.form.location.id }}">{{ submit.form.location.label }}</label>
+    <input class="form__input" type="{{ submit.form.location.type }}" name="{{ submit.form.location.name }}" id="{{ submit.form.location.id }}" placeholder="{{ submit.form.location.placeholder }}">
 
-  <label for="{{ submit.form.learn_more.id }}">{{ submit.form.learn_more.label }}</label>
-  <input type="{{ submit.form.learn_more.type }}" name="{{ submit.form.learn_more.name }}" id="{{ submit.form.learn_more.id }}" placeholder="{{ submit.form.learn_more.placeholder }}">
-  
-  <label for="{{ submit.form.email.id }}">{{ submit.form.email.label }}</label>
-  <input type="{{ submit.form.email.type }}" name="{{ submit.form.email.name }}" id="{{ submit.form.email.id }}" placeholder="{{ submit.form.email.placeholder }}">
+    <label class="form__label" for="{{ submit.form.learn_more.id }}">{{ submit.form.learn_more.label }}</label>
+    <input class="form__input" type="{{ submit.form.learn_more.type }}" name="{{ submit.form.learn_more.name }}" id="{{ submit.form.learn_more.id }}" placeholder="{{ submit.form.learn_more.placeholder }}">
+    
+    <label class="form__label" for="{{ submit.form.email.id }}">{{ submit.form.email.label }}</label>
+    <input class="form__input" type="{{ submit.form.email.type }}" name="{{ submit.form.email.name }}" id="{{ submit.form.email.id }}" placeholder="{{ submit.form.email.placeholder }}">
 
-  <button type="{{ submit.form.button.type }}">{{ submit.form.button.text }}</button>
-</form>
+    <button class="form__button button" type="{{ submit.form.button.type}}">{{ submit.form.button.text }}</button>
+  </form>
+</section>
