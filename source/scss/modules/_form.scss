@@ -1,26 +1,45 @@
 .form {
 }
 .form__label {
-  font-family: $heading-font;
-  font-size: 1.25em;
-  margin: 0.15rem 0;
+  font-family: $secondary-font;
+  font-weight: bold;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  margin: 1rem 0 0.15rem;
 }
 .form__radio,
 .form__input,
 .form__select,
 .form__textarea,
 .form__button {
-  border: 3px solid $c--iceberg;
+  border: 4px solid $c--iceberg;
   box-sizing: border-box;
   &:focus {
     outline: none;
-    border: 3px solid $c--juniper;
+    border: 4px solid $c--juniper;
   }
 }
-
+.form__radio {
+  vertical-align: middle;
+  background-color: transparent;
+  border: 4px solid $c--iceberg;
+  border-radius: 50%;
+  box-shadow: inset 0 0 0 0 $c--white;
+  cursor: pointer;
+  font: inherit;
+  height: 1.5rem;
+  width: 1.5rem;
+  outline: none;
+  -webkit-appearance: none;
+  &:checked {
+    background-color: $c--juniper;
+    box-shadow: inset 0 0 0 .1875em $c--white;
+    -webkit-transition: background .15s, box-shadow .1s; 
+  }
+}
 .form__input {
   font-family: $secondary-font;
-  padding: 0.5rem;
+  padding: 0.75rem;
   width: 100%;
   &::-webkit-input-placeholder {
   text-transform: uppercase;
@@ -29,49 +48,47 @@
 .form__select {
   -webkit-appearance: none;
   border-radius: 0;
-  background-color: transparent;
+  background: transparent url(../img/icon-down-arrow.svg) no-repeat 95% center;
   text-transform: uppercase;
-  padding: 0.5rem;
+  padding: 0.75rem;
 }
 .form__textarea {
   width: 100%;
-  height: 5rem;
+  height: 6rem;
   resize: none;
 }
 .form__range {
   -webkit-appearance: none;
   border-radius: $round;
-  height: 0.5rem;
-  border: 3px solid $c--iceberg;
+  height: 0.75rem;
+  border: 4px solid $c--iceberg;
   background-color: $c--white;
   &:focus {
-      outline: none;
-      border: 3px solid $c--juniper;
-    &::-webkit-slider-thumb {
+    outline: none;
+    border: 4px solid $c--juniper;
+      &::-webkit-slider-thumb {
       background-color: $c--juniper;
-    border: 3px solid darken($c--juniper, 10%);
+      border: 4px solid darken($c--juniper, 10%);
     }
   }
   &::-webkit-slider-thumb {
     -webkit-appearance: none;
     background-color: $c--iceberg;
-    border: 3px solid darken($c--iceberg, 10%);
-    width: 1rem;
-    height: 1rem;
-    border-radius: $round;
+    border: 4px solid darken($c--iceberg, 10%);
+    width: .8rem;
+    height: 1.5rem;
     cursor: pointer;
+    border-radius: $round;
   }
 }
 .form__button {
   font-family: $secondary-font;
   text-transform: uppercase;
   background-color: transparent;
-  padding: 0.5rem;
-  margin: 1rem 0;
 }
 .form__hint-text {
   color: $c--mine-shaft;
   line-height: 1;
-  font-size: 0.75rem;
+  font-size: 0.8rem;
   margin-top: 0.25rem;
 }
