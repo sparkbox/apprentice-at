@@ -11,11 +11,20 @@
 }
 .header--inside {
   padding: $space--big;
-  background: url(../img/inside-header-bg.svg);
-  background-repeat: no-repeat;
-  background-position: top center;
-  background-size: cover;
-  .no-svg & {
-    background: url(../img/inside-header-bg.png);
+  &:before {
+    content: '';
+    display: block;
+    height: 270px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-image: url(../img/inside-header-bg.svg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    .no-svg & {
+      background: url(../img/inside-header-bg.png);
+    }
   }
 }
