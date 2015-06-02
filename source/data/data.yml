@@ -207,11 +207,11 @@ home:
       - paragraph: "Houston, we have a problem—with the web’s ever-changing nature, formal education no longer provides the training needed to produce capable web builders. So we look to methods of the past to train for careers of the future. Enter the apprenticeship—an opportunity to sustainably satisfy the growing need for talented web professionals."
   nav:
     - item:
-      text: learn more about apprenticeships
-      url: /about.html
+      text: learn about apprenticeships
+      url: /about/
     - item:
       text: submit your apprenticeship
-      url: /submit.html
+      url: /submit/
 
 about:
   title: About
@@ -243,10 +243,10 @@ about:
   nav:
     - item:
       text: submit your apprenticeship
-      url: /submit.html
+      url: /submit/
     - item:
       text: see available apprenticeships
-      url: /index.html
+      url: /index/
 
 submit:
   title: Submit
@@ -315,14 +315,13 @@ submit:
     button:
       text: Submit
       type: submit
-
     nav:
     - item:
-      text: learn more about apprenticeships
-      url: /about.html
+      text: learn about apprenticeships
+      url: /about/
     - item:
       text: see available apprenticeships
-      url: /index.html
+      url: /index/
 
 footer:
   text: Your vehicle for this journey provided by:
