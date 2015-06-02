@@ -13,7 +13,7 @@
 }
 .grid__item {
   float: left;
-  overflow: inherit;
+  overflow: visible;
   height: inherit;
   box-sizing: inherit;
   &--two-thirds {

@@ -36,6 +36,7 @@
 
 .apprenticeship__button {
   width: 100%;
+  text-align: center;
   @include sb-media( 45em ) {
     width: auto;
   }

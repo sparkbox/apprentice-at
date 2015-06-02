@@ -1,10 +1,20 @@
 .list {
-  overflow: auto;
-  height: auto;
+  &::after { 
+   content: "."; 
+   visibility: hidden; 
+   display: block; 
+   height: 0; 
+   clear: both;
+  }
 }
 .list__item {
-  overflow: auto;
-  height: auto;
+  &::after { 
+   content: "."; 
+   visibility: hidden; 
+   display: block; 
+   height: 0; 
+   clear: both;
+  }
 }
 .list--block {
   @include sb-media( 45em ) {
@@ -43,10 +53,14 @@
   }
 }
 .list__item--nested {
+  .list {
+    overflow: auto;
+  }
   .list__item__content {
     width: 100%;
   }
   .list__item {
+    overflow: auto;
     margin-bottom: 0;
   }
 }
@@ -77,6 +91,4 @@
   a {
     color: inherit;
   }
-}
-.apprenticeship__details {
 }
