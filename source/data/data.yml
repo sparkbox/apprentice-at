@@ -2,23 +2,17 @@ people:
   - person:
       name: Kasey Bonifacio
       photo: kasey-bonifacio.jpg
-      person_url: http://kaseybon.com/
-      github_url: https://github.com/kaseybon
-      twitter_url: https://twitter.com/_kaseybon
-      summary: "I'm passionate about web development and love constantly learning new ways to make the web more awesome. Before starting the Sparkbox apprenticeship, I had three years of frontend design and development under my belt. Once the apprenticeship is finished, I plan to be on the path to become a full-stack developer. When I can pry myself away from the computer, I can be found spending time with family, cooking, or [being crafty](link to crafty stuff, if possible)."
+      url: https://twitter.com/_kaseybon
+      summary: "I'm passionate about web development and love constantly learning new ways to make the web more awesome. Before starting the Sparkbox apprenticeship, I had three years of frontend design and development under my belt. Once the apprenticeship is finished, I plan to be on the path to become a full-stack developer. When I can pry myself away from the computer, I can be found spending time with family, cooking, or being crafty."
   - person:
       name: Lauren Dorman
       photo: lauren-dorman.jpg
-      person_url: http://laurendorman.io
-      github_url: http://github.com/laurendorman
-      twitter_url: http://twitter.com/laurendorman
+      url: http://twitter.com/laurendorman
       summary: "I'm a designer and frontend developer who is passionate about making the web both beautiful and usable. I pride myself on staying in the loop on current design trends and practices. I'm a firm believer that learning is something that you should never stop doing. There is always an opportunity to grow, learn, and share best practices with people around you. When my eyes aren't glued to a screen, I enjoy cycling, discovering new tunes, and traveling."
   - person:
       name: Dan Rosenthal
       photo: dan-rosenthol.jpg
-      person_url: http://danrosenthal.me/
-      github_url: https://github.com/danrosenthal
-      twitter_url: https://twitter.com/danmrosenthal
+      url: https://twitter.com/danmrosenthal
       summary: "Before my Sparkbox apprenticeship, I wrote frontend code and copy for Uncrate and Devour. Responsive design and web content are my thing. I'm passionate about the intersection of content and frontend code and am constantly working to improve my skills in JavaScript and Ruby. When I'm not being a desk monkey, you can find me tinkering with my '33 Ford Hotrod, keeping my Netflix queue in check, or putting the finishing touches on my latest Lego Star Wars set."
 
 apprenticeships:
@@ -226,7 +220,7 @@ about:
     header_one: 
       header: About Apprenticeships
     header_two:
-      header: About the Apprentices
+      header: Why We Built This Site
   content_intro:
     text:
       - paragraph: "We know that the standard education model can’t keep up with the web’s universe—curriculum becomes outdated as the tech we use quickly morphs into something new. Technologies come and go at light speed—far too fast for our education system to keep up. But the industry still needs qualified recruits as it grows towards a brighter future."
@@ -244,7 +238,6 @@ about:
       - paragraph: "Every generation has the obligation to free men's minds for a look at new worlds . . . to look out from a higher plateau than the last generation."
       - paragraph: "- Ellison S. Onizuka, Challenger Astronaut"
   content_why:
-    header: Why we built this site
     text:
       - paragraph: "As apprentices ourselves, we learned firsthand the value of participating in an apprenticeship. Getting immersed in code was the best way to learn a modern approach to building the web. We got to pair with professional developers, had regular reviews, and dove deep into the world of Object Oriented Programming, Test Driven Development, and creating modular frontend code. It was the best way possible to expand on our existing industry experience, and it gave us the tools we needed for a successful career on the web."
   nav:

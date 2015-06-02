@@ -29,4 +29,29 @@
       width: 33.333333333%;
     }
   }
+
+  &--one-quarter {
+    width: 100%;
+    @include sb-media( 45em ) {
+      width: 50%;
+    }
+    @include sb-media( 60em ) {
+      width: 25%;
+    }
+  }
+  &--two-quarters {
+    width: 100%;
+    @include sb-media( 45em ) {
+      width: 50%;
+    }
+  }
+  &--three-quarters {
+    width: 100%;
+    @include sb-media( 45em ) {
+      width: 50%;
+    }
+    @include sb-media( 60em ) {
+      width: 75%;
+    }
+  }
 }
