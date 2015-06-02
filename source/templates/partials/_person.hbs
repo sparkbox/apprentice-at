@@ -1,13 +1,19 @@
-<ul class="list">
-  {{#forEach people}}
-  <li class="l-block m-person">
-    <h3 class="m-person__name">{{person.name}}</h3>
-    <p class="m-person__summary">{{person.summary}}</p>
-    <ul class="m-person__links">
-      <li><a href="{{person.person_url}}">Personal Site</a></li>
-      <li><a href="{{person.github_url}}">GitHub</a></li>
-      <li><a href="{{person.twitter_url}}">Twitter</a></li>
-    </ul>
-  </li>
-  {{/forEach}}
-</ul>
+<section class="content__section">
+  <ul class="list">
+    {{#forEach people}}
+    <li class="list__item person">
+      <div class="grid grid--person">
+        <div class="grid__item grid__item--one-quarter stagger">
+          <a href="{{person.url}}" title="{{person.name}}">
+            <img class="person__photo" src="../assets/img/{{person.photo}}" alt="{{person.name}}">
+          </a>
+        </div>
+        <div class="grid__item grid__item--three-quarters">
+          <h3 class="person__name"><a href="{{person.url}}" title="{{person.name}}">{{person.name}}</a></h3>
+          <p class="person__summary">{{person.summary}}</p>
+        </div>
+      </div>
+    </li>
+    {{/forEach}}
+  </ul>
+</section>
