@@ -1,11 +1,11 @@
 .wrapper {
   max-width: 62em;
   margin: auto;
-  overflow: auto;
+  overflow: visible;
   height: auto;
 }
 .wrapper__inner {
-  overflow: auto;
+  overflow: visible;
   height: auto;
   width: 94%;
   margin-left: auto;
