@@ -44,9 +44,9 @@
 
 .action {
   text-align: center;
-    padding-bottom: 2rem;
+  padding-bottom: 3rem;
   @include sb-media( 45em ) {
-    padding-bottom: 4rem;
+    padding-top: 2rem;
   }
 }
 .action__button {
