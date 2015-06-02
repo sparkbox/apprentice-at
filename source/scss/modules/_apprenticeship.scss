@@ -54,13 +54,15 @@
 }
 .list__item--nested {
   .list {
-    overflow: auto;
+    overflow-y: hidden;
+    overflow-x: visible;
   }
   .list__item__content {
     width: 100%;
   }
   .list__item {
-    overflow: auto;
+    overflow-y: hidden;
+    overflow-x: visible;
     margin-bottom: 0;
   }
 }

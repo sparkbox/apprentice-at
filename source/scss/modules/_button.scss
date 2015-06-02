@@ -41,3 +41,28 @@
     width: auto;
   }
 }
+
+.action {
+  text-align: center;
+    padding-bottom: 2rem;
+  @include sb-media( 45em ) {
+    padding-bottom: 4rem;
+  }
+}
+.action__button {
+  width: 100%;
+  @include sb-media( 55em ) {
+    width: 45%;
+  }
+  @include sb-media( 60em ) {
+    width: 40%;
+  }
+  @include sb-media( 65em ) {
+    width: 35%;
+  }
+  &:first-child {
+    @include sb-media( 55em ) {
+      margin-right: 5%;
+    }
+  }
+}
