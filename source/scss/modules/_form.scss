@@ -1,0 +1,77 @@
+.form {
+}
+.form__label {
+  font-family: $heading-font;
+  font-size: 1.25em;
+  margin: 0.15rem 0;
+}
+.form__radio,
+.form__input,
+.form__select,
+.form__textarea,
+.form__button {
+  border: 3px solid $c--iceberg;
+  box-sizing: border-box;
+  &:focus {
+    outline: none;
+    border: 3px solid $c--juniper;
+  }
+}
+
+.form__input {
+  font-family: $secondary-font;
+  padding: 0.5rem;
+  width: 100%;
+  &::-webkit-input-placeholder {
+  text-transform: uppercase;
+  }
+}
+.form__select {
+  -webkit-appearance: none;
+  border-radius: 0;
+  background-color: transparent;
+  text-transform: uppercase;
+  padding: 0.5rem;
+}
+.form__textarea {
+  width: 100%;
+  height: 5rem;
+  resize: none;
+}
+.form__range {
+  -webkit-appearance: none;
+  border-radius: $round;
+  height: 0.5rem;
+  border: 3px solid $c--iceberg;
+  background-color: $c--white;
+  &:focus {
+      outline: none;
+      border: 3px solid $c--juniper;
+    &::-webkit-slider-thumb {
+      background-color: $c--juniper;
+    border: 3px solid darken($c--juniper, 10%);
+    }
+  }
+  &::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    background-color: $c--iceberg;
+    border: 3px solid darken($c--iceberg, 10%);
+    width: 1rem;
+    height: 1rem;
+    border-radius: $round;
+    cursor: pointer;
+  }
+}
+.form__button {
+  font-family: $secondary-font;
+  text-transform: uppercase;
+  background-color: transparent;
+  padding: 0.5rem;
+  margin: 1rem 0;
+}
+.form__hint-text {
+  color: $c--mine-shaft;
+  line-height: 1;
+  font-size: 0.75rem;
+  margin-top: 0.25rem;
+}
