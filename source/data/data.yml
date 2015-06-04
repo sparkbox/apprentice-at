@@ -15,6 +15,16 @@ people:
       url: https://twitter.com/danmrosenthal
       summary: "Before my Sparkbox apprenticeship, I wrote frontend code and copy for Uncrate and Devour. Responsive design and web content are my thing. I'm passionate about the intersection of content and frontend code and am constantly working to improve my skills in JavaScript and Ruby. When I'm not being a desk monkey, you can find me tinkering with my '33 Ford Hotrod, keeping my Netflix queue in check, or putting the finishing touches on my latest Lego Star Wars set."
 
+apprenticeship_categories:
+  - category:
+    name: web development
+  - category:
+    name: web design
+  - category:
+    name: software engineering
+  - category:
+    name: mobile development
+
 apprenticeships:
   - apprenticeship:
       company: 8th Light
@@ -70,7 +80,7 @@ apprenticeships:
       company: Fresh Tilled Soil
       duration: 4 months
       location: ["Watertown, MA"]
-      category:
+      category: web design
       cta: learn more and apply
       company_url: http://www.freshtilledsoil.com/
       apply_url: http://www.freshtilledsoil.com/aux/
@@ -80,7 +90,7 @@ apprenticeships:
       company: Hashrocket
       duration: 6 months
       location: ["Chicago, IL", "Jacksonville Beach, FL"]
-      category:
+      category: web development
       cta: learn more and apply
       company_url: http://www.hashrocket.com/
       apply_url: http://www.hashrocket.com/contact-us/jobs/apprentice/
@@ -246,7 +256,7 @@ about:
       url: /submit/
     - item:
       text: see available apprenticeships
-      url: /index/
+      url: /
 
 submit:
   title: Submit
@@ -321,7 +331,7 @@ submit:
       url: /about/
     - item:
       text: see available apprenticeships
-      url: /index/
+      url: /
 
 footer:
   text: Your vehicle for this journey provided by:
