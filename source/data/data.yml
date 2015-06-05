@@ -27,16 +27,6 @@ apprenticeships:
       summary: |
         We provide a small salary (with benefits) as apprentices learn multiple programming languages, design principles, test-driven development, clean architecture, and software development processes.
   - apprenticeship:
-      company: Boston Globe Media
-      duration: 6 months
-      location: ["Boston, MA"]
-      category: web development
-      cta: learn more and apply
-      company_url: http://www.bostonglobe.com/
-      apply_url: http://chc.tbe.taleo.net/chc05/ats/careers/requisition.jsp?org=BOSTGLOB&cws=1&rid=264&source=Indeed.com
-      summary: |
-        Our Developer Apprentice position is available for talented junior developers. Apprentices will gain full-stack experience working on high-traffic media sites in a fast-paced, entrepreneurially minded organization pushing to innovate in news.
-  - apprenticeship:
       company: Detroit Labs
       duration: 3 months
       location: ["Detroit, MI"]
@@ -136,16 +126,6 @@ apprenticeships:
       apply_url: https://nerdery.com/careers
       summary: |
         Apprentices selected for our program will develop their user experience skills through 12 weeks of focused, real-world work experience, close mentoring, workshops, and detailed tracking of their development.
-  - apprenticeship:
-      company: Sherwin-Williams
-      duration: 12 months
-      location: ["Cleveland, OH"]
-      category: web development
-      cta: learn more and apply
-      company_url: http://www.sherwin-williams.com/
-      apply_url: http://careers.sherwin-williams.com/jobs/18892
-      summary: |
-        Join The Sherwin-Williams Company’s award winning Web Engineer Professional Apprentice® Program. This is not a standard Co-op program. Students will be given the opportunity to acquire real-world skills that give them an added edge in the workplace through experience with this Fortune 500 Company.
   - apprenticeship:
       company: Sparkbox
       duration: 6 months
