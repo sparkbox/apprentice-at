@@ -226,7 +226,7 @@ about:
       url: /submit/
     - item:
       text: see available apprenticeships
-      url: /index/
+      url: /
 
 submit:
   title: Submit
