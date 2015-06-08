@@ -1,0 +1,40 @@
+.no-js .categories {
+  display: none;
+}
+
+.categories {
+  border-top: 4px solid $c--iceberg;
+  text-align: center;
+  font-family: $secondary-font;
+  color: $c--mine-shaft;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: .875em;
+  padding-top: 1rem;
+  @include sb-media ( 45em ) {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  .category__item {
+      margin-right: 2rem;
+      &:last-child {
+        margin-right: 0;
+      }
+    a {
+      position: relative;
+    }
+  }
+}
+
+.category__item.is-active a::after,
+.category__item a:hover::after {
+  content: "";
+  display: block;
+  background: $c--iceberg;
+  height: 1rem;
+  width: 1rem;
+  border-radius: 50%;
+  position: absolute;
+  top: 1.625rem;
+  left: calc(50% - .5rem);
+}

@@ -1,0 +1,6 @@
+<ul class="list list--inline categories">
+  <li class="list__item category__item is-active" data-toggles="all"><a href="#">all</a></li>
+{{#forEach apprenticeship_categories }}
+  <li class="list__item category__item" data-toggles="{{ name }}"><a href="#">{{ name }}</a></li>
+{{/forEach}}
+</ul>
