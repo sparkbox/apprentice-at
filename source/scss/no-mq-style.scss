@@ -1,2 +1,11 @@
 $no-mq-support: true;
 @import "style";
+
+.lt-ie9 {
+  .grid,
+  .list,
+  .list__item {
+    overflow: auto;
+    height: auto;
+  }
+}
