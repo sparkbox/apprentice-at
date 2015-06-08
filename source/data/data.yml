@@ -27,16 +27,6 @@ apprenticeships:
       summary: |
         We provide a small salary (with benefits) as apprentices learn multiple programming languages, design principles, test-driven development, clean architecture, and software development processes.
   - apprenticeship:
-      company: Boston Globe Media
-      duration: 6 months
-      location: ["Boston, MA"]
-      category: web development
-      cta: learn more and apply
-      company_url: http://www.bostonglobe.com/
-      apply_url: http://chc.tbe.taleo.net/chc05/ats/careers/requisition.jsp?org=BOSTGLOB&cws=1&rid=264&source=Indeed.com
-      summary: |
-        Our Developer Apprentice position is available for talented junior developers. Apprentices will gain full-stack experience working on high-traffic media sites in a fast-paced, entrepreneurially minded organization pushing to innovate in news.
-  - apprenticeship:
       company: Detroit Labs
       duration: 3 months
       location: ["Detroit, MI"]
@@ -137,16 +127,6 @@ apprenticeships:
       summary: |
         Apprentices selected for our program will develop their user experience skills through 12 weeks of focused, real-world work experience, close mentoring, workshops, and detailed tracking of their development.
   - apprenticeship:
-      company: Sherwin-Williams
-      duration: 12 months
-      location: ["Cleveland, OH"]
-      category: web development
-      cta: learn more and apply
-      company_url: http://www.sherwin-williams.com/
-      apply_url: http://careers.sherwin-williams.com/jobs/18892
-      summary: |
-        Join The Sherwin-Williams Company’s award winning Web Engineer Professional Apprentice® Program. This is not a standard Co-op program. Students will be given the opportunity to acquire real-world skills that give them an added edge in the workplace through experience with this Fortune 500 Company.
-  - apprenticeship:
       company: Sparkbox
       duration: 6 months
       location: ["Dayton, OH"]
@@ -195,7 +175,7 @@ apprenticeships:
       company_url: https://www.upstatement.com/
       apply_url: http://www.upstatement.com/careers/development-apprentice/
       summary: |
-        By the end of your tenure, you will have a broader view of the fast-paced consulting services industry as well as increased programming and communications skills, experience with Front-end Development, WordPress, and the art of client services.
+        A design or development apprenticeship at Upstatement is more than an internship. You'll be a full-fledged member of the team, contributing meaningful work for clients like ESPN, Random House and Harvard. It's a great way to get experience, get paid, and find a foothold in our industry.
 
 home:
   title:  Apprenticeships
@@ -246,7 +226,7 @@ about:
       url: /submit/
     - item:
       text: see available apprenticeships
-      url: /index/
+      url: /
 
 submit:
   title: Submit
@@ -324,4 +304,4 @@ submit:
       url: /index/
 
 footer:
-  text: Your vehicle for this journey provided by:
+  text: Your vehicle for this journey provided by
