@@ -4,7 +4,8 @@ $no-mq-support: true;
 .lt-ie9 {
   .grid,
   .list,
-  .list__item {
+  .list__item,
+  .content {
     overflow: auto;
     height: auto;
   }
