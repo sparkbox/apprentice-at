@@ -1,10 +1,16 @@
 .person__photo {
   border-radius: 50%;
-  width: 100%;
   border: none;
+  display: block;
+  margin: auto;
+  width: 200px;
 }
 h3.person__name {
   margin-top: 0;
+  text-align: center;
+  @media (min-width: 45em) {
+    text-align: left;
+  }
 }
 
 .grid--person {
@@ -12,9 +18,12 @@ h3.person__name {
 }
 
 .stagger {
-  padding: 0 $space--big 0 0;
-  .person:nth-child(even) & {
-    float: right;
-    padding: 0 0 0 $space--big;
-  } 
+  margin: auto;
+  @media (min-width: 45em) {
+    padding: $space--big $space--big 0 0;
+    .person:nth-child(even) & {
+      float: right;
+      padding: $space--big 0 0 $space--big;
+    }
+  }
 }
