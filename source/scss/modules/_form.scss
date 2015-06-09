@@ -1,11 +1,9 @@
-.form {
-}
 .form__label {
   font-family: $secondary-font;
   font-weight: bold;
-  font-size: 0.75rem;
+  font-size: 0.75em;
+  @include rem( margin, 1, 0 );
   text-transform: uppercase;
-  margin: 1rem 0 0.15rem;
 }
 .form__radio,
 .form__input,
@@ -15,80 +13,80 @@
   border: 4px solid $c--iceberg;
   box-sizing: border-box;
   &:focus {
-    outline: none;
     border: 4px solid $c--juniper;
+    outline: none;
   }
 }
 .form__radio {
-  vertical-align: middle;
   background-color: transparent;
   border: 4px solid $c--iceberg;
   border-radius: 50%;
   box-shadow: inset 0 0 0 0 $c--white;
   cursor: pointer;
   font: inherit;
-  height: 1.5rem;
-  width: 1.5rem;
+  @include rem( height, 1.5 );
   outline: none;
+  @include rem( width, 1.5 );
+  vertical-align: middle;
   -webkit-appearance: none;
   &:checked {
     background-color: $c--juniper;
     box-shadow: inset 0 0 0 .1875em $c--white;
-    -webkit-transition: background .15s, box-shadow .1s; 
+    transition: background .15s, box-shadow .1s; 
   }
 }
 .form__input {
   font-family: $secondary-font;
-  padding: 0.75rem;
+  @include rem( padding, .75 );
   width: 100%;
   &::-webkit-input-placeholder {
   text-transform: uppercase;
   }
 }
 .form__select {
-  -webkit-appearance: none;
-  border-radius: 0;
   background: transparent url(../img/icon-down-arrow.svg) no-repeat 95% center;
+  border-radius: 0;
   text-transform: uppercase;
-  padding: 0.75rem;
+  -webkit-appearance: none;
+  @include rem( padding, .75 );
 }
 .form__textarea {
-  width: 100%;
-  height: 6rem;
+  @include rem( height, 6 );
   resize: none;
+  width: 100%;
 }
 .form__range {
-  -webkit-appearance: none;
-  border-radius: $round;
-  height: 0.75rem;
-  border: 4px solid $c--iceberg;
   background-color: $c--white;
+  border: 4px solid $c--iceberg;
+  @include rem( border-radius, .5 );
+  @include rem( height, .75 );
+  -webkit-appearance: none;
   &:focus {
-    outline: none;
     border: 4px solid $c--juniper;
+    outline: none;
       &::-webkit-slider-thumb {
       background-color: $c--juniper;
       border: 4px solid darken($c--juniper, 10%);
     }
   }
   &::-webkit-slider-thumb {
-    -webkit-appearance: none;
     background-color: $c--iceberg;
     border: 4px solid darken($c--iceberg, 10%);
-    width: .8rem;
-    height: 1.5rem;
+    @include rem( border-radius, .5 );
     cursor: pointer;
-    border-radius: $round;
+    @include rem( height, 1.5 );
+    @include rem( width, .8 );
+    -webkit-appearance: none;
   }
 }
 .form__button {
+  background-color: transparent;
   font-family: $secondary-font;
   text-transform: uppercase;
-  background-color: transparent;
 }
 .form__hint-text {
   color: $c--mine-shaft;
+  font-size: .75em;
   line-height: 1;
-  font-size: 0.8rem;
-  margin-top: 0.25rem;
+  @include rem( margin-top, .5 );
 }

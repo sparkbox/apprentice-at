@@ -1,0 +1,67 @@
+.list {
+  &::after {
+   clear: both;
+   content: ".";
+   display: block;
+   height: 0;
+   visibility: hidden;
+  }
+}
+.list__item {
+  &::after {
+   clear: both;
+   content: ".";
+   display: block;
+   height: 0;
+   visibility: hidden;
+  }
+}
+.list--block {
+  @include sb-media( 45em ) {
+    @include rem( padding-left, 2 );
+    @include rem( padding-right, 2 );
+  }
+  > .list__item {
+    border-top: 4px solid $c--iceberg;
+    @include rem( margin-bottom, 1 );
+    @include rem( padding-top, 1 );
+    @include sb-media( 45em ) {
+      @include rem( padding-left, 2 );
+      @include rem( padding-right, 2 );
+    }
+  }
+}
+.list--normal {
+  .list__item__title {
+    box-sizing: border-box;
+    display: block;
+    float: left;
+    font-family: $secondary-font;
+    line-height: 1.5;
+    width: 40%;
+  }
+  .list__item__content {
+    display: block;
+    float: left;
+    line-height: 1.5;
+    text-transform: capitalize;
+    width: 60%;
+  }
+  .list__item {
+    @include rem( margin-bottom, .5 );
+  }
+}
+.list__item--nested {
+  .list {
+    overflow-x: visible;
+    overflow-y: hidden;
+  }
+  .list__item__content {
+    width: 100%;
+  }
+  .list__item {
+    margin-bottom: 0;
+    overflow-x: visible;
+    overflow-y: hidden;
+  }
+}

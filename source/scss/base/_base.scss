@@ -1,9 +1,9 @@
 /* Base */
 body {
+  background: $c--blue-whale;
+  font-family: $primary-font;
   margin: 0;
   padding: 0;
-  font-family: $primary-font;
-  background: $c--blue-whale;
 }
 article, 
 aside, 
@@ -22,9 +22,9 @@ h3,
 h4, 
 h5, 
 h6 {
+  color: $c--mine-shaft;
   font-family: $heading-font; 
   font-weight: normal;
-  color: $c--mine-shaft;
   a {
     color: inherit;
   }
@@ -49,6 +49,6 @@ img {
   max-width: 100%;
 }
 a {
-  text-decoration: none;
   color: $c--deep-sea-green;
+  text-decoration: none;
 }

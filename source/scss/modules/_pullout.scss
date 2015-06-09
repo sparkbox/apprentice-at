@@ -11,30 +11,27 @@
     background: url(../img/pullout-bg.png);
   }
   &:after {
+    background: url(../img/pullout-after.svg) bottom center no-repeat;
+    background-size: contain;
+    bottom: 0;
     content: '';
     display: block;
-    height: 100px;
-    width: 100px;
-    background: url(../img/pullout-after.svg);
-    background-repeat: no-repeat;
-    background-position: bottom center;
-    background-size: contain;
+    @include rem( height, 6.25 );
     position: absolute;
-    bottom: 0;
-    right: 30px;
+    @include rem( right, 1.875 );
+    @include rem( width, 6.25 );
     z-index: -1;
     .no-svg & {
-      background: url(../img/pullout-after.png);
+      background: url(../img/pullout-after.png) bottom center no-repeat;
     }
   }
-  
 }
 .pullout__block {
-  padding: $space--small;
-  @media (min-width: 600px) {
-    padding: $space--small ($space--small * 3);
+    @include rem( padding, 2 );
+  @include sb-media( 38em ) {
+    @include rem( padding, 1 );
   }
-  @media (min-width: 800px) {
-    padding: $space--small ($space--small * 6);
+  @include sb-media( 50em ) {
+    @include rem( padding, 3 );
   }
 }

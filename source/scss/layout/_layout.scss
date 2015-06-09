@@ -1,19 +1,19 @@
 .wrapper {
-  max-width: 62em;
-  margin: auto;
-  overflow: visible;
   height: auto;
+  margin: auto;
+  @include rem( max-width, 62 );
+  overflow: visible;
 }
 .wrapper__inner {
-  overflow: visible;
   height: auto;
-  width: 94%;
   margin-left: auto;
   margin-right: auto;
-  padding: 2rem;
+  overflow: visible;
+  width: 94%;
+  @include rem( padding, 2 );
   box-sizing: border-box;
   @include sb-media( 64em ) {
+    @include rem( max-width, 62 );
     width: 100%;
-    max-width: 62rem;
   }
 }

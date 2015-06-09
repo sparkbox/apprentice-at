@@ -1,30 +1,28 @@
 .header {
   h1 {
     color: $c--ice-cold;
-    text-align: center;  
-    font-family: $heading-font;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    font-weight: 300;
+    font-family: $heading-font;  
     font-size: 6em;
+    font-weight: 300;
+    @include rem( margin-bottom, 1 );
+    @include rem( margin-top, 1 );
+    text-align: center;
   }
 }
 .header--inside {
-  padding: $space--big;
+  @include rem( padding, 2 );
   &:before {
+    background: url(../img/inside-header-bg.svg) top center no-repeat;
     content: '';
     display: block;
-    height: 270px;
-    width: 100%;
+    @include rem( height, 16.875 );
+    left: 0;
     position: absolute;
     top: 0;
-    left: 0;
+    width: 100%;
     z-index: -1;
-    background-image: url(../img/inside-header-bg.svg);
-    background-repeat: no-repeat;
-    background-position: top center;
     .no-svg & {
-      background: url(../img/inside-header-bg.png);
+      background: url(../img/inside-header-bg.png) top center no-repeat;
     }
   }
 }

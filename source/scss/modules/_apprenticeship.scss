@@ -1,75 +1,6 @@
-.list {
-  &::after { 
-   content: "."; 
-   visibility: hidden; 
-   display: block; 
-   height: 0; 
-   clear: both;
-  }
-}
-.list__item {
-  &::after { 
-   content: "."; 
-   visibility: hidden; 
-   display: block; 
-   height: 0; 
-   clear: both;
-  }
-}
-.list--block {
-  @include sb-media( 45em ) {
-    padding-left: 2rem;
-    padding-right: 2rem;
-  }
-  > .list__item {
-    border-top: 4px solid $c--iceberg;
-    padding-top: 1rem;
-    margin-bottom: 1rem;
-    @include sb-media( 45em ) {
-      padding-left: 2rem;
-      padding-right: 2rem;
-    }
-  }
-}
-
-.list--normal {
-  .list__item__title {
-    font-family: $secondary-font;
-    float: left;
-    width: 40%;
-    display: block;
-    box-sizing: border-box;
-    line-height: 1.5;
-  }
-  .list__item__content {
-    float: left;
-    width: 60%;
-    text-transform: capitalize;
-    display: block;
-    line-height: 1.5;
-  }
-  .list__item {
-    margin-bottom: .5rem;
-  }
-}
-.list__item--nested {
-  .list {
-    overflow-y: hidden;
-    overflow-x: visible;
-  }
-  .list__item__content {
-    width: 100%;
-  }
-  .list__item {
-    overflow-y: hidden;
-    overflow-x: visible;
-    margin-bottom: 0;
-  }
-}
-
 .apprenticeship {
-  padding-top: $space--big;
-  padding-bottom: $space--big;
+  @include rem( padding-bottom, 2 );
+  @include rem( padding-top, 2 );
   p {
     margin-top: 0;
   }
@@ -81,15 +12,15 @@
 }
 
 .apprenticeship__content {
-  margin-bottom: 2rem;
+  @include rem( margin-bottom, 2 );
   @include sb-media( 45em ) {
     margin-bottom: 0;
   }
 }
 .apprenticeship__header {
-  margin-top: 0;
-  margin-bottom: 1rem;
   color: $c--deep-sea-green;
+  @include rem( margin-bottom, 2 );
+  margin-top: 0;
   a {
     color: inherit;
   }
