@@ -26,3 +26,54 @@
     }
   }
 }
+
+// SVG Responsiveness
+#Satellite, #Tower, #Truck_1_, #Small_Rocket, #Astronaut, #Large_Rocket {
+  display: none;
+  opacity: 0.0;
+  transition: all 1.25s;
+}
+#Small_Rocket {
+  @include sb-media( 47em ) {
+  opacity: 1.0;
+  display: block;
+ }
+}
+#Satellite {
+  @include sb-media( 49em ) {
+  opacity: 1.0;
+  display: block;
+ }
+}
+#Astronaut {
+  @include sb-media( 51em ) {
+  opacity: 1.0;
+  display: block;
+ }
+}
+#Large_Rocket {
+  @include sb-media( 53em ) {
+  opacity: 1.0;
+  display: block;
+ }
+}
+#Tower {
+  @include sb-media( 55em ) {
+  opacity: 1.0;
+  display: block;
+ }
+}
+#Truck_1_ {
+  @include sb-media( 55em ) {
+  opacity: 1.0;
+  display: block;
+ }
+}
+
+#Apprenticeships {
+  transform: scaleX(1.2) scaleY(1.2) translate( -320px, -70px );
+  transition: transform .5s ease-in-out;
+  @include sb-media( 45em ) {
+    transform: none;
+  }
+}
