@@ -1,77 +1,67 @@
 .list {
-  margin-top: 0;
-  margin-bottom: 0;
-  &::after { 
-   content: "."; 
-   visibility: hidden; 
-   display: block; 
-   height: 0; 
+  &::after {
    clear: both;
+   content: ".";
+   display: block;
+   height: 0;
+   visibility: hidden;
   }
 }
 .list__item {
-  &::after { 
-   content: "."; 
-   visibility: hidden; 
-   display: block; 
-   height: 0; 
+  &::after {
    clear: both;
+   content: ".";
+   display: block;
+   height: 0;
+   visibility: hidden;
   }
 }
 .list--block {
   @include sb-media( 45em ) {
-    padding-left: 2rem;
-    padding-right: 2rem;
+    @include rem( padding-left, 2 );
+    @include rem( padding-right, 2 );
   }
   > .list__item {
     border-top: 4px solid $c--iceberg;
-    padding-top: 1rem;
-    margin-bottom: 1rem;
+    @include rem( margin-bottom, 1 );
+    @include rem( padding-top, 1 );
     @include sb-media( 45em ) {
-      padding-left: 2rem;
-      padding-right: 2rem;
+      @include rem( padding-left, 2 );
+      @include rem( padding-right, 2 );
     }
   }
 }
-
 .list--normal {
   .list__item__title {
-    font-family: $secondary-font;
-    float: left;
-    width: 40%;
-    display: block;
     box-sizing: border-box;
+    display: block;
+    float: left;
+    font-family: $secondary-font;
     line-height: 1.5;
+    width: 40%;
   }
   .list__item__content {
-    float: left;
-    width: 60%;
-    text-transform: capitalize;
     display: block;
+    float: left;
     line-height: 1.5;
+    text-transform: capitalize;
+    width: 60%;
   }
   .list__item {
-    margin-bottom: .5rem;
+    @include rem( margin-bottom, .5 );
   }
 }
-
 .list__item--nested {
   .list {
-    overflow-y: hidden;
     overflow-x: visible;
+    overflow-y: hidden;
   }
   .list__item__content {
     width: 100%;
   }
   .list__item {
-    overflow-y: hidden;
-    overflow-x: visible;
     margin-bottom: 0;
-  }
-}
-
-.list--inline {
-  .list__item {
-    display: inline-block;
+    overflow-x: visible;
+    overflow-y: hidden;
   }
 }

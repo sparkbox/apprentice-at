@@ -1,13 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
   <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Apprenticeship Web Project</title>
-    <link rel="stylesheet" type="text/css" href="{{ assets }}/css/style.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+      <!--[if (lt IE 9) & (!IEMobile)]>
+      <link href="{{ assets }}/css/no-mq-style.css" rel="stylesheet">
+      <![endif]-->
+      <!--[if (gte IE 9) | (IEMobile)]><!-->
+      <link href="{{ assets }}/css/style.css" rel="stylesheet">
+      <!--<![endif]-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
     <script src="//use.typekit.net/bwr5wmd.js"></script>
     <script>try{Typekit.load();}catch(e){}</script>
+    <!--[if lt IE 9]>
+      <script src="{{ assets }}/js/html5shiv.js"></script>
+    <![endif]-->
   </head>
   <body>
   {{body}}

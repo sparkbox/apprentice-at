@@ -1,28 +1,27 @@
 .content {
+  background: $c--white;
+  @include rem( border-radius, .5 );
   color: $c--deep-sea-green;
-  background: white;
-  border-radius: $round;
-  padding-bottom: 2rem;
+  @include rem( padding-bottom, 2 );
 }
 .content__section {
   @include sb-media( 35em ) {
-    padding-left: 2rem;
-    padding-right: 2rem;
+    @include rem( padding-left, 2 );
+    @include rem( padding-right, 2 );
   }
   @include sb-media( 45em ) {
-    padding-left: 6rem;
-    padding-right: 6rem;
+    @include rem( padding-left, 6 );
+    @include rem( padding-right, 6 );
   }
   @include sb-media( 55em ) {
-    padding-left: 9rem;
-    padding-right: 9rem;
+    @include rem( padding-left, 9 );
+    @include rem( padding-right, 9 );
   }
   h1, h2, h3 {
-    margin-top: 3rem;
-    margin-bottom: 1rem;
+    @include rem( margin-bottom, 1 );
+    @include rem( margin-top, 3 );
   }
 }
-
 .content__callout {
   display: none;
   font-size: 1.625em;
@@ -35,49 +34,38 @@
     display: block;
   }
 }
-
 .content__header {
-  display: block;
-  overflow: auto;
-  height: auto;
   border-top: 4px solid $c--iceberg;
+  display: block;
+  height: auto;
+  overflow: auto;
   h1 {
-    font-size: 1.5em;
+    font-size: 3em;
+    @include rem( margin-bottom, 1.5 );
+    @include rem( margin-top, 2 );
     text-align: center;
-    margin-top: 2rem;
-    margin-bottom: 1.5rem;
-    overflow: hidden;
-    @include sb-media( 16em ) {
-      font-size: 2em;
-    }
-    @include sb-media( 22em ) {
-      font-size: 3em;
-    }
     @include sb-media( 45em ) {
       font-size: 3.75em;
     }
   }
 }
-
 .content__header--inside {
-  border-top: none;
-  margin-bottom: 3rem;
   border-bottom: 4px solid $c--iceberg;
+  border-top: none;
+  @include rem( margin-bottom, 3 );
   @include sb-media( 35em ) {
-    margin-left: 2rem;
-    margin-right: 2rem;
+    @include rem( margin-left, 2 );
+    @include rem( margin-right, 2 );
   }
   @include sb-media( 45em ) {
-    padding-left: 4rem;
+    @include rem( padding-left, 4 );
   }
   @include sb-media( 55em ) {
-    padding-left: 7rem;
+    @include rem( padding-left, 7 );
   }
   h1 {  
+    @include rem( margin-bottom, 2 );
     margin-top: 0;
-    margin-bottom: 2rem;
-    @include sb-media( 45em ) {
-      text-align: left;
-    }
+    text-align: left;
   }
 }

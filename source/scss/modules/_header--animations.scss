@@ -1,26 +1,23 @@
-/* Animations */
+// Animations
 .is-animated-header {
   display: block;
+  width: 100%;
 }
-
-/* Astronaut */
+// Astronaut
 #Astronaut path {
   animation: bounce linear 9.5s infinite;
 }
-
 @keyframes bounce {
   0% {transform: translate(0px, 0px) rotate(0deg); } 
   50% {transform: translate(0px, -8px) rotate(0deg); }
   100%{transform: translate(0px, 0px) rotate(0deg); }
 }
-
-/* Small Rocket */
+// Small Rocket
 #Small_Rocket {
   .smog path {
     opacity: 0;
   }
 }
-
 .is-animated-header:hover {
   .one {
     animation: putter-one ease-out 1.25s infinite;
@@ -32,7 +29,6 @@
     animation: putter-three ease-out 1.25s infinite;
   }
 }
-
 @keyframes putter-one {
   0% {opacity: 0; } 
   20% {opacity: 1; }
@@ -51,13 +47,11 @@
   75% {opacity: 0; }
   100%{opacity: 0; }
 }
-
-/* Twinkling Stars */
+// Twinkling Stars
 .is-twinkling, is-twinkling path {
-  opacity: 0;
   animation: twinkle ease-out 5s infinite;
+  opacity: 0;
 }
-
 .star-two {
   animation-delay: 2s;
   animation-duration: 8s;
@@ -99,15 +93,13 @@
   animation-duration: 16s;
   fill: $c--white;
 }
-
 @keyframes twinkle {
   0% {opacity: 0; } 
   20% {opacity: 1; } 
   30% {opacity: 0; }
   100%{opacity: 0; } 
 }
-
-/* Smoke Plume */
+// Smoke Plume
 .large-plume, .small-plume, .lone-plume, .circle-plume {
   animation: dash ease-out 1s forwards;
 }
@@ -145,13 +137,10 @@
   stroke-dashoffset: -66;
   animation-delay: .95s;
 }
-
 .lone-plume {
-  /*animation: dash ease-out .5s forwards;*/
   stroke-dasharray: 10;
   stroke-dashoffset: -10;
 }
-
 .small-order-1 {
   stroke-dasharray: 10;
   stroke-dashoffset: -10;
@@ -161,22 +150,20 @@
   stroke-dashoffset: -30;
 }
 .small-order-3 {
+  animation-delay: .5s;
   stroke-dasharray: 15;
   stroke-dashoffset: 15;
-  animation-delay: .5s;
 }
-
 .circle-order-1 {
+  animation-delay: .9s;
   stroke-dasharray: 40;
   stroke-dashoffset: -40;
-  animation-delay: .9s;
 }
 .circle-order-2 {
+  animation-delay: 1s;
   stroke-dasharray: 23;
   stroke-dashoffset: -23;
-  animation-delay: 1s;
 }
-
 @keyframes dash {
   100% {
     stroke-dashoffset: 0;

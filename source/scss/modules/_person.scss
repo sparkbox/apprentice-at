@@ -1,18 +1,27 @@
 .person__photo {
   border-radius: 50%;
+  border: none;
+  display: block;
+  margin: auto;
+  @include rem( width, 12.5 )
 }
-h3.person__name {
+.person__name {
   margin-top: 0;
+  text-align: center;
+  @include sb-media( 45em) {
+    text-align: left;
+  }
 }
-
 .grid--person {
-  margin-top: 2rem;
+  @include rem( margin-top, 2 );
 }
-
 .stagger {
-  padding: 0 $space--big 0 0;
-  .person:nth-child(even) & {
-    float: right;
-    padding: 0 0 0 $space--big;
-  } 
+  margin: auto;
+  @include sb-media( 45em ) {
+    @include rem( padding, 2, 2, 0, 0 );
+    .person:nth-child(even) & {
+      float: right;
+      @include rem( padding, 2, 0, 0, 2 );
+    }
+  }
 }

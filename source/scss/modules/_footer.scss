@@ -1,7 +1,7 @@
 .footer {
-  @extend %bg--dark;
+  background: $c--blue-whale;
   color: $c--juniper;
-  padding: 3rem 0;
+  @include rem( padding, 2, 0 );
 }
 .footer__text {
   font-family: $heading-font;
@@ -9,6 +9,14 @@
   text-align: center;
   text-transform: uppercase;
 }
-.footer__logo { display: block; margin: auto; }
-.footer__logo--icon { fill: $c--blue-whale; }
-.footer__logo--icon-box, .footer__logo--text { fill: $c--juniper; }
+.footer__logo {
+  display: block; 
+  margin: auto; 
+}
+.footer__logo--icon { 
+  fill: $c--blue-whale; 
+}
+.footer__logo--icon-box, 
+.footer__logo--text { 
+  fill: $c--juniper; 
+}

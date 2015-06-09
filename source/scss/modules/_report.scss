@@ -1,0 +1,10 @@
+.report {
+  font-family: $secondary-font;
+  font-size: .75em;
+  padding-bottom: 2rem;
+  text-align: center;
+  text-transform: capitalize;
+  a {
+    color: $c--juniper;
+  }
+}

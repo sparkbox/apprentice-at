@@ -1,0 +1,12 @@
+$no-mq-support: true;
+@import "style";
+
+.lt-ie9 {
+  .grid,
+  .list,
+  .list__item,
+  .content {
+    height: auto;
+    overflow: auto;
+  }
+}

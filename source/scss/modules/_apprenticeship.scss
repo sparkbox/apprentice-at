@@ -1,6 +1,6 @@
 .apprenticeship {
-  padding-top: $space--big;
-  padding-bottom: $space--big;
+  @include rem( padding-bottom, 2 );
+  @include rem( padding-top, 2 );
   p {
     margin-top: 0;
   }
@@ -12,15 +12,15 @@
 }
 
 .apprenticeship__content {
-  margin-bottom: 2rem;
+  @include rem( margin-bottom, 2 );
   @include sb-media( 45em ) {
     margin-bottom: 0;
   }
 }
 .apprenticeship__header {
-  margin-top: 0;
-  margin-bottom: 1rem;
   color: $c--deep-sea-green;
+  @include rem( margin-bottom, 2 );
+  margin-top: 0;
   a {
     color: inherit;
   }
