@@ -3,27 +3,25 @@
   border: none;
   display: block;
   margin: auto;
-  width: 200px;
+  @include rem( width, 12.5 )
 }
-h3.person__name {
+.person__name {
   margin-top: 0;
   text-align: center;
-  @media (min-width: 45em) {
+  @include sb-media( 45em) {
     text-align: left;
   }
 }
-
 .grid--person {
-  margin-top: 2rem;
+  @include rem( margin-top, 2 );
 }
-
 .stagger {
   margin: auto;
-  @media (min-width: 45em) {
-    padding: $space--big $space--big 0 0;
+  @include sb-media( 45em ) {
+    @include rem( padding, 2, 2, 0, 0 );
     .person:nth-child(even) & {
       float: right;
-      padding: $space--big 0 0 $space--big;
+      @include rem( padding, 2, 0, 0, 2 );
     }
   }
 }
