@@ -1,26 +1,26 @@
 .grid {
-  width: 100%;
-  overflow: visible;
-  height: auto;
   box-sizing: border-box;
+  height: auto;
+  overflow: visible;
+  width: 100%;
   &::after { 
-   content: "."; 
-   visibility: hidden; 
-   display: block; 
-   height: 0; 
+   content: ".";
    clear: both;
+   display: block;
+   height: 0;
+   visibility: hidden;
   }
 }
 .grid__item {
-  float: left;
-  overflow: visible;
-  height: inherit;
   box-sizing: inherit;
+  float: left;
+  height: inherit;
+  overflow: visible;
   &--two-thirds {
     width: 100%;
     @include sb-media( 45em ) {
+      @include rem( padding-right, 2 );
       width: 50%;
-      padding-right: $space--big;
     }
     @include sb-media( 60em ) {
       width: 66.666666666%;
@@ -29,8 +29,8 @@
   &--one-third {
     width: 100%;
     @include sb-media( 45em ) {
+      @include rem( padding-left, 2 );
       width: 50%;
-      padding-left: $space--big;
     }
     @include sb-media( 60em ) {
       width: 33.333333333%;
