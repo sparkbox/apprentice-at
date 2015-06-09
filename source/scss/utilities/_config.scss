@@ -1,4 +1,4 @@
-/* Config */
+// Config
 $base-font-multiplier: 1;
 $breakpoint-no-queries: false;
 $breakpoint-no-query-wrappers: true;
@@ -7,12 +7,12 @@ $hi-res: "@media (-webkit-min-device-pixel-ratio: 1.5, only screen) and (-o-min-
 $no-mq-support: false !default;
 $serve-to-nomq-max-width: 60em !default;
 
-/* Typography */
+// Typography
 $heading-font: "bd-viewmaster", Georgia, Times, serif;
 $primary-font: Georgia, Times, serif;
 $secondary-font: Helvetica, Arial, sans-serif;
 
-/* Colors */
+// Colors
 $c--blue-whale: #043743;
 $c--deep-sea-green: #095E59;
 $c--juniper: #68878E;
@@ -21,10 +21,3 @@ $c--iceberg: #CEF0EE;
 $c--mine-shaft: #3A3A3A;
 $c--white: #FFF;
 $c--black: #000;
-
-/* Spacing */
-$space--small: 1rem;
-$space--big: 2rem;
-
-/* Round */
-$round: .5rem;
