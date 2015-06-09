@@ -1,4 +1,6 @@
 .list {
+  margin-bottom: 0;
+  margin-top: 0;
   &::after {
    clear: both;
    content: ".";
@@ -63,5 +65,10 @@
     margin-bottom: 0;
     overflow-x: visible;
     overflow-y: hidden;
+  }
+}
+.list--inline {
+  .list__item {
+    display: inline-block;
   }
 }

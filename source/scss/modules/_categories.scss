@@ -11,6 +11,8 @@
   font-weight: bold;
   font-size: .875em;
   padding-top: 1rem;
+  margin-bottom: 0;
+  padding-bottom: 0;
   @include sb-media ( 45em ) {
     margin-left: 2rem;
     margin-right: 2rem;
