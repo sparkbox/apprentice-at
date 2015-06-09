@@ -259,7 +259,7 @@ submit:
       label: Duration
       name: duration
       id: duration
-      type: range
+      type: text
     category:
       label: Category
       name: category
@@ -274,7 +274,7 @@ submit:
       name: summary
       id: summary
       type: text
-      hint: What will the apprentices spend their time doing? How much of an education focus is there? What languages will be studied?
+      placeholder: What will the apprentices spend their time doing? How much of an education focus is there? What languages will be studied?
     location:
       label: Location(s)
       name: location
