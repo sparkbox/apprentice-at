@@ -260,7 +260,6 @@ submit:
       name: duration
       id: duration
       type: number
-      placeholder: '3'
     category:
       label: Category
       name: category
