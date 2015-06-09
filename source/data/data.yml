@@ -280,6 +280,7 @@ submit:
       name: location
       id: location
       type: text
+      placeholder: Your location
     learn_more:
       label: Learn more link
       name: learn_more
