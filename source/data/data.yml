@@ -1,17 +1,17 @@
 people:
   - person:
       name: Kasey Bonifacio
-      photo: kasey-bonifacio.svg
+      photo: kasey-bonifacio
       url: https://twitter.com/_kaseybon
       summary: "I'm passionate about web development and love constantly learning new ways to make the web more awesome. Before starting the Sparkbox apprenticeship, I had three years of frontend design and development under my belt. Once the apprenticeship is finished, I plan to be on the path to become a full-stack developer. When I can pry myself away from the computer, I can be found spending time with family, cooking, or being crafty."
   - person:
       name: Lauren Dorman
-      photo: lauren-dorman.svg
+      photo: lauren-dorman
       url: http://twitter.com/laurendorman
       summary: "I'm a designer and frontend developer who is passionate about making the web both beautiful and usable. I pride myself on staying in the loop on current design trends and practices. I'm a firm believer that learning is something that you should never stop doing. There is always an opportunity to grow, learn, and share best practices with people around you. When my eyes aren't glued to a screen, I enjoy cycling, discovering new tunes, and traveling."
   - person:
       name: Dan Rosenthal
-      photo: dan-rosenthol.svg
+      photo: dan-rosenthal
       url: https://twitter.com/danmrosenthal
       summary: "Before my Sparkbox apprenticeship, I wrote frontend code and copy for Uncrate and Devour. Responsive design and web content are my thing. I'm passionate about the intersection of content and frontend code and am constantly working to improve my skills in JavaScript and Ruby. When I'm not being a desk monkey, you can find me tinkering with my '33 Ford Hotrod, keeping my Netflix queue in check, or putting the finishing touches on my latest Lego Star Wars set."
 
