@@ -1,4 +1,6 @@
-
+.no-svg .header {
+  display: block;
+}
 .svg-fallback {
   h1 {
     display: none;
@@ -6,8 +8,8 @@
   .no-svg & {
     height: 0;
     position: relative;
-    padding-bottom: 43.75%; /* 16:7 */
-    background:  url(../img/apprenticeships.png) top left no-repeat;
+    padding-bottom: 44.5%; /* 16:7 */
+    background:  url(../img/apprenticeships.png) top right no-repeat;
     background-size: contain;
     text-align: center;
     margin-left: auto;
@@ -30,12 +32,8 @@
         font-size: 4em;
       }
       @include sb-media ( 40em ) {
-        top: 50%;
+        top: 60%;
         font-size: 6em;
-      }
-      @include sb-media ( 50em ) {
-        top: 54%;
-        font-size: 8em;
       }
     }
     svg {
