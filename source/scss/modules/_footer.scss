@@ -13,10 +13,26 @@
   display: block; 
   margin: auto; 
 }
+.footer__inner {
+  padding: 0;
+}
 .footer__logo--icon { 
   fill: $c--blue-whale; 
 }
 .footer__logo--icon-box, 
 .footer__logo--text { 
   fill: $c--juniper; 
+}
+
+.no-svg .footer {
+  svg {
+    display: none;
+  }
+  .sparkbox-logo {
+    display: block;
+    margin: 0 auto;
+    width: 159px;
+    height: 38px;
+    background:  url(../img/sparkbox-logo.png) center center no-repeat;
+  }
 }
