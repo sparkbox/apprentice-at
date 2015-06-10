@@ -11,7 +11,7 @@ module.exports = (grunt) ->
     tasks: "autoprefixer"
 
   partials:
-    files: ["source/templates/**/*", "source/data/*", "source/content/*"]
+    files: ["source/templates/**/*", "source/data/*"]
     tasks: "assemble"
     options:
       livereload: true
