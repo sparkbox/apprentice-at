@@ -17,13 +17,15 @@ people:
 
 apprenticeship_categories:
   - category:
-    name: web development
+    name: development
   - category:
-    name: web design
+    name: design
   - category:
-    name: software engineering
+    name: software
   - category:
-    name: mobile development
+    name: mobile
+  - category:
+    name: ux
 
 apprenticeships:
   - apprenticeship:
