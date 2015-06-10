@@ -1,3 +1,49 @@
+
+.svg-fallback {
+  h1 {
+    display: none;
+  }
+  .no-svg & {
+    height: 0;
+    position: relative;
+    padding-bottom: 43.75%; /* 16:7 */
+    background:  url(../img/apprenticeships.png) top left no-repeat;
+    background-size: contain;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: visible;
+    width: 94%;
+    @include sb-media( 64em ) {
+      @include rem( max-width, 62 );
+      width: 100%;
+    }
+    h1 {
+      display: block;
+      position: absolute;
+      top: 45%;
+      width: 100%;
+      font-size: 3em;
+      transition: font-size .2s ease;
+      @include sb-media ( 30em ) {
+        top: 54%;
+        font-size: 4em;
+      }
+      @include sb-media ( 40em ) {
+        top: 50%;
+        font-size: 6em;
+      }
+      @include sb-media ( 50em ) {
+        top: 54%;
+        font-size: 8em;
+      }
+    }
+    svg {
+      display: none;
+    }
+  }
+}
+
 .header {
   h1 {
     color: $c--ice-cold;
