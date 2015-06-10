@@ -305,5 +305,12 @@ submit:
       text: see available apprenticeships
       url: /index/
 
+thank_you:
+  title: Thank You
+  content_pullout:
+    text:
+      - paragraph: "Your apprenticeship is en route to the mothership."
+      - paragraph: "We'll review and get back to you soon."
+
 footer:
   text: Your vehicle for this journey provided by
