@@ -1,7 +1,6 @@
 module.exports = (grunt) ->
   grunt.config "autoprefixer",
-  files:
-    src: 'dist/assets/css/style.css'
-    dest: 'dist/assets/css/style.css'
+  dist:
+    src: 'dist/assets/css/*.css'
 
   grunt.loadNpmTasks 'grunt-autoprefixer'
