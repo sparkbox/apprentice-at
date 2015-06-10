@@ -1,4 +1,4 @@
-.form { @include rem(margin, 4, 0); }
+.form { @include rem(margin, 2, 0, 4); }
 .form__section {
   box-sizing: border-box;
   @include rem( padding, 0, 0, 1, 0 );
