@@ -94,8 +94,20 @@
   @include rem( height, 6 );
   resize: none;
 }
-input[type='text'],
-input[type='email'] {
-  -webkit-appearance: caret;
-  -moz-appearance: caret;
+input[type=number] {-moz-appearance: textfield;}
+::-webkit-inner-spin-button { -webkit-appearance: none;}
+::-webkit-outer-spin-button { -webkit-appearance: none;}
+
+input[type='text'], input[type='email'], input[type='url'], textarea {
+  text-transform: uppercase;
+  color: $c--deep-sea-green;
+  &::placeholder {
+    text-transform: uppercase;
+  }
 }
+// For some reason this removed the borders on these inputs
+// input[type='text'],
+// input[type='email'] {
+//   -webkit-appearance: caret;
+//   -moz-appearance: caret;
+// }
