@@ -3,12 +3,15 @@
   border: none;
   display: block;
   margin: auto;
-  @include rem( width, 12.5 )
+  @include rem( width, 12.5 );
+  @include sb-media( 45em ) {
+    @include rem( margin-top, 5 );
+  }
 }
 .person__name {
   margin-top: 0;
   text-align: center;
-  @include sb-media( 45em) {
+  @include sb-media( 45em ) {
     text-align: left;
   }
 }
