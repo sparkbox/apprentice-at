@@ -4,15 +4,12 @@
   @include sb-media( 45em ) {
     @include rem( padding-right, 2 );
     @include rem( margin-top, .75 );
+  }
 }
 .person {
   @include rem( margin-top, 4 );
   .person__name {
     text-align: center;
     @include rem( margin-top, 2 );
-    @include sb-media( 45em ) {
-      margin-top: 0;
-      text-align: left;
-    }
   }
 }
