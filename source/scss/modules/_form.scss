@@ -21,12 +21,13 @@
 .form__number {
   border: 4px solid $c--iceberg;
   box-sizing: border-box;
+  border-radius: 0;
   &:focus {
     border: 4px solid $c--juniper;
     outline: none;
     transition: border .5s;
   }
-  &::-webkit-input-placeholder { color: $c--deep-sea-green; }
+  &::placeholder { color: $c--deep-sea-green; }
 }
 .form__select,
 .form__number { 
@@ -45,6 +46,7 @@
   @include rem( width, 1.5 );
   vertical-align: middle;
   -webkit-appearance: none;
+  appearance: none;
   &:checked {
     background-color: $c--juniper;
     box-shadow: inset 0 0 0 .1875em $c--white;
@@ -56,7 +58,7 @@
   font-family: $secondary-font;
   @include rem( padding, .75 );
   width: 100%;
-  &::-webkit-input-placeholder {
+  &::placeholder {
   text-transform: uppercase;
   }
 }
@@ -83,10 +85,17 @@
   border-radius: 0;
   text-transform: uppercase;
   -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
   @include rem( padding, .75 );
 }
 .form__textarea {
   @include rem( font-size, .75);
   @include rem( height, 6 );
   resize: none;
+}
+input[type='text'],
+input[type='email'] {
+  -webkit-appearance: caret;
+  -moz-appearance: caret;
 }
