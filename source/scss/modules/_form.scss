@@ -94,6 +94,10 @@
   @include rem( height, 6 );
   resize: none;
 }
+input[type=number] {-moz-appearance: textfield;}
+::-webkit-inner-spin-button { -webkit-appearance: none;}
+::-webkit-outer-spin-button { -webkit-appearance: none;}
+
 // For some reason this removed the borders on these inputs
 // input[type='text'],
 // input[type='email'] {
