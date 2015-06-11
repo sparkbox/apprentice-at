@@ -72,5 +72,6 @@
 .form__button {
   width: 100%;
   background-color: transparent;
-  @include rem( margin-top, 3 )
+  @include rem( margin-top, 3 );
+  cursor: pointer;
 }
