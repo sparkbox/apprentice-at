@@ -5,6 +5,10 @@
     @include rem( padding-right, 2 );
     @include rem( margin-top, .75 );
   }
+  img {
+    margin: 0 auto;
+    display: block;
+  }
 }
 .person {
   @include rem( margin-top, 4 );
