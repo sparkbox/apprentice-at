@@ -9,7 +9,12 @@
 .person {
   @include rem( margin-top, 4 );
   .person__name {
+    line-height: 1;
     text-align: center;
     @include rem( margin-top, 2 );
+    @include sb-media( 45em ) {
+      margin-top: 0;
+      text-align: left;
+    }
   }
 }
