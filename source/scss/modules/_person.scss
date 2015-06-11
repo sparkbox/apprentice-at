@@ -1,20 +1,13 @@
 .person__photo {
   display: block;
+  border-radius: 50%;
   @include sb-media( 45em ) {
     @include rem( padding-right, 2 );
     @include rem( margin-top, .75 );
-  }
-  img {
-    border-radius: 50%;
-    border: none;
-    display: block;
-    margin: auto;
-  }
 }
 .person {
   @include rem( margin-top, 4 );
   .person__name {
-    line-height: 1;
     text-align: center;
     @include rem( margin-top, 2 );
     @include sb-media( 45em ) {
