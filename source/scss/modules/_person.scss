@@ -1,14 +1,13 @@
 .person__photo {
   display: block;
+  border-radius: 50%;
   @include sb-media( 45em ) {
     @include rem( padding-right, 2 );
     @include rem( margin-top, .75 );
   }
   img {
-    border-radius: 50%;
-    border: none;
+    margin: 0 auto;
     display: block;
-    margin: auto;
   }
 }
 .person {
