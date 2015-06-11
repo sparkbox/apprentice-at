@@ -67,7 +67,7 @@
         opacity: .25;
         @include rem( padding, .35, .5 );
         text-transform: uppercase;
-        transition: opacity .5s ease-in-out;
+        transition: opacity .25s ease-in-out;
         vertical-align: 150%;
       }
       &:hover::before {
@@ -103,7 +103,7 @@
 #Satellite, #Tower, #Truck_1_, #Small_Rocket, #Astronaut, #Large_Rocket {
   display: none;
   opacity: 0.0;
-  transition: all 1.25s;
+  transition: all .25s ease-in-out;
 }
 #Small_Rocket {
   @include sb-media( 47em ) {

@@ -10,27 +10,31 @@
   position: relative;
   text-transform: uppercase;
   top: 0;
-  transition: all .2s ease-in-out;
+  transition: all .25s ease-in-out;
   width: auto;
+  &::after, &::before {
+    @include rem( bottom, -2 );
+    content: "";
+    display: block;
+    @include rem( height, 1.875 );
+    opacity: 0.0;
+    position: absolute;
+    @include rem( top, .9375 );
+    transition: opacity .25s ease-in-out;
+    @include rem( width, 1.875 );
+  }
+  &::after {
+    background: url(../img/cloud--left.png) center center no-repeat;
+    left: -29px;
+  }
+  &::before {
+    right: -29px;
+    background: url(../img/cloud--right.png) center center no-repeat;
+  }
   &:hover {
     @include rem( top, -.25 );
-    &::after,
-    &::before {
-      content: "";
-      display: block;
-      @include rem( height, 1.875 );
-      @include rem( top, .9375 );
-      position: absolute;
-      @include rem( bottom, -2 );
-      @include rem( width, 1.875 );
-    }
-    &::after {
-      background: url(../img/cloud--left.png) center center no-repeat;
-      left: -29px;
-    }
-    &::before {
-      background: url(../img/cloud--right.png) center center no-repeat;
-      right: -29px;
+    &::after, &::before {
+      opacity: 1.0;
     }
   }
 }
