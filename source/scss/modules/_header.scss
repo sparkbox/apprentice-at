@@ -51,7 +51,29 @@
     font-weight: 300;
     @include rem( margin-bottom, 1 );
     @include rem( margin-top, 1 );
-
+    position: relative;
+    a {
+      &::before {
+        background: $c--ice-cold;
+        @include rem( border-radius, .1875 );
+        color: $c--blue-whale;
+        content: "Home";
+        display: inline-block;
+        font-family: $secondary-font;
+        font-size: .125em;
+        font-weight: 700;
+        line-height: 1;
+        @include rem( margin-right, 1 );
+        opacity: .25;
+        @include rem( padding, .35, .5 );
+        text-transform: uppercase;
+        transition: opacity .5s ease-in-out;
+        vertical-align: 150%;
+      }
+      &:hover::before {
+        opacity: 1.0;
+      }
+    }
   }
 }
 .header--inside {
@@ -74,24 +96,6 @@
     .no-svg & {
       background: url(../img/inside-header-bg.png) top center no-repeat;
     }
-  }
-}
-
-.header__return-home {
-  display: inline-block;
-  background: $c--juniper;
-  border-radius: 3px;
-  padding: 0 5px;
-  line-height: 20px;
-  font-family: $secondary-font;
-  text-transform: uppercase;
-  font-size: 12px;
-  font-weight: 700;
-  color: $c--blue-whale;
-  @include sb-media ( 25em ) {
-    vertical-align: top;
-    @include rem(margin-top, 3.75);
-    margin-right: 1em;
   }
 }
 
