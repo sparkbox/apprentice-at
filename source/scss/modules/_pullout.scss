@@ -3,12 +3,25 @@
   color: $c--white;
   font-size: 18px;
   letter-spacing: 1px;
-  background: url(../img/pullout-bg.svg);
-  background-repeat: no-repeat;
-  background-position: top center;
   position: relative;
-  .no-svg & {
-    background: url(../img/pullout-bg.png);
+  &:before {
+    content: '';
+    display: block;
+    @include rem( height, 16.875 );
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1000px;
+    z-index: -1;
+
+
+
+    background: url(../img/pullout-bg.svg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    .no-svg & {
+      background: url(../img/pullout-bg.jpg);
+    }
   }
   &:after {
     background: url(../img/pullout-after.svg) bottom center no-repeat;
