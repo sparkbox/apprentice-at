@@ -222,11 +222,11 @@ about:
       - paragraph: "As apprentices ourselves, we learned firsthand the value of participating in an apprenticeship. Getting immersed in code was the best way to learn a modern approach to building the web. We got to pair with professional developers, had regular reviews, and dove deep into the world of Object Oriented Programming, Test Driven Development, and creating modular frontend code. It was the best way possible to expand on our existing industry experience, and it gave us the tools we needed for a successful career on the web."
   nav:
     - item:
-      text: submit your apprenticeship
-      url: /submit/
-    - item:
       text: see available apprenticeships
       url: /
+    - item:
+      text: submit your apprenticeship
+      url: /submit/
 
 submit:
   title: Submit
