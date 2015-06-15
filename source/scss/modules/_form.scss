@@ -27,12 +27,11 @@
     outline: none;
     transition: border .5s;
   }
-  &::placeholder { color: $c--deep-sea-green; }
 }
 .form__select,
 .form__number { 
   width: 100%;
-  color: $c--deep-sea-green;
+  color: $c--shady-lady;
 } 
 .form__radio {
   background-color: transparent;
@@ -58,9 +57,11 @@
   font-family: $secondary-font;
   @include rem( padding, .75 );
   width: 100%;
-  &::placeholder {
-  text-transform: uppercase;
-  }
+  &::-webit-input-placeholder { text-transform: uppercase; }
+  &:-moz-placeholder { text-transform: uppercase; }
+  &::-moz-placeholder { text-transform: uppercase; }
+  &:-ms-input-placeholder { text-transform: uppercase; }
+  &::placeholder { text-transform: uppercase; }
 }
 .form__number {
   @include rem( padding, .75 );
@@ -71,8 +72,11 @@
   text-transform: uppercase;
   @include rem( font-size, .75);
   position: relative;
-  @include rem( top, -2.15);
-  left: 12%;
+  top: -34px;
+  left: 35px;
+  color: $c--shady-lady;
+  &:focus {
+  }
 }
 .form__radio-text {
   font-family: $secondary-font;
@@ -94,20 +98,35 @@
   @include rem( height, 6 );
   resize: none;
 }
-input[type=number] {-moz-appearance: textfield;}
+input[type='number'] { -moz-appearance: textfield; }
 ::-webkit-inner-spin-button { -webkit-appearance: none;}
 ::-webkit-outer-spin-button { -webkit-appearance: none;}
-
 input[type='text'], input[type='email'], input[type='url'], textarea {
   text-transform: uppercase;
   color: $c--deep-sea-green;
+  &::-webit-input-placeholder {
+    color: $c--shady-lady;
+    text-transform: uppercase; 
+  }
+  &:-moz-placeholder {
+    color: $c--shady-lady;
+    text-transform: uppercase;
+  }
+  &::-moz-placeholder {
+    color: $c--shady-lady;
+    text-transform: uppercase;
+  }
+  &:-ms-input-placeholder {
+    color: $c--shady-lady;
+    text-transform: uppercase;
+  }
   &::placeholder {
+    color: $c--shady-lady;
     text-transform: uppercase;
   }
 }
-// For some reason this removed the borders on these inputs
-// input[type='text'],
-// input[type='email'] {
-//   -webkit-appearance: caret;
-//   -moz-appearance: caret;
-// }
+input[type='text'],
+input[type='email'] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
