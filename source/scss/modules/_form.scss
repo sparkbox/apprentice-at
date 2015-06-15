@@ -57,11 +57,6 @@
   font-family: $secondary-font;
   @include rem( padding, .75 );
   width: 100%;
-  &::-webit-input-placeholder { text-transform: uppercase; }
-  &:-moz-placeholder { text-transform: uppercase; }
-  &::-moz-placeholder { text-transform: uppercase; }
-  &:-ms-input-placeholder { text-transform: uppercase; }
-  &::placeholder { text-transform: uppercase; }
 }
 .form__number {
   @include rem( padding, .75 );
@@ -102,28 +97,12 @@ input[type='number'] { -moz-appearance: textfield; }
 ::-webkit-inner-spin-button { -webkit-appearance: none;}
 ::-webkit-outer-spin-button { -webkit-appearance: none;}
 input[type='text'], input[type='email'], input[type='url'], textarea {
-  text-transform: uppercase;
   color: $c--deep-sea-green;
-  &::-webit-input-placeholder {
-    color: $c--shady-lady;
-    text-transform: uppercase; 
-  }
-  &:-moz-placeholder {
-    color: $c--shady-lady;
-    text-transform: uppercase;
-  }
-  &::-moz-placeholder {
-    color: $c--shady-lady;
-    text-transform: uppercase;
-  }
-  &:-ms-input-placeholder {
-    color: $c--shady-lady;
-    text-transform: uppercase;
-  }
-  &::placeholder {
-    color: $c--shady-lady;
-    text-transform: uppercase;
-  }
+  &::-webit-input-placeholder { color: $c--shady-lady; }
+  &:-moz-placeholder { color: $c--shady-lady; }
+  &::-moz-placeholder { color: $c--shady-lady; }
+  &:-ms-input-placeholder { color: $c--shady-lady; }
+  &::placeholder { color: $c--shady-lady; }
 }
 input[type='text'],
 input[type='email'] {

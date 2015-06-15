@@ -284,7 +284,7 @@ submit:
       name: location
       id: location
       type: text
-      placeholder: Your location
+      placeholder: "Dayton, OH"
     learn_more:
       label: Learn more link
       name: learn_more
@@ -296,7 +296,7 @@ submit:
       name: email
       id: email
       type: email
-      placeholder: Your email
+      placeholder: you@example.com
     button:
       text: Submit
       type: submit
