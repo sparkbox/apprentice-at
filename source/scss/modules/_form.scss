@@ -64,7 +64,6 @@
 }
 .form__number-text {
   font-family: $secondary-font;
-  text-transform: uppercase;
   @include rem( font-size, .75);
   position: relative;
   top: -34px;
@@ -75,14 +74,12 @@
 }
 .form__radio-text {
   font-family: $secondary-font;
-  text-transform: uppercase;
   @include rem( font-size, .75);
 }
 .form__select {
   @include rem( font-size, .75);
   background: transparent url(../img/icon-down-arrow.svg) no-repeat 95% center;
   border-radius: 0;
-  text-transform: uppercase;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
