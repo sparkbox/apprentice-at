@@ -1,50 +1,29 @@
 .pullout {
   text-align: center;
   color: $c--white;
-  font-size: 18px;
+  font-size: 1.125em;
   letter-spacing: 1px;
   position: relative;
-  &:before {
-    content: '';
-    display: block;
-    @include rem( height, 16.875 );
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 1000px;
-    z-index: -1;
-
-
-
-    background: url(../img/pullout-bg.svg);
-    background-repeat: no-repeat;
+  background: url(../img/pullout-bg.svg) no-repeat top left;
+  background-size: contain;
+  padding-bottom: 0;
+  @include sb-media( 38em ) {
     background-position: top center;
-    .no-svg & {
-      background: url(../img/pullout-bg.jpg);
-    }
   }
-  &:after {
-    background: url(../img/pullout-after.svg) bottom center no-repeat;
-    background-size: contain;
-    bottom: 0;
-    content: '';
-    display: block;
-    @include rem( height, 6.25 );
-    position: absolute;
-    @include rem( right, 1.875 );
-    @include rem( width, 6.25 );
-    z-index: -1;
-    .no-svg & {
-      background: url(../img/pullout-after.png) bottom center no-repeat;
-    }
+  .no-svg & {
+    background: url(../img/pullout-bg.jpg);
   }
 }
 .pullout__block {
-    @include rem( padding, 2 );
+  background: url(../img/pullout-after.svg) no-repeat bottom right;
+  @include rem( padding, 2, 2, 4, 2 );
   @include sb-media( 38em ) {
-    @include rem( padding, 1 );
+    @include rem( padding, 1, 1, 5, 1 );
   }
   @include sb-media( 50em ) {
-    @include rem( padding, 3 );
+    @include rem( padding, 3, 3, 5, 3 );
+  }
+  .no-svg & {
+    background: url(../img/pullout-after.png) bottom center no-repeat;
   }
 }
