@@ -1,10 +1,10 @@
-@mixin sb-media($query) {
+@mixin sb-media($query, $argument: min-width) {
   @if $no-mq-support{
     @if $query < $serve-to-nomq-max-width{
       @content;
     }
   } @else {
-    @media ( min-width: + $query ) {
+    @media ( $argument: + $query ) {
       @content;
     }
   }
