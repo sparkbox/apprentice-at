@@ -51,10 +51,12 @@
     font-weight: 300;
     @include rem( margin-bottom, 1 );
     @include rem( margin-top, 1 );
-    position: relative;
     a {
+      position: relative;
+      display: block;
       &::before {
         background: $c--ice-cold;
+        bottom: -1rem;
         @include rem( border-radius, .1875 );
         color: $c--blue-whale;
         content: "Home";
@@ -62,13 +64,18 @@
         font-family: $secondary-font;
         font-size: .125em;
         font-weight: 700;
+        left: calc( 50% - 2rem );
         line-height: 1;
         @include rem( margin-right, 1 );
         opacity: .25;
         @include rem( padding, .35, .5 );
+        position: absolute;
         text-transform: uppercase;
         transition: opacity .25s ease-in-out;
-        vertical-align: 150%;
+        @include sb-media ( 30em ) {
+          bottom: calc( 50% - .75rem);
+          left: -4.25rem;
+        }
       }
       &:hover::before {
         opacity: 1.0;
@@ -78,11 +85,6 @@
 }
 .header--inside {
   @include rem( padding, 2 );
-  .header__title {
-    @include sb-media ( 25em ) {
-      display: inline-block;
-    }
-  }
   &:before {
     background: url(../img/inside-header-bg.svg) top center no-repeat;
     content: '';
@@ -97,6 +99,19 @@
       background: url(../img/inside-header-bg.jpg) top center no-repeat;
     }
   }
+  @include sb-media ( 30em, max-height ) {
+    padding: 0;
+    height: 8rem;
+  }
+  .header__title {
+    @include sb-media ( 30em, max-height ) {
+      margin-top: 0;
+    }
+    @include sb-media ( 25em ) {
+      display: inline-block;
+    }
+  }
+  
 }
 
 // SVG Responsiveness
