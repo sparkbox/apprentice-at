@@ -1,3 +1,7 @@
+site:
+  title: Apprentice.at
+  description: An opportunity to sustainably satisfy the growing need for talented web professionals.
+
 people:
   - person:
       name: Kasey Bonifacio
