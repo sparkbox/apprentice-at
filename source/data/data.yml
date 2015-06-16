@@ -268,11 +268,12 @@ submit:
       name: category
       id: category
       categories:
-        - item: development
-        - item: design
-        - item: software
-        - item: mobile
-        - item: ux
+        - item: Select One
+        - item: Development
+        - item: Design
+        - item: Software
+        - item: Mobile
+        - item: UX
     summary:
       label: Summary/Abstract
       name: summary
