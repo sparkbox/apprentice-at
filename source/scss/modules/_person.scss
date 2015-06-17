@@ -1,6 +1,6 @@
 .person__photo {
   display: block;
-  border-radius: 50%;
+  border-radius: 50%;  
   @include sb-media( 45em ) {
     @include rem( padding-right, 2 );
     @include rem( margin-top, .75 );
@@ -9,6 +9,7 @@
     margin: 0 auto;
     display: block;
     width: 200px;
+    border: none;
   }
 }
 .person {
