@@ -86,7 +86,7 @@
 .header--inside {
   @include rem( padding, 2 );
   &:before {
-    background: url(../img/inside-header-bg.svg) top center no-repeat;
+    background: url(../img/inside-header-bg.svg) no-repeat top center;
     content: '';
     display: block;
     @include rem( height, 16.875 );
@@ -96,7 +96,7 @@
     width: 100%;
     z-index: -1;
     .no-svg & {
-      background: url(../img/inside-header-bg.jpg) top center no-repeat;
+      background: url(../img/inside-header-bg.jpg) no-repeat top center;
     }
   }
   @include sb-media ( 30em, max-height ) {
@@ -111,9 +111,14 @@
       display: inline-block;
     }
   }
-  
 }
-
+.lt-ie9 .header--inside {
+  @include rem( padding, 2 );
+  background: url(../img/pullout-bg.jpg) no-repeat top left;
+  &:before {
+    display: none;
+  }
+}
 .header--is-animated {
   width: 100%;
 }
