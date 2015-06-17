@@ -13,7 +13,7 @@
     <label class="form__label" for="{{ submit.form.company_website.id }}">{{ submit.form.company_website.label }}</label>
     <input class="form__input" type="{{ submit.form.company_website.type }}" name="{{ submit.form.company_website.name }}" id="{{ submit.form.company_website.id }}" placeholder="{{ submit.form.company_website.placeholder }}"validate required>
 
-    <section class="wrapper grid grid__item grid__item--two-quarters">
+    <section class="wrapper grid__item grid__item--two-quarters">
         <label class="form__label" for="{{ submit.form.category.id }}">{{ submit.form.category.label }}</label>
         <select class="form__select" name="{{ submit.form.category.name }}">
           {{#forEach submit.form.category.categories}}
@@ -22,7 +22,7 @@
         </select>
     </section>
 
-    <section class="grid grid__item grid__item--two-quarters form__section">
+    <section class="grid__item grid__item--two-quarters form__section">
         <label class="form__label" for="{{ submit.form.duration.id }}">{{ submit.form.duration.label }}</label>
         <input class="form__number" type="{{ submit.form.duration.type }}" name="{{ submit.form.duration.name }}" id="{{ submit.form.duration.id }}" value="3" min="3" max="24"><span class="form__number-text" validate required>months</span>
     </section>
