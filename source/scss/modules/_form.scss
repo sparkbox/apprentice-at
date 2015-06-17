@@ -1,9 +1,9 @@
 .form { @include rem(margin, 2, 0, 4); }
 .form__section {
   box-sizing: border-box;
-  @include rem( padding, 0, 0, 1, 0 );
+  @include rem( padding, 0, 0, 2, 0 );
   @include sb-media( 45em ) {
-    @include rem( padding, 0, 0, 1, 1.5 );
+    @include rem( padding, 0, 0, 2, 1.5 );
   }
 }
 .form__label {
@@ -60,16 +60,6 @@
 .form__number {
   @include rem( padding, .75 );
   @include rem( margin-right, .5 );
-}
-.form__number-text {
-  font-family: $secondary-font;
-  @include rem( font-size, .75);
-  position: relative;
-  top: -34px;
-  left: 35px;
-  color: $c--shady-lady;
-  &:focus {
-  }
 }
 .form__radio-text {
   font-family: $secondary-font;
