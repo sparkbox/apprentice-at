@@ -101,7 +101,15 @@ input[type='text'], input[type='email'], input[type='url'], textarea {
   &::placeholder { color: $c--shady-lady; }
 }
 input[type='text'],
-input[type='email'] {
+input[type='email'],
+input[type='url'],
+textarea {
   -webkit-appearance: none;
   -moz-appearance: none;
+}
+
+.lt-ie9 {
+  input[type="radio"] {
+    border: none;
+  }
 }
