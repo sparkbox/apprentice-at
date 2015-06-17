@@ -26,17 +26,18 @@
       top: 45%;
       width: 100%;
       font-size: 3em;
+      color: $c--ice-cold;
       transition: font-size .2s ease;
       @include sb-media ( 30em ) {
         top: 54%;
         font-size: 4em;
       }
       @include sb-media ( 40em ) {
-        top: 60%;
-        font-size: 6em;
+        top: 43%;
+        font-size: 7.5em;
       }
     }
-    svg {
+    .header--is-animated {
       display: none;
     }
   }
