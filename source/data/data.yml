@@ -263,7 +263,7 @@ submit:
       type: url
       placeholder: http://
     duration:
-      label: Duration
+      label: Duration (in months)
       name: duration
       id: duration
       type: number
