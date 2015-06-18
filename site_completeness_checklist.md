@@ -100,7 +100,7 @@ Devices
 
 * [x] Determine hosting solution.
 * [x] Determine launch plan. (staging environment, DNS changeover, etc)
-* [ ] Get client’s google tracking ID.
+* [ ] ~~Get client’s google tracking ID.~~
 * [ ] ~~Get client’s mail marketing (mailchimp) ID.~~
 * [ ] ~~Get client’s social share ID’s.~~
 * [ ] ~~Get client’s social pages.~~
@@ -112,8 +112,8 @@ Devices
 
 * [x] allow indexing
 * [x] Markup/CSS/JS Related
-* [ ] include google analytics (proper UA string)
-* [ ] Un-Comment-Out the Google Analytics ID so it works post launch.
+* [x] include google analytics (proper UA string)
+* [ ] ~~Un-Comment-Out the Google Analytics ID so it works post launch.~~
 * [ ] ~~ensure local jquery files are in place~~
 * [ ] ~~local jquery version should be same as google jquery version~~
 * [ ] ~~add selectivizr only if needed~~
@@ -123,7 +123,7 @@ Devices
 ### Server Related
 
 * [x] The site is backed up
-* [ ] Using expires headers
+* [x] Using expires headers
 * [ ] ~~Using gzip~~
 * [x] Minifying and combining our CSS
 * [x] Include caching option
