@@ -1,13 +1,10 @@
-    {{> _header--inside submit }}
-
-    <main class="wrapper">
-   
-      <section class="wrapper__inner content">
-        {{> _content__header--inside submit.section_header }}
-        {{> _form }}
-      </section>
-
-    </main>
-
-    {{> _footer }}
-    {{> _report }}
+{{> _header--inside submit }}
+<main class="wrapper">
+  <section class="wrapper__inner content">
+    {{> _content__header--inside submit.section_header }}
+    {{> _content__section submit.guidelines }}
+    {{> _form }}
+  </section>
+</main>
+{{> _footer }}
+{{> _report }}

@@ -1,27 +1,26 @@
 .person__photo {
-  border-radius: 50%;
-  border: none;
   display: block;
-  margin: auto;
-  @include rem( width, 12.5 )
-}
-.person__name {
-  margin-top: 0;
-  text-align: center;
-  @include sb-media( 45em) {
-    text-align: left;
+  border-radius: 50%;  
+  @include sb-media( 45em ) {
+    @include rem( padding-right, 2 );
+    @include rem( margin-top, .75 );
+  }
+  img {
+    margin: 0 auto;
+    display: block;
+    width: 200px;
+    border: none;
   }
 }
-.grid--person {
-  @include rem( margin-top, 2 );
-}
-.stagger {
-  margin: auto;
-  @include sb-media( 45em ) {
-    @include rem( padding, 2, 2, 0, 0 );
-    .person:nth-child(even) & {
-      float: right;
-      @include rem( padding, 2, 0, 0, 2 );
+.person {
+  @include rem( margin-top, 4 );
+  .person__name {
+    line-height: 1;
+    text-align: center;
+    @include rem( margin-top, 2 );
+    @include sb-media( 45em ) {
+      margin-top: 0;
+      text-align: left;
     }
   }
 }

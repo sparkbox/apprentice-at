@@ -1,18 +1,93 @@
-.header {
+.no-svg .header {
+  display: block;
+}
+.svg-fallback {
   h1 {
+    display: none;
+  }
+  .no-svg & {
+    height: 0;
+    position: relative;
+    padding-bottom: 44.5%; /* 16:7 */
+    background:  url(../img/apprenticeships.png) top right no-repeat;
+    background-size: contain;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: visible;
+    width: 94%;
+    @include sb-media( 64em ) {
+      @include rem( max-width, 62 );
+      width: 100%;
+    }
+    h1 {
+      display: block;
+      position: absolute;
+      top: 45%;
+      width: 100%;
+      font-size: 3em;
+      color: $c--ice-cold;
+      transition: font-size .2s ease;
+      @include sb-media ( 30em ) {
+        top: 54%;
+        font-size: 4em;
+      }
+      @include sb-media ( 40em ) {
+        top: 43%;
+        font-size: 7.5em;
+      }
+    }
+    .header--is-animated {
+      display: none;
+    }
+  }
+}
+
+.header {
+  text-align: center;
+  .header__title {
     color: $c--ice-cold;
     font-family: $heading-font;  
     font-size: 6em;
     font-weight: 300;
     @include rem( margin-bottom, 1 );
     @include rem( margin-top, 1 );
-    text-align: center;
+    a {
+      position: relative;
+      display: block;
+      &::before {
+        background: $c--ice-cold;
+        bottom: -1rem;
+        @include rem( border-radius, .1875 );
+        color: $c--blue-whale;
+        content: "Home";
+        display: inline-block;
+        font-family: $secondary-font;
+        font-size: .125em;
+        font-weight: 700;
+        left: calc( 50% - 2rem );
+        line-height: 1;
+        @include rem( margin-right, 1 );
+        opacity: .25;
+        @include rem( padding, .35, .5 );
+        position: absolute;
+        text-transform: uppercase;
+        transition: opacity .25s ease-in-out;
+        @include sb-media ( 30em ) {
+          bottom: calc( 50% - .75rem);
+          left: -4.25rem;
+        }
+      }
+      &:hover::before {
+        opacity: 1.0;
+      }
+    }
   }
 }
 .header--inside {
   @include rem( padding, 2 );
   &:before {
-    background: url(../img/inside-header-bg.svg) top center no-repeat;
+    background: url(../img/inside-header-bg.svg) no-repeat top center;
     content: '';
     display: block;
     @include rem( height, 16.875 );
@@ -22,16 +97,38 @@
     width: 100%;
     z-index: -1;
     .no-svg & {
-      background: url(../img/inside-header-bg.png) top center no-repeat;
+      background: url(../img/inside-header-bg.jpg) no-repeat top center;
     }
   }
+  @include sb-media ( 30em, max-height ) {
+    padding: 0;
+    height: 8rem;
+  }
+  .header__title {
+    @include sb-media ( 30em, max-height ) {
+      margin-top: 0;
+    }
+    @include sb-media ( 25em ) {
+      display: inline-block;
+    }
+  }
+}
+.lt-ie9 .header--inside {
+  @include rem( padding, 2 );
+  background: url(../img/pullout-bg.jpg) no-repeat top left;
+  &:before {
+    display: none;
+  }
+}
+.header--is-animated {
+  width: 100%;
 }
 
 // SVG Responsiveness
 #Satellite, #Tower, #Truck_1_, #Small_Rocket, #Astronaut, #Large_Rocket {
   display: none;
   opacity: 0.0;
-  transition: all 1.25s;
+  transition: all .25s ease-in-out;
 }
 #Small_Rocket {
   @include sb-media( 47em ) {

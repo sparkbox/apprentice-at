@@ -1,17 +1,21 @@
+site:
+  title: Apprentice.at
+  description: An opportunity to sustainably satisfy the growing need for talented web professionals.
+
 people:
   - person:
       name: Kasey Bonifacio
-      photo: kasey-bonifacio.svg
+      photo: kasey-bonifacio
       url: https://twitter.com/_kaseybon
       summary: "I'm passionate about web development and love constantly learning new ways to make the web more awesome. Before starting the Sparkbox apprenticeship, I had three years of frontend design and development under my belt. Once the apprenticeship is finished, I plan to be on the path to become a full-stack developer. When I can pry myself away from the computer, I can be found spending time with family, cooking, or being crafty."
   - person:
       name: Lauren Dorman
-      photo: lauren-dorman.svg
+      photo: lauren-dorman
       url: http://twitter.com/laurendorman
       summary: "I'm a designer and frontend developer who is passionate about making the web both beautiful and usable. I pride myself on staying in the loop on current design trends and practices. I'm a firm believer that learning is something that you should never stop doing. There is always an opportunity to grow, learn, and share best practices with people around you. When my eyes aren't glued to a screen, I enjoy cycling, discovering new tunes, and traveling."
   - person:
       name: Dan Rosenthal
-      photo: dan-rosenthol.svg
+      photo: dan-rosenthal
       url: https://twitter.com/danmrosenthal
       summary: "Before my Sparkbox apprenticeship, I wrote frontend code and copy for Uncrate and Devour. Responsive design and web content are my thing. I'm passionate about the intersection of content and frontend code and am constantly working to improve my skills in JavaScript and Ruby. When I'm not being a desk monkey, you can find me tinkering with my '33 Ford Hotrod, keeping my Netflix queue in check, or putting the finishing touches on my latest Lego Star Wars set."
 
@@ -30,24 +34,44 @@ apprenticeship_categories:
 apprenticeships:
   - apprenticeship:
       company: 8th Light
-      duration: 3-12 months
+      duration: 3-9 months
       location: ["Chicago, IL", "Los Angeles, CA", "London, UK"]
-      category: web development
+      category: software
       cta: learn more and apply
       company_url: http://8thlight.com/
       apply_url: https://8thlight.com/apprenticeship/
       summary: |
-        We provide a small salary (with benefits) as apprentices learn multiple programming languages, design principles, test-driven development, clean architecture, and software development processes.
+        8th Light's modern apprenticeship program is perfect for life-long learners with a range of skills and experience who want to work with a group of hardworking, passionate, and disciplined developers. 8th Light will train you to be not only a strong developer, but also a strong consultant who discovers and solves challenging technical problems through productive partnerships.
   - apprenticeship:
       company: Detroit Labs
-      duration: 3 months
+      duration: 3-4 months
       location: ["Detroit, MI"]
-      category: web development
+      category: development
       cta: learn more and apply
       company_url: http://detroitlabs.com/
       apply_url: http://www.detroitlabs.com/apprentice/
       summary: |
-        Our Apprentice Program is an immersive training experience in software and mobile development involving classroom and hands-on training in programming fundamentals and app development. You'll gain experience in team collaboration, pairing, testing, CI, presenting, and project management.
+        The Detroit Labs Apprentice Program is an intensive, immersive training in software development. Apprentices receive classroom and hands-on training, gain experience in all aspects of software creation, and may be offered full-time employment with Detroit Labs partner companies upon successful completion of the program.
+  # - apprenticeship:
+  #     company: DevMynd
+  #     duration: 3-6 months
+  #     location: ["Chicago, IL"]
+  #     category: development
+  #     cta: learn more and apply
+  #     company_url: https://devmynd.com/
+  #     apply_url: https://devmynd.com/jobs/apprenticeship/
+  #     summary: |
+  #       As an apprentice in our design and development program, you will split your time between working on real client projects alongside our engineers, and learning efforts (reading, blogging, exercises and challenges, as well as a personal project).
+  # - apprenticeship:
+  #     company: DevMynd
+  #     duration: 3-6 months
+  #     location: ["Chicago, IL"]
+  #     category: design
+  #     cta: learn more and apply
+  #     company_url: https://devmynd.com/
+  #     apply_url: https://devmynd.com/jobs/apprenticeship/
+  #     summary: |
+  #       As an apprentice in our design and development program, you will split your time between working on real client projects alongside our engineers, and learning efforts (reading, blogging, exercises and challenges, as well as a personal project).
   - apprenticeship:
       company: DevMynd
       duration: 3-6 months
@@ -72,12 +96,52 @@ apprenticeships:
       company: Fresh Tilled Soil
       duration: 4 months
       location: ["Watertown, MA"]
-      category: web design
+      category: ux
       cta: learn more and apply
       company_url: http://www.freshtilledsoil.com/
       apply_url: http://www.freshtilledsoil.com/aux/
       summary: |
-        We turn promising designers and developers into user experience pros through structured learning, one-on-one mentorship, and real-world experience. Our apprentices are early career web professionals who aspire to be leaders in the field by building beautiful, engaging web and mobile products.
+        We turn promising designers and developers into UX pros through structured learning, one-on-one mentorship, and real-world experience. Our apprentices are early career web professionals who aspire to be leaders in the field by building beautiful, engaging web and mobile products.
+  # - apprenticeship:
+  #     company: Hashrocket
+  #     duration: 6 months
+  #     location: ["Chicago, IL", "Jacksonville Beach, FL"]
+  #     category:
+  #     cta: learn more and apply
+  #     company_url: http://www.hashrocket.com/
+  #     apply_url: http://www.hashrocket.com/contact-us/jobs/apprentice/
+  #     summary: |
+  #       The Hashrocket apprenticeship takes candidates with some professional software development experience and turns them into world-class Rails consultants through pairing with other apprentices as well as seasoned Rocketeers. You'll work on client projects and smaller training apps to build up your Rails knowledge.
+  # - apprenticeship:
+  #     company: IFTTT
+  #     duration:
+  #     location: ["San Francisco, CA"]
+  #     category: software
+  #     cta: learn more and apply
+  #     company_url: http://www.ifttt.com/
+  #     apply_url: http://www.ifttt.com/apprenticeship
+  #     summary: |
+  #       You'll hack on exciting stacks in our service-oriented architecture, getting experience working with things like Rails, Node.js, Redis, and PostgreSQL at scale. You'll also stocked with IFTTT-enabled gear, so you can deck out your living room with Hue light bulbs or graph your sleep patterns with the Jawbone UP.
+  # - apprenticeship:
+  #     company: Lockheed Martin
+  #     duration:
+  #     location: ["Springfield, MO"]
+  #     category: development
+  #     cta: learn more and apply
+  #     company_url: http://www.lockheedmartin.com/
+  #     apply_url: 'http://search.lockheedmartinjobs.com/ShowJob/Id/30744/Multi%20Media,%20GIS%20Developer%20Apprentice'
+  #     summary: |
+  #       The GIS Developer Apprentice will assist in the design, development, and testing of GIS applications, while implementing solutions using ESRI’s ArcGIS suite. The apprentice will use ArcGIS for server geoprocessing services and collaborate in creating intuitive user interfaces and tools that will appeal to both novice and expert users of geospatial applications.
+  # - apprenticeship:
+  #     company: Logical Media Group
+  #     duration:
+  #     location: ["Chicago, IL"]
+  #     category: development
+  #     cta: learn more and apply
+  #     company_url: http://www.logicalmediagroup.com/
+  #     apply_url: 'http://www.indeed.com/cmp/Logical-Media-Group/jobs/Wordpress-Developer-Apprentice-f69ecba4e444d70d?sjdu=QwrRXKrqZ3CNX5W-O9jEvW9kAlEKJhSVFnYBmcB0y6lqHvqGeG5KLLAXkn5r_OwzVHmpw7S7TH97eYJbGoyIuv2ykA_ctx1dqecIbb7ND9E'
+  #     summary: |
+  #       We’re looking to hire a recent college graduate to fulfill the duties of a Wordpress developer apprentice. We are looking for a detail-oriented, highly-motivated and tenacious individual who is excited about becoming a part of a rapidly-expanding company in a booming industry.
   - apprenticeship:
       company: Hashrocket
       duration: 6 months
@@ -122,12 +186,22 @@ apprenticeships:
       company: Merge
       duration: 3 months
       location: ["Greenville, SC"]
-      category: web development
+      category: development
       cta: learn more and apply
       company_url: http://www.mergeagency.com/
       apply_url: http://www.mergeagency.com/careers
       summary: |
         Ours is a 12-week apprenticeship program for web developers. You will work side by side with our experienced team members and be mentored in high-level digital initiatives by our team, which includes our Creative Director, Digital Strategist, Project Manager and Merge’s CEO.
+  # - apprenticeship:
+  #     company: Nerdery
+  #     duration: 3 months
+  #     location: ["Minneapolis, MN"]
+  #     category: development
+  #     cta: learn more and apply
+  #     company_url: https://nerdery.com/
+  #     apply_url: https://nerdery.com/careers
+  #     summary: |
+  #       Apprentices selected for our program will develop their user experience skills through 12 weeks of focused, real-world work experience, close mentoring, workshops, and detailed tracking of their development.
   - apprenticeship:
       company: Nerdery
       duration: 3 months
@@ -142,7 +216,7 @@ apprenticeships:
       company: Sparkbox
       duration: 6 months
       location: ["Dayton, OH"]
-      category: web development
+      category: development
       cta: learn more and apply
       company_url: http://seesparkbox.com
       apply_url: http://apprentices.seesparkbox.com
@@ -152,7 +226,7 @@ apprenticeships:
       company: thoughtbot
       duration: 3 months
       location: ["Boston, MA", "San Francisco, CA"]
-      category: web design
+      category: design
       cta: learn more and apply
       company_url: https://thoughtbot.com/
       apply_url: http://www.apprentice.io/
@@ -162,7 +236,7 @@ apprenticeships:
       company: thoughtbot
       duration: 3 months
       location: ["Boston, MA", "San Francisco, CA"]
-      category: web development
+      category: development
       cta: learn more and apply
       company_url: https://thoughtbot.com/
       apply_url: http://www.apprentice.io/
@@ -172,7 +246,7 @@ apprenticeships:
       company: thoughtbot
       duration: 3 months
       location: ["Boston, MA", "San Francisco, CA"]
-      category: mobile development
+      category: mobile
       cta: learn more and apply
       company_url: https://thoughtbot.com/
       apply_url: http://www.apprentice.io/
@@ -180,14 +254,24 @@ apprenticeships:
         We want those ready to advance to the next level in their career. The program is ideal for developers at an intermediate level with Objective-C or Swift.
   - apprenticeship:
       company: Upstatement
-      duration:
+      duration: 3 months
       location: ["Boston, MA"]
-      category: web development
+      category: design
+      cta: learn more and apply
+      company_url: https://www.upstatement.com/
+      apply_url: http://www.upstatement.com/careers/design-apprentice/
+      summary: |
+        We're looking for someone to join our team and help us make the next batch of great things. You must have great design thinking, awesome work and an understanding of HTML/CSS. Our team is on the smaller side and you’ll be right in the mix with our other designers and developers.
+  - apprenticeship:
+      company: Upstatement
+      duration: 3 months
+      location: ["Boston, MA"]
+      category: development
       cta: learn more and apply
       company_url: https://www.upstatement.com/
       apply_url: http://www.upstatement.com/careers/development-apprentice/
       summary: |
-        A design or development apprenticeship at Upstatement is more than an internship. You'll be a full-fledged member of the team, contributing meaningful work for clients like ESPN, Random House and Harvard. It's a great way to get experience, get paid, and find a foothold in our industry.
+        Being an apprentice at Upstatement means there’s less coffee-fetching and more git fetching. By the end of your tenure, you will have a broader view of the fast-paced consulting services industry as well as increased programming and communications skills. These alone would make you a formidable resource to any company. This is a paid position where you’ll get more experience with Front-end Development, WordPress, and the art of client services.
 
 home:
   title:  Apprenticeships
@@ -234,11 +318,11 @@ about:
       - paragraph: "As apprentices ourselves, we learned firsthand the value of participating in an apprenticeship. Getting immersed in code was the best way to learn a modern approach to building the web. We got to pair with professional developers, had regular reviews, and dove deep into the world of Object Oriented Programming, Test Driven Development, and creating modular frontend code. It was the best way possible to expand on our existing industry experience, and it gave us the tools we needed for a successful career on the web."
   nav:
     - item:
-      text: submit your apprenticeship
-      url: /submit/
-    - item:
       text: see available apprenticeships
       url: /
+    - item:
+      text: submit your apprenticeship
+      url: /submit/
 
 submit:
   title: Submit
@@ -247,7 +331,10 @@ submit:
     header: Submit an Apprenticeship
   guidelines:
     text:
+      - paragraph: "You understand the benefit of apprenticeships—you get it, you really get it—and now you’re ready to start listing yours. That’s awesome, congrats. All you need to do is fill out this little form, send it off to us, and we’ll review your submission and get it up on the site. Pretty simple."
+      - paragraph: "But first, a little bit about what we’re looking for. Your apprenticeship must be paid, it must be focused on education (at least half of the apprentice’s time should be spent learning), and it must be centered around building the web. That’s really it."
   form:
+    header: Get On Board
     compensation:
       label: Is your apprenticeship a paid opportunity?
       name: compensation
@@ -268,30 +355,33 @@ submit:
       type: url
       placeholder: http://
     duration:
-      label: Duration
+      label: Duration (in months)
       name: duration
       id: duration
-      type: range
+      type: number
     category:
       label: Category
       name: category
       id: category
       categories:
-        - item: web development
-        - item: software development
-        - item: mobile development
-        - item: web design
+        - item: Select One
+        - item: Development
+        - item: Design
+        - item: Software
+        - item: Mobile
+        - item: UX
     summary:
       label: Summary/Abstract
       name: summary
       id: summary
       type: text
-      hint: What will the apprentices spend their time doing? How much of an education focus is there? What languages will be studied?
+      placeholder: What will the apprentices spend their time doing? How much of an education focus is there? What languages will be studied?
     location:
       label: Location(s)
       name: location
       id: location
       type: text
+      placeholder: "Dayton, OH"
     learn_more:
       label: Learn more link
       name: learn_more
@@ -303,7 +393,7 @@ submit:
       name: email
       id: email
       type: email
-      placeholder: Your email
+      placeholder: you@example.com
     button:
       text: Submit
       type: submit
@@ -314,6 +404,13 @@ submit:
     - item:
       text: see available apprenticeships
       url: /
+
+thank_you:
+  title: Thank You
+  content_pullout:
+    text:
+      - paragraph: "Your apprenticeship is en route to the mothership."
+      - paragraph: "We'll review and get back to you soon."
 
 footer:
   text: Your vehicle for this journey provided by

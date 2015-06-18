@@ -1,22 +1,37 @@
+.form { @include rem(margin, 2, 0, 4); }
+.form__section {
+  box-sizing: border-box;
+  @include rem( padding, 0, 0, 2, 0 );
+  @include sb-media( 45em ) {
+    @include rem( padding, 0, 0, 2, 1.5 );
+  }
+}
 .form__label {
   font-family: $secondary-font;
   font-weight: bold;
-  font-size: 0.75em;
-  @include rem( margin, 1, 0 );
+  @include rem( font-size, .9 );
+  @include rem( margin, 2, 0, .75 );
   text-transform: uppercase;
 }
 .form__radio,
 .form__input,
 .form__select,
 .form__textarea,
-.form__button {
+.form__button,
+.form__number {
   border: 4px solid $c--iceberg;
   box-sizing: border-box;
+  border-radius: 0;
   &:focus {
     border: 4px solid $c--juniper;
     outline: none;
+    transition: border .5s;
   }
 }
+.form__select,
+.form__number { 
+  width: 100%;
+} 
 .form__radio {
   background-color: transparent;
   border: 4px solid $c--iceberg;
@@ -29,64 +44,60 @@
   @include rem( width, 1.5 );
   vertical-align: middle;
   -webkit-appearance: none;
+  appearance: none;
   &:checked {
     background-color: $c--juniper;
     box-shadow: inset 0 0 0 .1875em $c--white;
-    transition: background .15s, box-shadow .1s; 
+    transition: background .15s, box-shadow .1s, border .5s; 
   }
 }
-.form__input {
+.form__input,
+.form__textarea {
   font-family: $secondary-font;
   @include rem( padding, .75 );
   width: 100%;
-  &::-webkit-input-placeholder {
-  text-transform: uppercase;
-  }
+}
+.form__number {
+  @include rem( padding, .75 );
+  @include rem( margin-right, .5 );
+}
+.form__radio-text {
+  font-family: $secondary-font;
+  @include rem( font-size, .75);
 }
 .form__select {
+  @include rem( font-size, .75);
   background: transparent url(../img/icon-down-arrow.svg) no-repeat 95% center;
   border-radius: 0;
-  text-transform: uppercase;
   -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
   @include rem( padding, .75 );
 }
 .form__textarea {
+  @include rem( font-size, .75);
   @include rem( height, 6 );
   resize: none;
-  width: 100%;
 }
-.form__range {
-  background-color: $c--white;
-  border: 4px solid $c--iceberg;
-  @include rem( border-radius, .5 );
-  @include rem( height, .75 );
+input[type='number'] { -moz-appearance: textfield; }
+::-webkit-inner-spin-button { -webkit-appearance: none;}
+::-webkit-outer-spin-button { -webkit-appearance: none;}
+input,
+textarea {
+  color: $c--deep-sea-green;
+  &::-webit-input-placeholder { color: $c--shady-lady; }
+  &:-moz-placeholder { color: $c--shady-lady; }
+  &::-moz-placeholder { color: $c--shady-lady; }
+  &:-ms-input-placeholder { color: $c--shady-lady; }
+  &::placeholder { color: $c--shady-lady; }
+}
+input,
+textarea {
   -webkit-appearance: none;
-  &:focus {
-    border: 4px solid $c--juniper;
-    outline: none;
-      &::-webkit-slider-thumb {
-      background-color: $c--juniper;
-      border: 4px solid darken($c--juniper, 10%);
-    }
-  }
-  &::-webkit-slider-thumb {
-    background-color: $c--iceberg;
-    border: 4px solid darken($c--iceberg, 10%);
-    @include rem( border-radius, .5 );
-    cursor: pointer;
-    @include rem( height, 1.5 );
-    @include rem( width, .8 );
-    -webkit-appearance: none;
-  }
+  -moz-appearance: none;
 }
-.form__button {
-  background-color: transparent;
-  font-family: $secondary-font;
-  text-transform: uppercase;
-}
-.form__hint-text {
-  color: $c--mine-shaft;
-  font-size: .75em;
-  line-height: 1;
-  @include rem( margin-top, .5 );
+.lt-ie9 {
+  input[type="radio"] {
+    border: none;
+  }
 }

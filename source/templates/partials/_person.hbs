@@ -2,10 +2,10 @@
   <ul class="list">
     {{#forEach people}}
     <li class="list__item person">
-      <div class="grid grid--person">
-        <div class="grid__item grid__item--one-quarter stagger">
-          <a href="{{person.url}}" title="{{person.name}}">
-            <img class="person__photo" src="../assets/img/{{person.photo}}" alt="{{person.name}}">
+      <div class="grid">
+        <div class="grid__item grid__item--one-quarter">
+          <a class="person__photo" href="{{person.url}}" title="{{person.name}}">
+            <img src="../assets/img/{{person.photo}}.png" alt="{{person.name}}" />
           </a>
         </div>
         <div class="grid__item grid__item--three-quarters">
