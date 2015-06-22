@@ -176,7 +176,7 @@ apprenticeships:
       location: ["Boston, MA"]
       category: design
       cta: learn more and apply
-      company_url: https://www.upstatement.com/
+      company_url: http://www.upstatement.com/
       apply_url: http://www.upstatement.com/careers/design-apprentice/
       summary: |
         We're looking for someone to join our team and help us make the next batch of great things. You must have great design thinking, awesome work and an understanding of HTML/CSS. Our team is on the smaller side and you’ll be right in the mix with our other designers and developers.
@@ -186,7 +186,7 @@ apprenticeships:
       location: ["Boston, MA"]
       category: development
       cta: learn more and apply
-      company_url: https://www.upstatement.com/
+      company_url: http://www.upstatement.com/
       apply_url: http://www.upstatement.com/careers/development-apprentice/
       summary: |
         Being an apprentice at Upstatement means there’s less coffee-fetching and more git fetching. By the end of your tenure, you will have a broader view of the fast-paced consulting services industry as well as increased programming and communications skills. These alone would make you a formidable resource to any company. This is a paid position where you’ll get more experience with Front-end Development, WordPress, and the art of client services.
