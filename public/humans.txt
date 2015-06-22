@@ -1,0 +1,82 @@
+/* the humans responsible & colophon */
+/* humanstxt.org */
+
+/* TEAM */
+
+  Developer: Kasey Bonifacio
+  Site: http://kaseybon.com
+  Twitter: _kaseybon
+  Location: Dayton, OH
+
+  Developer: Lauren Dorman
+  Site: https://laurendorman.io
+  Twitter: laurendorman
+  Location: Dayton, OH
+
+  Developer: Dan Rosenthal
+  Site: https://danrosenthal.me
+  Twitter: danmrosenthal
+  Location: Cincinnati, OH
+
+/* THANKS */
+  Names (& URL):
+
+/* SITE */
+  Standards: HTML5, CSS3
+  Components: Modernizr
+  Software:
+
+                                                                                `-
+                                                                              `-/+/`
+                                                                           `-/yhy/
+                                                                        .-+ydmds:
+                                                                     `-/yhdmmho-
+                                                                  `-+shmmmmmd+.
+                                                              ``-+ohmmmmmmmh+`
+                                                            `-/shmmmmmmmmdy/`
+                                                         `-+sdmmmmmmmmmmms:`
+                .///////////////////////////////////////+yhdmmmmmmmmmmmmms/-.`
+                +mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmdhyssdmmmmmmmmddys/-`
+                +mmmmmddddddddddddddddddddddddmmmmmmmmmmmdho:.`-ommmmddddmmmmmdyo:`
+                +mmmmy+::::::::::::::::::::::/dmmmmmmmmh+:.`  -ohmmmy+:::/+ohmmmdy+.
+                +mmmmy:                   `-+smmmmddyo/.`    :sdmmdy:`     `.ohmmmdo.
+                +mmmmy:                `:+sdmmmmdy+:.`     `:hmmmds-`        `/hmmmd/`
+                +mmmmy:             .-/sddmmmdso/.`       ./ymmmds.           .smmmmo.
+                +mmmmy:          `-+yddmmmhyo-.`         -+ymmmho.            .smmmmo.
+                +mmmmy:       .-+yymmmmhh+:.`           -sdmmmy/.            `+hmmmd/`
+                +mmmmy:    `-+shmmmmdho:.`            `-sdmmmy:`           `.ohmmmmo.
+                +mmmmy: `:+shmmmmdy/:.               `:smmmmmo/::::::::://+yhmmmdh+`
+                +mmmmho+sddmmmdso/.`                ./ymmmmmmdddddddddddmmmmmmdyo:`
+                +mmmmmmmmmmdys:.`                  .+ymmmmmmmmmmmmmmmmmmmmmdys/-`
+               .ommmmmmmhho:.                      ://///////////////////::.`
+            `-+ydmmmmhso-.`
+         .:+yhmmmmhh+:.
+     `.-oshmmmmmmd+-...........................................................................`
+   `:+sdmmmmmmmmmmdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddhso:.
+.:+hmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmdhs/.
+-/++oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooossmmmmmmmmmds/-`
+                                                                         `./ommmmmmdo/-
+                                                                      `.+shmmmmmho/.`
+                                                                   `-/ohmmmmmys/-`
+                :yyyyyyyyyyyyyyyyyyyyyyyyyyso-                  `-/sdmmmmmmmm/.`
+                +mmmmmmmmmmmmmmmmmmmmmmmmmhs:                `-/sddmmmmmmmmmmds+-`
+                +mmmmdhyyyyyyyyyyyyhmmmmmdo:              `.:yydmmmdhhyyhhhdmmmdy+.
+                +mmmmy:```````````.odmmmd+-            `-+symmmmddo:.`````.:odmmmds-`
+                +mmmmy:          .+hmmmh+.          `-/ohmmmmmho/-`          :sdmmms-
+                +mmmmy:         -ommmmy+`        `./ohmmmmmho/.`              :ymmmm+`
+                +mmmmy:       `:sdmmmy:`      `-/oddmmmmys/.`                 .ommmmo.
+                +mmmmy:       /sdmmho:`    `-/syhmmmdhs/.`                    -smmmmo.
+                +mmmmy:     `/dmmmd+.   `-/sddmmmdds/.`                      .ohmmmy:
+                +mmmmy:````.+hmmmd+```-/yhdmmmmmh/-````````````````````````-/hmmmmy:`
+                +mmmmhsoooosymmmmh::+symmmmmmmmmhooooooooooooooooooooooosssymmmmhs:`
+                +mmmmmmmmmmmmmmmmddmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmyo:.
+                /hhhhhhhmmmmmmmmmmmmmdhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhys//.`
+                `.....-ommmmmmmmmmmss/-...................................``
+                     .+hmmmmmmmhys:.
+                    -+hmmmmmddo:.`
+                   -ymmmmmho:.
+                 `:ymmmh+:.
+                `:smyo/.`
+               ./o+:.
+               ::.`
+
