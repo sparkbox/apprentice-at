@@ -43,15 +43,33 @@
       font-weight: normal;
     }
   }
-  .person__name a:after, .apprenticeship__header a:after {
-    display: block;
-  }
   .person__photo {
     img {
       max-width: 100pt;
     } 
     &:after {
       display: none;
+    }
+  }
+  .apprenticeship__button.button {
+    width: auto;
+    border: none;
+    display: inline;
+    padding: 0;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    &:after {
+      content: ": " attr(href);
+      display: inline-block;
+      width: auto;
+      height: auto;
+      opacity: 1 !important;
+      font-family: $secondary-font;
+      font-size: 12pt;
+      font-weight: normal;
+      position: static;
+      text-transform: lowercase;
     }
   }
 
