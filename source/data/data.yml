@@ -330,5 +330,12 @@ thank_you:
       - paragraph: "Your apprenticeship is en route to the mothership."
       - paragraph: "We'll review and get back to you soon."
 
+error:
+  title: '404'
+  content_pullout:
+    text:
+      - paragraph: "Uh oh! Looks like you've gotten lost in orbit."
+      - paragraph: "Please return home."
+
 footer:
   text: Your vehicle for this journey provided by
