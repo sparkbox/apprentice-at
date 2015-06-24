@@ -1,4 +1,5 @@
 {
   "name": "apprentice-at",
-  "root": "dist"
+  "root": "dist",
+  "error_page": "error/index.html"
 }

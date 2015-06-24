@@ -1,0 +1,82 @@
+
+@media print {
+  body {
+    color: black;
+    font-size: 11pt;
+  }
+  .svg-fallback h1 {
+    display: block;
+    font-size: 50pt;
+    padding: 20pt 0;
+    margin: 0;
+  }
+  .content__header--inside h1 {
+    margin: 20pt 0 !important;
+  }
+  .content__header--inside {
+    margin-bottom: 20pt;
+  }
+  .content {
+    padding: 0;
+  }
+  .content__section h3 {
+    font-size: 20pt;
+  }
+  .footer {
+    text-align: center;
+    padding: 0;
+    margin: 20pt 0;
+  }
+
+  // display the links
+  a {
+    width: auto;
+    border: none;
+    display: inline;
+    padding: 0;
+    margin: 0;
+    &:after {
+      content: " (" attr(href) ") ";
+      display: block;
+      font-family: $secondary-font;
+      font-size: 12pt;
+      font-weight: normal;
+    }
+  }
+  .person__photo {
+    img {
+      max-width: 100pt;
+    } 
+    &:after {
+      display: none;
+    }
+  }
+  .apprenticeship__button.button {
+    width: auto;
+    border: none;
+    display: inline;
+    padding: 0;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    &:after {
+      content: ": " attr(href);
+      display: inline-block;
+      width: auto;
+      height: auto;
+      opacity: 1 !important;
+      font-family: $secondary-font;
+      font-size: 12pt;
+      font-weight: normal;
+      position: static;
+      text-transform: lowercase;
+    }
+  }
+
+  // hide the links
+  .header--inside, .header--is-animated, .action, .report, .pullout {
+    display: none;
+  }
+}
+
+
