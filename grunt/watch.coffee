@@ -26,4 +26,10 @@ module.exports = (grunt) ->
     options:
       livereload: true
 
+  tests:
+    files: "tests/spec/**/*"
+    tasks: "coffee"
+    options:
+      livereload: true
+
   grunt.loadNpmTasks 'grunt-contrib-watch'
