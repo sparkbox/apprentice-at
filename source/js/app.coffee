@@ -1,8 +1,15 @@
-class Coffee
-  constructor: (@name, @strength=1, @inventory=0) ->
- 
-  pourClick: ->
-    $("#pour-#{@name}").click (event) =>
-      if @inventory isnt 0
-        @inventory -= 1
-        alert "Poured a cup of #{@name}"
+class Calculator
+    constructor: ->
+        console.log "Instantiated new Calculator instance"
+
+    add: (num1, num2) ->
+        num1 + num2
+
+    subtract: (num1, num2) ->
+        num1 - num2
+
+    multiply: (num1, num2) ->
+        num1 * num2
+
+    divide: (num1, num2) ->
+        num1/num2
