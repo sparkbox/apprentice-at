@@ -1,15 +1,21 @@
-class Calculator
-    constructor: ->
-        console.log "Instantiated new Calculator instance"
+class Categories
+  constructor: ->
 
-    add: (num1, num2) ->
-        num1 + num2
+  getCategories: ->
+    categories = []
 
-    subtract: (num1, num2) ->
-        num1 - num2
+    $('.apprenticeship').each ->
+      categories.push $(this).data('category')
 
-    multiply: (num1, num2) ->
-        num1 * num2
+    uniqueCategories = $.unique categories
 
-    divide: (num1, num2) ->
-        num1/num2
+    return uniqueCategories
+    console.log uniqueCategories
+
+class Apprenticeship
+    constructor: (category, hidden=false) ->
+      @category = category
+      @hidden = hidden
+
+    hide: ->
+      @hidden = true
