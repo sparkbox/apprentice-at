@@ -1,7 +1,7 @@
 <ul class="list list--block">
   {{#forEach apprenticeships}}
-  <li class="list__item" data-category="{{ apprenticeship.category }}">
-    <article class="apprenticeship grid">
+  <li class="list__item">
+    <article class="apprenticeship grid" data-category="{{ apprenticeship.category }}">
       <div class="grid__item grid__item grid__item--two-thirds">
         <header class="apprenticeship__header">
           <h1 class="apprenticeship__header"><a href="{{apprenticeship.company_url}}">{{apprenticeship.company}}</a></h1>
