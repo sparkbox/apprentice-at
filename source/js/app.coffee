@@ -5,25 +5,19 @@ class Categories
     categories = ["software", "development", "ux", "design", "mobile"]
     return categories
 
-
-
-
-
 class Apprenticeships
   constructor: (apprenticeships) ->
     @apprenticeships = apprenticeships
 
   buildApprenticeships: ->
     for apprenticeship, category of @apprenticeships
-      apprenticeshipObject = new Apprenticeship(category, apprenticeship)
-
-
+      apprenticeshipObject = new Apprenticeship(apprenticeship, category)
 
 class Apprenticeship
-  constructor: (category, name, hidden=false) ->
-    @category = category
+  constructor: (name, category, hidden=false) ->
     @name = name
+    @category = category
     @hidden = hidden
 
-  hide: ->
+  hideApprenticeship: ->
     @hidden = true
