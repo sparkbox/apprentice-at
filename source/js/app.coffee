@@ -14,12 +14,8 @@ class Apprenticeships
     @apprenticeships = apprenticeships
 
   buildApprenticeships: ->
-    apprenticeshipsList = []
     for apprenticeship, category of @apprenticeships
-      apprenticeship = new Apprenticeship(category, apprenticeship)
-      apprenticeshipsList.push(apprenticeship)
-
-    @apprenticeshipsList = apprenticeshipsList
+      apprenticeshipObject = new Apprenticeship(category, apprenticeship)
 
 
 
