@@ -2,20 +2,32 @@ class Categories
   constructor: ->
 
   getCategories: ->
-    categories = []
+    categories = ["software", "development", "ux", "design", "mobile"]
+    return categories
 
-    $('.apprenticeship').each ->
-      categories.push $(this).data('category')
 
-    uniqueCategories = $.unique categories
 
-    return uniqueCategories
-    console.log uniqueCategories
+
+
+class Apprenticeships
+  constructor: (apprenticeships) ->
+    @apprenticeships = apprenticeships
+
+  buildApprenticeships: ->
+    apprenticeshipsList = []
+    for apprenticeship, category of @apprenticeships
+      apprenticeship = new Apprenticeship(category, apprenticeship)
+      apprenticeshipsList.push(apprenticeship)
+
+    @apprenticeshipsList = apprenticeshipsList
+
+
 
 class Apprenticeship
-    constructor: (category, hidden=false) ->
-      @category = category
-      @hidden = hidden
+  constructor: (category, name, hidden=false) ->
+    @category = category
+    @name = name
+    @hidden = hidden
 
-    hide: ->
-      @hidden = true
+  hide: ->
+    @hidden = true
