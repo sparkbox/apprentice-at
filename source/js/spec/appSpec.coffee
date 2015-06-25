@@ -24,3 +24,12 @@ describe 'Apprenticeships', () ->
 
   it 'should create objects that know about their own name', () ->
     expect(apprenticeships.buildApprenticeships()[2].name).toBe 'upstatement'
+
+describe 'Apprenticeship', () ->
+  apprenticeship = {}
+  beforeEach ->
+    apprenticeship = new Apprenticeship('sparkbox', 'development')
+
+  it 'should hide if you tell it to hide', () ->
+    apprenticeship.hideApprenticeship()
+    expect(apprenticeship.hidden).toBe true
