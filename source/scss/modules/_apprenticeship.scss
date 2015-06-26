@@ -1,6 +1,6 @@
 .apprenticeship {
-  @include rem( padding-bottom, 2 );
-  @include rem( padding-top, 2 );
+  @include rem( padding-bottom, 3 );
+  @include rem( padding-top, 1 );
   p {
     margin-top: 0;
   }
