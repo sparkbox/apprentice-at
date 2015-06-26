@@ -1,11 +1,15 @@
-describe 'Categories', () ->
-  categories = {}
-  beforeEach ->
-    categories = new Categories()
+describe 'Apprenticeship', () ->
+  apprenticeship = {}
 
-  it 'should return a list of categories', () ->
-    expect(categories.getCategories().length).toBe 5
+  it 'should hide if you tell it to hide', () ->
+    apprenticeship = new Apprenticeship('sparkbox', 'development')
+    apprenticeship.hideApprenticeship()
+    expect(apprenticeship.hidden).toBe true
 
+  it 'should show if you tell it to show', () ->
+    apprenticeship = new Apprenticeship('sparkbox', 'development', true)
+    apprenticeship.showApprenticeship()
+    expect(apprenticeship.hidden).toBe false
 
 describe 'Apprenticeships', () ->
   apprenticeships = {}
@@ -24,12 +28,3 @@ describe 'Apprenticeships', () ->
 
   it 'should create objects that know about their own name', () ->
     expect(apprenticeships.buildApprenticeships()[2].name).toBe 'upstatement'
-
-describe 'Apprenticeship', () ->
-  apprenticeship = {}
-  beforeEach ->
-    apprenticeship = new Apprenticeship('sparkbox', 'development')
-
-  it 'should hide if you tell it to hide', () ->
-    apprenticeship.hideApprenticeship()
-    expect(apprenticeship.hidden).toBe true
