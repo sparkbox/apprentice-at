@@ -2,12 +2,19 @@
 .is-animated-header {
   display: block;
   width: 100%;
+  height: 100%;
 }
 // Astronaut
 #Astronaut path {
+  -webkit-animation: bounce linear 9.5s infinite;
   animation: bounce linear 9.5s infinite;
 }
 @keyframes bounce {
+  0% {transform: translate(0px, 0px) rotate(0deg); } 
+  50% {transform: translate(0px, -8px) rotate(0deg); }
+  100%{transform: translate(0px, 0px) rotate(0deg); }
+}
+@-webkit-keyframes bounce {
   0% {transform: translate(0px, 0px) rotate(0deg); } 
   50% {transform: translate(0px, -8px) rotate(0deg); }
   100%{transform: translate(0px, 0px) rotate(0deg); }
@@ -18,16 +25,18 @@
     opacity: 0;
   }
 }
-.is-animated-header:hover {
-  .one {
-    animation: putter-one ease-out 1.25s infinite;
-  }
-  .two {
-    animation: putter-two ease-out 1.25s infinite;
-  }
-  .three {
-    animation: putter-three ease-out 1.25s infinite;
-  }
+
+.one {
+  -webkit-animation: putter-one ease-out 1.25s infinite;
+  animation: putter-one ease-out 1.25s infinite;
+}
+.two {
+  -webkit-animation: putter-two ease-out 1.25s infinite;
+  animation: putter-two ease-out 1.25s infinite;
+}
+.three {
+  -webkit-animation: putter-three ease-out 1.25s infinite;
+  animation: putter-three ease-out 1.25s infinite;
 }
 @keyframes putter-one {
   0% {opacity: 0; } 
@@ -47,8 +56,28 @@
   75% {opacity: 0; }
   100%{opacity: 0; }
 }
+
+@-webkit-keyframes putter-one {
+  0% {opacity: 0; } 
+  20% {opacity: 1; }
+  75% {opacity: 0; }
+  100%{opacity: 0; }
+}
+@-webkit-keyframes putter-two {
+  0% {opacity: 0; } 
+  40% {opacity: 1; }
+  75% {opacity: 0; }
+  100%{opacity: 0; }
+}
+@-webkit-keyframes putter-three {
+  0% {opacity: 0; } 
+  60% {opacity: 1; }
+  75% {opacity: 0; }
+  100%{opacity: 0; }
+}
 // Twinkling Stars
 .is-twinkling, is-twinkling path {
+  -webkit-animation: twinkle ease-out 5s infinite;
   animation: twinkle ease-out 5s infinite;
   opacity: 0;
 }
@@ -99,8 +128,15 @@
   30% {opacity: 0; }
   100%{opacity: 0; } 
 }
+@-webkit-keyframes twinkle {
+  0% {opacity: 0; } 
+  20% {opacity: 1; } 
+  30% {opacity: 0; }
+  100%{opacity: 0; } 
+}
 // Smoke Plume
 .large-plume, .small-plume, .lone-plume, .circle-plume {
+  -webkit-animation: dash ease-out 1s forwards;
   animation: dash ease-out 1s forwards;
 }
 .large-order-1 {
@@ -165,6 +201,11 @@
   stroke-dashoffset: -23;
 }
 @keyframes dash {
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+@-webkit-keyframes dash {
   100% {
     stroke-dashoffset: 0;
   }
