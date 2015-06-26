@@ -3,13 +3,16 @@
 }
 .categories {
   border-top: 4px solid $c--iceberg;
+  border-bottom: 4px solid $c--iceberg;
   color: $c--mine-shaft;
   font-family: $secondary-font;
   font-size: .875em;
   font-weight: bold;
   @include rem( padding-top, 1 );
-  text-align: center;
   text-transform: uppercase;
+  @include sb-media( 40em ) {
+    text-align: center;
+  }
   @include sb-media( 45em ) {
     @include rem( margin-left, 2 );
     @include rem( margin-right, 2 );
@@ -26,13 +29,15 @@
 }
 .category__item.is-active a::after,
 .category__item a:hover::after {
-  background: $c--iceberg;
-  border-radius: 50%;
-  content: "";
-  display: block;
-  @include rem( height, 1 );
-  left: calc( 50% - .5rem );
-  position: absolute;
-  @include rem( top, 1.625 );
-  @include rem( width, 1 );
+  @include sb-media ( 40em ) {
+    background: $c--iceberg;
+    border-radius: 50%;
+    content: "";
+    display: block;
+    @include rem( height, 1 );
+    left: calc( 50% - .5rem );
+    position: absolute;
+    @include rem( top, 1.625 );
+    @include rem( width, 1 );
+  }
 }
