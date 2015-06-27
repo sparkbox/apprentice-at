@@ -1,4 +1,4 @@
-.no-svg .header {
+/*.no-svg .header {
   display: block;
 }
 .svg-fallback {
@@ -8,7 +8,7 @@
   .no-svg & {
     height: 0;
     position: relative;
-    padding-bottom: 44.5%; /* 16:7 */
+    padding-bottom: 44.5%;
     background:  url(../img/apprenticeships.png) top right no-repeat;
     background-size: contain;
     text-align: center;
@@ -41,7 +41,7 @@
       display: none;
     }
   }
-}
+}*/
 
 .header {
   text-align: center;
@@ -118,59 +118,5 @@
   background: url(../img/pullout-bg.jpg) no-repeat top left;
   &:before {
     display: none;
-  }
-}
-.header--is-animated {
-  width: 100%;
-}
-
-// SVG Responsiveness
-#Satellite, #Tower, #Truck_1_, #Small_Rocket, #Astronaut, #Large_Rocket {
-  display: none;
-  opacity: 0.0;
-  transition: all .25s ease-in-out;
-}
-#Small_Rocket {
-  @include sb-media( 47em ) {
-  opacity: 1.0;
-  display: block;
- }
-}
-#Satellite {
-  @include sb-media( 49em ) {
-  opacity: 1.0;
-  display: block;
- }
-}
-#Astronaut {
-  @include sb-media( 51em ) {
-  opacity: 1.0;
-  display: block;
- }
-}
-#Large_Rocket {
-  @include sb-media( 53em ) {
-  opacity: 1.0;
-  display: block;
- }
-}
-#Tower {
-  @include sb-media( 55em ) {
-  opacity: 1.0;
-  display: block;
- }
-}
-#Truck_1_ {
-  @include sb-media( 55em ) {
-  opacity: 1.0;
-  display: block;
- }
-}
-
-#Apprenticeships {
-  transform: scaleX(1.2) scaleY(1.2) translate( -320px, -70px );
-  transition: transform .5s ease-in-out;
-  @include sb-media( 45em ) {
-    transform: none;
   }
 }
