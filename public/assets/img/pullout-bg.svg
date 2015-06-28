@@ -13,17 +13,18 @@
   </symbol>
   
   <!-- left -->
-  <use xlink:href="#awesome_star" x="0" y="0" style="-webkit-transform: scale(0.9); transform: scale(0.9);"></use>
-  <use xlink:href="#awesome_star" x="50" y="30" style="-webkit-transform: scale(0.75); transform: scale(0.75);"></use>
-  <use xlink:href="#awesome_star" x="10" y="45" style="-webkit-transform: scale(1.5); transform: scale(1.5);"></use>
+  <use xlink:href="#awesome_star" x="0" y="0" transform="scale(0.9)"></use>
+  <use xlink:href="#awesome_star" x="50" y="30" transform="scale(0.07)"></use>
+  <use xlink:href="#awesome_star" x="10" y="45" transform="scale(1.15)"></use>
   <use xlink:href="#awesome_star" x="60" y="160"></use>
   <use xlink:href="#awesome_star" x="130" y="55"></use>
-  <use xlink:href="#awesome_star" x="200" y="20" style="-webkit-transform: scale(1.15); transform: scale(1.15);"></use>
+  <use xlink:href="#awesome_star" x="200" y="20" transform="scale(1.15)"></use>
   
   <!-- right -->
-  <use xlink:href="#awesome_star" x="590" y="25" style="-webkit-transform: scale(1.25); transform: scale(1.25);"></use>
-  <use xlink:href="#awesome_star" x="1150" y="100" style="-webkit-transform: scale(0.75); transform: scale(0.75);"></use>
+  <use xlink:href="#awesome_star" x="590" y="25" transform="scale(1.25)"></use>
+  <use xlink:href="#awesome_star" x="1150" y="100" transform="scale(0.75)"></use>
   <use xlink:href="#awesome_star" x="830" y="125"></use>
-  <use xlink:href="#awesome_star" x="750" y="10" style="-webkit-transform: scale(1.25); transform: scale(1.25);"></use>
-  <use xlink:href="#awesome_star" x="850" y="50" style="-webkit-transform: scale(1.15); transform: scale(1.15);"></use>
+  <use xlink:href="#awesome_star" x="750" y="10" transform="scale(1.25)"></use>
+  <use xlink:href="#awesome_star" x="850" y="50" transform="scale(1.15)"></use>
 </svg>
+
