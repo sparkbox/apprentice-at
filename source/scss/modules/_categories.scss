@@ -3,33 +3,45 @@
 }
 .categories {
   border-top: 4px solid $c--iceberg;
-  border-bottom: 4px solid $c--iceberg;
   color: $c--mine-shaft;
   font-family: $secondary-font;
   font-size: .875em;
   font-weight: bold;
-  @include rem( padding-top, 1 );
+  @include rem( padding-top, 2 );
   text-transform: uppercase;
-  @include sb-media( 40em ) {
-    text-align: center;
-  }
+
   @include sb-media( 45em ) {
+    border-bottom: 4px solid $c--iceberg;
+    text-align: center;
     @include rem( margin-left, 2 );
     @include rem( margin-right, 2 );
+    @include rem( padding-top, 1 );
   }
   .category__item {
-    @include rem( margin-right, 2 );
-      &:last-child {
-        margin-right: 0;
-      }
+    @include rem( margin-right, 1 );
+    margin-bottom: 1rem;
+    @include sb-media( 45em ) {
+      @include rem( margin-right, 2 );
+    }
+    &:last-child {
+      margin-right: 0;
+    }
     a {
+      background: $c--iceberg;
       position: relative;
+      @include rem( padding, .5 );
+      @include rem( border-radius, .5 );
+      @include sb-media( 45em ) {
+        background: transparent;
+        padding: 0;
+        border-radius: 0;
+      }
     }
   }
 }
 .category__item.is-active a::after,
 .category__item a:hover::after {
-  @include sb-media ( 40em ) {
+  @include sb-media ( 45em ) {
     background: $c--iceberg;
     border-radius: 50%;
     content: "";
