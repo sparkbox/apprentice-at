@@ -210,7 +210,7 @@ home:
     header: Available Apprenticeships
   content_callout:
     text: 
-      - paragraph: "Houston, we have a problem—with the web’s ever-changing nature, formal education no longer provides the training needed to produce capable web builders. So we look to methods of the past to train for careers of the future. Enter the apprenticeship—an opportunity to sustainably satisfy the growing need for talented web professionals."
+      - paragraph: "Houston, we have a problem—with the web’s ever-changing nature, formal education no longer provides all the training needed to produce web builders. So we look to methods of the past to train for careers of the future. Enter the apprenticeship—an opportunity to sustainably satisfy the growing need for talented web professionals."
   nav:
     - item:
       text: learn about apprenticeships
@@ -229,12 +229,12 @@ about:
       header: Why We Built This Site
   content_intro:
     text:
-      - paragraph: "We know that the standard education model can’t keep up with the web’s universe—curriculum becomes outdated as the tech we use quickly morphs into something new. Technologies come and go at light speed—far too fast for our education system to keep up. But the industry still needs qualified recruits as it grows towards a brighter future."
-      - paragraph: "Apprenticeships are temporary training programs (usually three months to a year), focused on teaching the process of building quality, intentional code to solve problems. Apprentices work alongside seasoned professionals, learning the tools of the trade in the real world, instead of a classroom—gaining experience that will benefit them (and the web as a whole) for a lifetime."
+      - paragraph: "We know that the standard education model can’t keep up with the web’s universe—curriculum becomes outdated as the tech we use quickly morphs into something new. Technologies come and go at light speed. But the industry still needs qualified recruits as it grows towards a brighter future."
+      - paragraph: "Apprenticeships are temporary training programs (usually three months to a year), focused on teaching the process of building quality, intentional code to solve problems. Apprentices work alongside seasoned professionals, learning the tools of the trade in the real world—gaining experience that will benefit them (and the web as a whole) for a lifetime."
   content_apprentice:
     header: Apprentices Learn While in Orbit
     text: 
-      - paragraph: "Apprentices get the benefit of learning from people who have been around the solar system—gaining practical knowledge of an industry where the barrier to entry can sometimes feel high. And they get paid to do it. Forget about shelling out your life savings for some boot camp, or going into debt to attend college."
+      - paragraph: "Apprentices get the benefit of learning from people who have been around the solar system—gaining practical knowledge of an industry where the barrier to entry can sometimes feel high. And they get paid to do it."
   content_company:
     header: Test-Flight Potential Hires
     text:

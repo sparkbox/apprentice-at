@@ -132,48 +132,48 @@
   </symbol>
   
   <!-- astronaut -->
-  <use xlink:href="#astronaut" x="50" y="150" style="-webkit-transform: scale(1.25); transform: scale(1.25);"></use>
+  <use xlink:href="#astronaut" x="50" y="150" transform="scale(1.25)"></use>
   
   <!-- rocket -->
-  <use xlink:href="#rocket" x="200" y="60" style="-webkit-transform: scale(.75); transform: scale(.75);"></use>
+  <use xlink:href="#rocket" x="200" y="60" transform="scale(.75)"></use>
   
   <!-- moon -->
-  <use xlink:href="#moon" x="900" y="10" style="-webkit-transform: scale(1.5); transform: scale(1.5);"></use>
+  <use xlink:href="#moon" x="900" y="10" transform="scale(1.5)"></use>
   
   <!-- left -->
   <!-- amazing stars -->
-  <use xlink:href="#amazing_star" x="120" y="100" style="-webkit-transform: scale(2); transform: scale(2);"></use>
-  <use xlink:href="#amazing_star" x="80" y="60" style="-webkit-transform: scale(1.25); transform: scale(1.25);"></use>
-  <use xlink:href="#amazing_star" x="330" y="100" style="-webkit-transform: scale(1.15); transform: scale(1.15);"></use>
-  <use xlink:href="#amazing_star" x="370" y="130" style="-webkit-transform: scale(1.15); transform: scale(1.15);"></use>
-  <use xlink:href="#amazing_star" x="520" y="90" style="-webkit-transform: scale(1.1); transform: scale(1.1);"></use>
-  <use xlink:href="#amazing_star" x="563" y="47" style="-webkit-transform: scale(1.1); transform: scale(1.1);"></use>
+  <use xlink:href="#amazing_star" x="120" y="100" transform="scale(2)"></use>
+  <use xlink:href="#amazing_star" x="80" y="60" transform="scale(1.25)"></use>
+  <use xlink:href="#amazing_star" x="330" y="100" transform="scale(1.15)"></use>
+  <use xlink:href="#amazing_star" x="370" y="130" transform="scale(1.15)"></use>
+  <use xlink:href="#amazing_star" x="520" y="90" transform="scale(1.1)"></use>
+  <use xlink:href="#amazing_star" x="563" y="47" transform="scale(1.1)"></use>
   
   <!-- awesome stars -->
-  <use xlink:href="#awesome_star" x="15" y="10" style="-webkit-transform: scale(0.9); transform: scale(0.9);"></use>
-  <use xlink:href="#awesome_star" x="20" y="85" style="-webkit-transform: scale(1.25); transform: scale(1.25);"></use>
+  <use xlink:href="#awesome_star" x="15" y="10" transform="scale(0.9)"></use>
+  <use xlink:href="#awesome_star" x="20" y="85" transform="scale(1.25)"></use>
   <use xlink:href="#awesome_star" x="100" y="220"></use>
-  <use xlink:href="#awesome_star" x="100" y="200" style="-webkit-transform: scale(1.25); transform: scale(1.25);"></use>
+  <use xlink:href="#awesome_star" x="100" y="200" transform="scale(1.25)"></use>
   <use xlink:href="#awesome_star" x="170" y="170"></use>
-  <use xlink:href="#awesome_star" x="280" y="300" style="-webkit-transform: scale(.75); transform: scale(.75);"></use>
+  <use xlink:href="#awesome_star" x="280" y="300" transform="scale(.75)"></use>>
   <use xlink:href="#awesome_star" x="130" y="45"></use>
-  <use xlink:href="#awesome_star" x="260" y="20" style="-webkit-transform: scale(1.15); transform: scale(1.15);"></use>
-  <use xlink:href="#awesome_star" x="300" y="30" style="-webkit-transform: scale(1.5); transform: scale(1.5);"></use>
+  <use xlink:href="#awesome_star" x="260" y="20" transform="scale(1.15)"></use>
+  <use xlink:href="#awesome_star" x="300" y="30" transform="scale(1.5)"></use>
   
   <!-- right -->
   <!-- amazing stars -->
-  <use xlink:href="#amazing_star" x="630" y="10" style="-webkit-transform: scale(2); transform: scale(2);"></use>
-  <use xlink:href="#amazing_star" x="630" y="60" style="-webkit-transform: scale(1.5); transform: scale(1.5);"></use>
-  <use xlink:href="#amazing_star" x="730" y="80" style="-webkit-transform: scale(1.75); transform: scale(1.75);"></use>
-  <use xlink:href="#amazing_star" x="2650" y="160" style="-webkit-transform: scale(.5); transform: scale(.5);"></use>
+  <use xlink:href="#amazing_star" x="630" y="10" transform="scale(2)"></use>
+  <use xlink:href="#amazing_star" x="630" y="60" transform="scale(1.5)"></use>
+  <use xlink:href="#amazing_star" x="730" y="80" transform="scale(1.75)"></use>
+  <use xlink:href="#amazing_star" x="2650" y="160" transform="scale(.5)"></use>
   
   <!-- awesome stars -->
-  <use xlink:href="#awesome_star" x="890" y="25" style="-webkit-transform: scale(1.25); transform: scale(1.25);"></use>
-  <use xlink:href="#awesome_star" x="1600" y="100" style="-webkit-transform: scale(0.75); transform: scale(0.75);"></use>
+  <use xlink:href="#awesome_star" x="890" y="25" transform="scale(1.25)"></use>
+  <use xlink:href="#awesome_star" x="1600" y="100" transform="scale(0.75)"></use>
   <use xlink:href="#awesome_star" x="1130" y="125"></use>
-  <use xlink:href="#awesome_star" x="960" y="40" style="-webkit-transform: scale(1.5); transform: scale(1.5);"></use>
-  <use xlink:href="#awesome_star" x="1230" y="100" style="-webkit-transform: scale(1.15); transform: scale(1.15);"></use>
-  <use xlink:href="#awesome_star" x="1800" y="240" style="-webkit-transform: scale(.75); transform: scale(.75);"></use>
-  <use xlink:href="#awesome_star" x="1650" y="240" style="-webkit-transform: scale(.85); transform: scale(.85);"></use>
-  <use xlink:href="#awesome_star" x="1600" y="270" style="-webkit-transform: scale(.85); transform: scale(.85);"></use>
+  <use xlink:href="#awesome_star" x="960" y="40" transform="scale(1.5)"></use>
+  <use xlink:href="#awesome_star" x="1230" y="100" transform="scale(1.15)"></use>
+  <use xlink:href="#awesome_star" x="1800" y="240" transform="scale(.75)"></use>
+  <use xlink:href="#awesome_star" x="1650" y="240" transform="scale(.85)"></use>
+  <use xlink:href="#awesome_star" x="1600" y="270" transform="scale(.85)"></use>
 </svg>
