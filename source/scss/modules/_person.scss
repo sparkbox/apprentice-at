@@ -5,7 +5,7 @@
     @include rem( padding-right, 2 );
     @include rem( margin-top, .75 );
   }
-  img {
+  img, object {
     margin: 0 auto;
     display: block;
     width: 200px;
