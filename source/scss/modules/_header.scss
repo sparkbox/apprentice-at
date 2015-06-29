@@ -10,10 +10,6 @@
     a {
       position: relative;
       display: block;
-      &:hover, &:active, &:visited {
-        position: relative;
-        display: block;
-      }
       &::before {
         background: $c--ice-cold;
         bottom: -1rem;
@@ -37,7 +33,7 @@
           left: -4.25rem;
         }
       }
-      &:hover::before, &:active::before, &:visited::before {
+      &:hover::before,&:active, &:visited {
         opacity: 1.0;
       }
     }
