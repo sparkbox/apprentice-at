@@ -63,8 +63,12 @@ $ ->
 
   # Adds a click handler to the filter buttons
   $('.category__item').on 'click', (e) ->
-    e.preventDefault()
+    if e.preventDefault 
+      e.preventDefault()
+    else
+      event.returnValue = false
 
+    console.log "you clicked"
     # Adds and removes active state on filter buttons
     $('.category__item.is-active').removeClass('is-active')
     $(@).addClass('is-active')
