@@ -19,7 +19,7 @@
 }
 .apprenticeship__header {
   color: $c--deep-sea-green;
-  @include rem( margin-bottom, 2 );
+  @include rem( margin-bottom, 1 );
   margin-top: 0;
   a {
     color: inherit;

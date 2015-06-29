@@ -3,6 +3,12 @@
   @include rem( border-radius, .5 );
   color: $c--deep-sea-green;
   @include rem( padding-bottom, 2 );
+  h2, h3 {
+    font-size: 2em;
+    @include sb-media( 35em ) {
+      font-size: 2.5em;
+    }
+  }
 }
 .content__section {
   @include sb-media( 35em ) {
@@ -58,6 +64,9 @@
     @include rem( margin-bottom, 1.5 );
     @include rem( margin-top, 2 );
     text-align: center;
+    @include sb-media( 35em ) {
+      font-size: 3em;
+    }
     @include sb-media( 45em ) {
       font-size: 3.75em;
     }
