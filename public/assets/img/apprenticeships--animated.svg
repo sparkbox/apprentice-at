@@ -1,7 +1,7 @@
-<?xml-stylesheet type="text/css" href="#" ?>
 <svg class="is-animated-header" version="1.1" id="Layer_3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1083px" height="471" preserveAspectRatio="xMinYMin meet" viewBox="1372.8 -323.6 1082.3 470.6" enable-background="new 1372.8 -323.6 1082.3 470.6"
    xml:space="preserve">
   <style>
+    /* Responsivness */
     #Satellite, #Tower, #Truck_1, #Small_Rocket, #Astronaut, #Large_Rocket {
       display: none;
       opacity: 0.0;
@@ -45,6 +45,218 @@
         #Apprenticeships {
           -webkit-transform: none;
           transform: none; } }
+
+    /* Animations */
+    #Astronaut path {
+      -webkit-animation: bounce linear 9.5s infinite;
+      animation: bounce linear 9.5s infinite; }
+
+    @keyframes bounce {
+      0% {
+        -webkit-transform: translate(0px, 0px) rotate(0deg);
+                transform: translate(0px, 0px) rotate(0deg); }
+
+      50% {
+        -webkit-transform: translate(0px, -8px) rotate(0deg);
+                transform: translate(0px, -8px) rotate(0deg); }
+
+      100% {
+        -webkit-transform: translate(0px, 0px) rotate(0deg);
+                transform: translate(0px, 0px) rotate(0deg); } }
+
+    @-webkit-keyframes bounce {
+      0% {
+        -webkit-transform: translate(0px, 0px) rotate(0deg);
+                transform: translate(0px, 0px) rotate(0deg); }
+
+      50% {
+        -webkit-transform: translate(0px, -8px) rotate(0deg);
+                transform: translate(0px, -8px) rotate(0deg); }
+
+      100% {
+        -webkit-transform: translate(0px, 0px) rotate(0deg);
+                transform: translate(0px, 0px) rotate(0deg); } }
+
+    #Small_Rocket .smog path {
+      opacity: 0; }
+
+    svg:hover .one {
+      -webkit-animation: putter-one ease-out 1.25s infinite;
+      animation: putter-one ease-out 1.25s infinite; }
+
+    svg:hover .two {
+      -webkit-animation: putter-two ease-out 1.25s infinite;
+      animation: putter-two ease-out 1.25s infinite; }
+
+    svg:hover .three {
+      -webkit-animation: putter-three ease-out 1.25s infinite;
+      animation: putter-three ease-out 1.25s infinite; }
+
+    @keyframes putter-one {
+      0% {
+        opacity: 0; }
+
+      20% {
+        opacity: 1; }
+
+      75% {
+        opacity: 0; }
+
+      100% {
+        opacity: 0; } }
+
+    @keyframes putter-two {
+      0% {
+        opacity: 0; }
+
+      40% {
+        opacity: 1; }
+
+      75% {
+        opacity: 0; }
+
+      100% {
+        opacity: 0; } }
+
+    @keyframes putter-three {
+      0% {
+        opacity: 0; }
+
+      60% {
+        opacity: 1; }
+
+      75% {
+        opacity: 0; }
+
+      100% {
+        opacity: 0; } }
+
+    @-webkit-keyframes putter-one {
+      0% {
+        opacity: 0; }
+
+      20% {
+        opacity: 1; }
+
+      75% {
+        opacity: 0; }
+
+      100% {
+        opacity: 0; } }
+
+    @-webkit-keyframes putter-two {
+      0% {
+        opacity: 0; }
+
+      40% {
+        opacity: 1; }
+
+      75% {
+        opacity: 0; }
+
+      100% {
+        opacity: 0; } }
+
+    @-webkit-keyframes putter-three {
+      0% {
+        opacity: 0; }
+
+      60% {
+        opacity: 1; }
+
+      75% {
+        opacity: 0; }
+
+      100% {
+        opacity: 0; } }
+
+    .is-twinkling, is-twinkling path {
+      -webkit-animation: twinkle ease-out 5s infinite;
+      animation: twinkle ease-out 5s infinite;
+      opacity: 0; }
+
+    .star-two {
+      -webkit-animation-delay: 2s;
+              animation-delay: 2s;
+      -webkit-animation-duration: 8s;
+              animation-duration: 8s; }
+
+    .star-three {
+      -webkit-animation-delay: 6s;
+              animation-delay: 6s;
+      -webkit-animation-duration: 18s;
+              animation-duration: 18s;
+      fill: #FFF; }
+
+    .star-four {
+      -webkit-animation-duration: 30s;
+              animation-duration: 30s;
+      fill: #FFF; }
+
+    .star-five {
+      -webkit-animation-delay: 10s;
+              animation-delay: 10s;
+      -webkit-animation-duration: 9s;
+              animation-duration: 9s; }
+
+    .star-six {
+      -webkit-animation-delay: 6s;
+              animation-delay: 6s;
+      -webkit-animation-duration: 12s;
+              animation-duration: 12s; }
+
+    .star-seven {
+      -webkit-animation-duration: 15s;
+              animation-duration: 15s;
+      -webkit-animation-delay: 20s;
+              animation-delay: 20s;
+      fill: #FFF; }
+
+    .star-eight {
+      -webkit-animation-duration: 40s;
+              animation-duration: 40s; }
+
+    .star-nine {
+      -webkit-animation-delay: 15s;
+              animation-delay: 15s;
+      -webkit-animation-duration: 18s;
+              animation-duration: 18s;
+      fill: #FFF; }
+
+    .star-ten {
+      -webkit-animation-duration: 12s;
+              animation-duration: 12s; }
+
+    .star-eleven {
+      -webkit-animation-duration: 16s;
+              animation-duration: 16s;
+      fill: #FFF; }
+
+    @keyframes twinkle {
+      0% {
+        opacity: 0; }
+
+      20% {
+        opacity: 1; }
+
+      30% {
+        opacity: 0; }
+
+      100% {
+        opacity: 0; } }
+
+    @-webkit-keyframes twinkle {
+      0% {
+        opacity: 0; }
+
+      20% {
+        opacity: 1; }
+
+      30% {
+        opacity: 0; }
+
+      100% {
+        opacity: 0; } }
   </style>
   <g id="Stars">
     <g>
