@@ -6,7 +6,7 @@ module.exports = (grunt) ->
   grunt.loadTasks "grunt"
   
   # CircleCI Continuous Deployment Task
-  grunt.registerTask "ci", ["assemble", "sass", "autoprefixer", "copy:main"]
+  grunt.registerTask "ci", ["assemble", "sass", "autoprefixer", "coffee", "copy:main"]
 
   # Clean Task
   grunt.registerTask "everything-clean", ["clean:all", "copy:main"]
