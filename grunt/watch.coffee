@@ -20,4 +20,16 @@ module.exports = (grunt) ->
     files: [ "public/**/*" ]
     tasks: "copy:main"
 
+  js:
+    files: "source/js/**/*"
+    tasks: "coffee"
+    options:
+      livereload: true
+
+  tests:
+    files: "tests/spec/**/*"
+    tasks: "coffee"
+    options:
+      livereload: true
+
   grunt.loadNpmTasks 'grunt-contrib-watch'

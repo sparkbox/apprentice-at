@@ -19,6 +19,18 @@ people:
       url: https://twitter.com/danmrosenthal
       summary: "Before my Sparkbox apprenticeship, I wrote frontend code and copy for Uncrate and Devour. Responsive design and web content are my thing. I'm passionate about the intersection of content and frontend code and am constantly working to improve my skills in JavaScript and Ruby. When I'm not being a desk monkey, you can find me tinkering with my '33 Ford Hotrod, keeping my Netflix queue in check, or putting the finishing touches on my latest Lego Star Wars set."
 
+apprenticeship_categories:
+  - category:
+    name: development
+  - category:
+    name: design
+  - category:
+    name: software
+  - category:
+    name: mobile
+  - category:
+    name: ux
+
 apprenticeships:
   - apprenticeship:
       company: 8th Light
@@ -321,7 +333,7 @@ submit:
       url: /about/
     - item:
       text: see available apprenticeships
-      url: /index/
+      url: /
 
 thank_you:
   title: Thank You

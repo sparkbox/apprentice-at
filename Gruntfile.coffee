@@ -12,7 +12,7 @@ module.exports = (grunt) ->
   grunt.registerTask "everything-clean", ["clean:all", "copy:main"]
 
   # Build Task
-  grunt.registerTask "build", ["assemble", "sass", "autoprefixer", "copy:main", "watch"]
+  grunt.registerTask "build", ["assemble", "sass", "autoprefixer", "coffee", "copy:main", "watch"]
  
   # Default task
   grunt.registerTask "default", "build"

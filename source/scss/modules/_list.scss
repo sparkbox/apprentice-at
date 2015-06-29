@@ -1,4 +1,6 @@
 .list {
+  margin-bottom: 0;
+  margin-top: 0;
   &::after {
    clear: both;
    content: ".";
@@ -17,17 +19,22 @@
   }
 }
 .list--block {
+  @include rem( margin-top, 1 );
   @include sb-media( 45em ) {
     @include rem( padding-left, 2 );
     @include rem( padding-right, 2 );
   }
   > .list__item {
-    border-top: 4px solid $c--iceberg;
+    border-bottom: 4px solid $c--iceberg;
     @include rem( margin-bottom, 1 );
     @include rem( padding-top, 1 );
     @include sb-media( 45em ) {
       @include rem( padding-left, 2 );
       @include rem( padding-right, 2 );
+    }
+    &:last-child,
+    &.last {
+      border-bottom: none;
     }
   }
 }
@@ -63,5 +70,10 @@
     margin-bottom: 0;
     overflow-x: visible;
     overflow-y: hidden;
+  }
+}
+.list--inline {
+  .list__item {
+    display: inline-block;
   }
 }

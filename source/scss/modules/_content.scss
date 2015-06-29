@@ -3,6 +3,12 @@
   @include rem( border-radius, .5 );
   color: $c--deep-sea-green;
   @include rem( padding-bottom, 2 );
+  h2, h3 {
+    font-size: 2em;
+    @include sb-media( 35em ) {
+      font-size: 2.5em;
+    }
+  }
 }
 .content__section {
   @include sb-media( 35em ) {
@@ -23,15 +29,29 @@
   }
 }
 .content__callout {
-  display: none;
-  font-size: 1.625em;
-  text-align: center;
+    font-size: 1em;
   p {
-    line-height: 1.75;
-    margin-bottom: 0;
+    line-height: 1.5;
+    @include rem( margin-bottom, 1 );
+  }
+  @include sb-media( 35em ) {
+    font-size: 1.25em;
+      p {
+      line-height: 1.625;
+      @include rem( margin-bottom, 1 );
+    }
   }
   @include sb-media( 45em ) {
-    display: block;
+      p {
+        margin-bottom: 0;
+    }
+  }
+  @include sb-media( 50em ) {
+    text-align: center;
+    font-size: 1.625em;
+      p {
+      line-height: 1.75;
+    }
   }
 }
 .content__header {
@@ -44,6 +64,9 @@
     @include rem( margin-bottom, 1.5 );
     @include rem( margin-top, 2 );
     text-align: center;
+    @include sb-media( 35em ) {
+      font-size: 3em;
+    }
     @include sb-media( 45em ) {
       font-size: 3.75em;
     }

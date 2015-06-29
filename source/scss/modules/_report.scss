@@ -6,5 +6,8 @@
   text-transform: capitalize;
   a {
     color: $c--juniper;
+    &:hover, &:active, &:visited {
+      color: $c--juniper;
+    }
   }
 }
