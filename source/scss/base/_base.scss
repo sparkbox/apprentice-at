@@ -54,4 +54,8 @@ img {
 a {
   color: $c--deep-sea-green;
   text-decoration: none;
+  &:hover, &:active, &:visited {
+    color: $c--deep-sea-green;
+    text-decoration: none;
+  }
 }

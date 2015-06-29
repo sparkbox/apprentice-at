@@ -23,5 +23,8 @@
   margin-top: 0;
   a {
     color: inherit;
+    &:hover, &:active, &:visited {
+      color: inherit;
+    }
   }
 }
