@@ -38,10 +38,12 @@
         display: block; } }
 
     #Apprenticeships {
-      transform: scaleX(1.2) scaleY(1.2) translate(-320px, -70px);
+      -webkit-transform: scale(1.2) translate(-320px, -70px);
+      transform: scale(1.2) translate(-320px, -70px);
       transition: transform .5s ease-in-out; }
       @media (min-width: 45em) {
         #Apprenticeships {
+          -webkit-transform: none;
           transform: none; } }
   </style>
   <g id="Stars">
