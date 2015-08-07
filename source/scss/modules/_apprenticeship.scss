@@ -28,3 +28,12 @@
     }
   }
 }
+
+.anchorjs-link {
+  border-color: $c--iceberg $c--iceberg transparent;
+  border-width: 15px 7px 6px;
+  border-style: solid;
+  margin-top: 10px;
+  font-size: 22px;
+  padding-right: 0 !important;
+}

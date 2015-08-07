@@ -19,7 +19,7 @@
     <meta name="twitter:title" content="{{ site.title }}">
     <meta name="twitter:description" content="{{ site.description }}">
     <meta name="twitter:image" content="https://apprentice.at/og-image-100x100.png">
-    
+
     <!--[if (lt IE 9) & (!IEMobile)]>
     <link href="{{ assets }}/css/no-mq-style.css" rel="stylesheet">
     <![endif]-->
@@ -30,10 +30,20 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
     <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
     <script src="{{ assets }}/js/app.js"></script>
+    <script src="{{ assets }}/js/anchor.min.js"></script>
     <script src="//use.typekit.net/bwr5wmd.js"></script>
     <script>try{Typekit.load();}catch(e){}</script>
   </head>
   <body>
   {{body}}
+
+  <script>
+    anchors.options = {
+      visible: 'always',
+      placement: 'left',
+      icon: ''
+    };
+    anchors.add('.anchored');
+  </script>
   </body>
 </html>
