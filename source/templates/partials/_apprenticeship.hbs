@@ -4,7 +4,7 @@
     <article class="apprenticeship grid">
       <div class="grid__item grid__item grid__item--two-thirds">
         <header class="apprenticeship__header">
-          <h1 class="apprenticeship__header"><a href="{{apprenticeship.company_url}}" target="_blank">{{apprenticeship.company}}</a></h1>
+          <h1 id="{{ apprenticeship.anchor }}" class="apprenticeship__header"><a href="{{apprenticeship.company_url}}" target="_blank">{{apprenticeship.company}}</a></h1>
         </header>
         <section class="apprenticeship__content">
           <p>{{apprenticeship.summary}}</p>
@@ -14,7 +14,7 @@
       <footer class="apprenticeship__footer grid__item grid__item--one-third">
         <ul class="apprenticeship__details list list--normal">
           <li class="list__item"><b class="list__item__title">Duration:</b><span class="list__item__content">{{apprenticeship.duration}}</span></li>
-          <li class="list__item list__item--nested"><b class="list__item__title">Location:</b> 
+          <li class="list__item list__item--nested"><b class="list__item__title">Location:</b>
             <ul class="list">
               {{#each apprenticeship.location}}
                 <li class="list__item"><span class="list__item__content">{{ . }}</span></li>

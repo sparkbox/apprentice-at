@@ -34,6 +34,7 @@ apprenticeship_categories:
 apprenticeships:
   - apprenticeship:
       company: 8th Light
+      anchor: 8th-light
       duration: 3-9 months
       location: ["Chicago, IL", "Los Angeles, CA", "London, UK"]
       category: software
@@ -44,6 +45,7 @@ apprenticeships:
         8th Light's modern apprenticeship program is perfect for life-long learners with a range of skills and experience who want to work with a group of hardworking, passionate, and disciplined developers. 8th Light will train you to be not only a strong developer, but also a strong consultant who discovers and solves challenging technical problems through productive partnerships.
   - apprenticeship:
       company: Detroit Labs
+      anchor: detroit-labs
       duration: 3-4 months
       location: ["Detroit, MI"]
       category: development
@@ -74,6 +76,7 @@ apprenticeships:
   #       As an apprentice in our design and development program, you will split your time between working on real client projects alongside our engineers, and learning efforts (reading, blogging, exercises and challenges, as well as a personal project).
   - apprenticeship:
       company: Fresh Tilled Soil
+      anchor: fresh-tilled-soil
       duration: 4 months
       location: ["Watertown, MA"]
       category: ux
@@ -124,6 +127,7 @@ apprenticeships:
   #       We’re looking to hire a recent college graduate to fulfill the duties of a Wordpress developer apprentice. We are looking for a detail-oriented, highly-motivated and tenacious individual who is excited about becoming a part of a rapidly-expanding company in a booming industry.
   - apprenticeship:
       company: Merge
+      anchor: merge
       duration: 3 months
       location: ["Greenville, SC"]
       category: development
@@ -144,6 +148,7 @@ apprenticeships:
   #       Apprentices selected for our program will develop their user experience skills through 12 weeks of focused, real-world work experience, close mentoring, workshops, and detailed tracking of their development.
   - apprenticeship:
       company: Sparkbox
+      anchor: sparkbox
       duration: 6 months
       location: ["Dayton, OH"]
       category: development
@@ -154,6 +159,7 @@ apprenticeships:
         We’re looking for those interested in an apprenticeship in web development — frontend, backend, or anything code related. What we’re looking for most, however, are individuals who are excited to make their mark on the web industry.
   - apprenticeship:
       company: thoughtbot
+      anchor: thoughtbot
       duration: 3 months
       location: ["Boston, MA", "San Francisco, CA"]
       category: design
@@ -164,6 +170,7 @@ apprenticeships:
         We want those ready to advance to the next level in their career. The program is ideal for designers with experience with graphical design for the web or iOS as well as HTML and CSS.
   - apprenticeship:
       company: thoughtbot
+      anchor: thoughtbot
       duration: 3 months
       location: ["Boston, MA", "San Francisco, CA"]
       category: development
@@ -174,6 +181,7 @@ apprenticeships:
         We want those ready to advance to the next level in their career. The program is ideal for intermediate developers and designers looking to build upon an already-strong foundation.
   - apprenticeship:
       company: thoughtbot
+      anchor: thoughtbot
       duration: 3 months
       location: ["Boston, MA", "San Francisco, CA"]
       category: mobile
@@ -184,6 +192,7 @@ apprenticeships:
         We want those ready to advance to the next level in their career. The program is ideal for developers at an intermediate level with Objective-C or Swift.
   - apprenticeship:
       company: Upstatement
+      anchor: upstatement
       duration: 3 months
       location: ["Boston, MA"]
       category: design
@@ -194,6 +203,7 @@ apprenticeships:
         We're looking for someone to join our team and help us make the next batch of great things. You must have great design thinking, awesome work and an understanding of HTML/CSS. Our team is on the smaller side and you’ll be right in the mix with our other designers and developers.
   - apprenticeship:
       company: Upstatement
+      anchor: upstatement
       duration: 3 months
       location: ["Boston, MA"]
       category: development
@@ -206,10 +216,10 @@ apprenticeships:
 home:
   title:  Apprenticeships
   description:
-  section_header: 
+  section_header:
     header: Available Apprenticeships
   content_callout:
-    text: 
+    text:
       - paragraph: "Houston, we have a problem—with the web’s ever-changing nature, formal education no longer provides all the training needed to produce web builders. So we look to methods of the past to train for careers of the future. Enter the apprenticeship—an opportunity to sustainably satisfy the growing need for talented web professionals."
   nav:
     - item:
@@ -223,7 +233,7 @@ about:
   title: About
   description:
   section_headers:
-    header_one: 
+    header_one:
       header: About Apprenticeships
     header_two:
       header: Why We Built This Site
@@ -233,7 +243,7 @@ about:
       - paragraph: "Apprenticeships are temporary training programs (usually three months to a year), focused on teaching the process of building quality, intentional code to solve problems. Apprentices work alongside seasoned professionals, learning the tools of the trade in the real world—gaining experience that will benefit them (and the web as a whole) for a lifetime."
   content_apprentice:
     header: Apprentices Learn While in Orbit
-    text: 
+    text:
       - paragraph: "Apprentices get the benefit of learning from people who have been around the solar system—gaining practical knowledge of an industry where the barrier to entry can sometimes feel high. And they get paid to do it."
   content_company:
     header: Test-Flight Potential Hires
@@ -257,7 +267,7 @@ about:
 submit:
   title: Submit
   description:
-  section_header: 
+  section_header:
     header: Submit an Apprenticeship
   guidelines:
     text:
