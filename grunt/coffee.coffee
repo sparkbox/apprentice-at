@@ -3,14 +3,14 @@ module.exports = (grunt) ->
     dev:
       options:
         bare: true
-      src: ['source/js/**.coffee']
-      dest: 'dist/assets/js/app.js'
+      src: ['source/coffee/**.coffee']
+      dest: 'source/js/app.js'
     spec:
       options:
         bare: true
-      src: ['source/js/spec/**.coffee']
-      dest: 'dist/tests/spec/appSpec.js'
+      src: ['source/coffee/spec/**.coffee']
+      dest: 'public/tests/spec/appSpec.js'
 
-      
+
   #Load Tasks
   grunt.loadNpmTasks 'grunt-contrib-coffee'
