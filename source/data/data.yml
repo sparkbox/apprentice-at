@@ -66,6 +66,17 @@ apprenticeships:
       summary: |
         We turn promising designers and developers into UX pros through structured learning, one-on-one mentorship, and real-world experience. Our apprentices are early career web professionals who aspire to be leaders in the field by building beautiful, engaging web and mobile products.
   - apprenticeship:
+      company: IQ Foundry
+      anchor: iq-foundry
+      duration: 6 months
+      location: ["Madison, WI"]
+      category: design
+      cta: learn more and apply
+      company_url: http://www.iqfoundry.com
+      apply_url: http://www.iqfoundry.com/careers
+      summary: |
+        An IQ Foundry Interactive Designer Apprenticeship is geared towards people with enough experience with graphic design, user experience design, web design, and/or animation, to know they're ready to learn how to turn those skills into a long-term career. You will be paired with a veteran designer who will spend a significant portion of their time working with you directly, guiding your learning and mentoring you over months, perhaps even years, as you become strong in your craft.
+  - apprenticeship:
       company: Merge
       anchor: merge
       duration: 3 months
