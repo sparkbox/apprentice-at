@@ -40,7 +40,7 @@ Apprenticeships = (function() {
     ref = this.list;
     for (i = 0, len = ref.length; i < len; i++) {
       apprenticeship = ref[i];
-      if (selectedCategory === 'all' || apprenticeship.category === selectedCategory) {
+      if (selectedCategory === 'all' || apprenticeship.category.toLowerCase() === selectedCategory.toLowerCase()) {
         apprenticeship.show();
       } else {
         apprenticeship.hide();

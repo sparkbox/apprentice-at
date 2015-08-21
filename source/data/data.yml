@@ -37,7 +37,7 @@ apprenticeships:
       anchor: 8th-light
       duration: 3-9 months
       location: ["Chicago, IL", "Los Angeles, CA", "London, UK"]
-      category: software
+      category: Software
       cta: learn more and apply
       company_url: http://8thlight.com/
       apply_url: https://8thlight.com/apprenticeship/
@@ -48,7 +48,7 @@ apprenticeships:
       anchor: detroit-labs
       duration: 3-4 months
       location: ["Detroit, MI"]
-      category: development
+      category: Development
       cta: learn more and apply
       company_url: http://detroitlabs.com/
       apply_url: http://www.detroitlabs.com/apprentice/
@@ -59,7 +59,7 @@ apprenticeships:
       anchor: fresh-tilled-soil
       duration: 4 months
       location: ["Watertown, MA"]
-      category: ux
+      category: UX
       cta: learn more and apply
       company_url: http://www.freshtilledsoil.com/
       apply_url: http://www.freshtilledsoil.com/aux/
@@ -70,7 +70,7 @@ apprenticeships:
       anchor: iq-foundry
       duration: 6 months
       location: ["Madison, WI"]
-      category: design
+      category: Design
       cta: learn more and apply
       company_url: http://www.iqfoundry.com
       apply_url: http://www.iqfoundry.com/careers
@@ -81,7 +81,7 @@ apprenticeships:
       anchor: merge
       duration: 3 months
       location: ["Greenville, SC"]
-      category: development
+      category: Development
       cta: learn more and apply
       company_url: http://www.mergeagency.com/
       apply_url: http://www.mergeagency.com/careers
@@ -92,7 +92,7 @@ apprenticeships:
       anchor: sparkbox
       duration: 6 months
       location: ["Dayton, OH"]
-      category: development
+      category: Development
       cta: learn more and apply
       company_url: http://seesparkbox.com
       apply_url: http://apprentices.seesparkbox.com
@@ -103,7 +103,7 @@ apprenticeships:
       anchor: thoughtbot
       duration: 3 months
       location: ["Boston, MA", "San Francisco, CA"]
-      category: design
+      category: Design
       cta: learn more and apply
       company_url: https://thoughtbot.com/
       apply_url: http://www.apprentice.io/
@@ -114,7 +114,7 @@ apprenticeships:
       anchor: thoughtbot
       duration: 3 months
       location: ["Boston, MA", "San Francisco, CA"]
-      category: development
+      category: Development
       cta: learn more and apply
       company_url: https://thoughtbot.com/
       apply_url: http://www.apprentice.io/
@@ -125,7 +125,7 @@ apprenticeships:
       anchor: thoughtbot
       duration: 3 months
       location: ["Boston, MA", "San Francisco, CA"]
-      category: mobile
+      category: Mobile
       cta: learn more and apply
       company_url: https://thoughtbot.com/
       apply_url: http://www.apprentice.io/
@@ -136,7 +136,7 @@ apprenticeships:
       anchor: upstatement
       duration: 3 months
       location: ["Boston, MA"]
-      category: design
+      category: Design
       cta: learn more and apply
       company_url: http://www.upstatement.com/
       apply_url: http://www.upstatement.com/careers/design-apprentice/
@@ -147,7 +147,7 @@ apprenticeships:
       anchor: upstatement
       duration: 3 months
       location: ["Boston, MA"]
-      category: development
+      category: Development
       cta: learn more and apply
       company_url: http://www.upstatement.com/
       apply_url: http://www.upstatement.com/careers/development-apprentice/

@@ -7,12 +7,12 @@ class Apprenticeship
     @hidden = false
 
   # Hides individual apprenticeships
-  hide: -> 
+  hide: ->
     @$el.hide()
     @hidden = true
 
   # Shows individual apprenticeships
-  show: -> 
+  show: ->
     @$el.show()
     @hidden = false
 
@@ -32,7 +32,7 @@ class Apprenticeships
   # Hides apprenticeships except for those in the selected category
   filter: (selectedCategory) ->
     for apprenticeship in @list
-      if selectedCategory is 'all' or apprenticeship.category is selectedCategory
+      if selectedCategory is 'all' or apprenticeship.category.toLowerCase() is selectedCategory.toLowerCase()
         apprenticeship.show()
       else
         apprenticeship.hide()
@@ -63,7 +63,7 @@ $ ->
 
   # Adds a click handler to the filter buttons
   $('.category__item').on 'click', (e) ->
-    if e.preventDefault 
+    if e.preventDefault
       e.preventDefault()
     else
       event.returnValue = false
