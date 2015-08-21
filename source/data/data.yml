@@ -212,7 +212,7 @@ submit:
     header: Submit an Apprenticeship
   guidelines:
     text:
-      - paragraph: "You understand the benefit of apprenticeships—you get it, you really get it—and now you’re ready to start listing yours. That’s awesome, congrats. All you need to do is fill out this little form, send it off to us, and we’ll review your submission and get it up on the site. Pretty simple."
+      - paragraph: "You understand the benefit of apprenticeships—you get it, you really get it—and now you’re ready to start listing yours. That’s awesome, congrats. All you need to do is fill out this little form, send it off to us, and we’ll review your submission and get it up on the site. Pretty simple and it's free!"
       - paragraph: "But first, a little bit about what we’re looking for. Your apprenticeship must be paid, it must be focused on education (at least half of the apprentice’s time should be spent learning), and it must be centered around building the web. That’s really it."
   form:
     header: Get On Board
