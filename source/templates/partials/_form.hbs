@@ -4,14 +4,15 @@
     <input type="hidden" name="utf8" value="✓">
 
     <label class="form__label" for="{{ submit.form.compensation.id }}">{{ submit.form.compensation.label }}</label>
-    <input class="form__radio" type="{{ submit.form.compensation.type }}" name="{{ submit.form.compensation.name }}" value="{{ submit.form.compensation.option_one }}" checked> <span class="form__radio-text">{{ submit.form.compensation.option_one }}</span>
-    <input class="form__radio" type="{{ submit.form.compensation.type }}" name="{{ submit.form.compensation.name }}" value="{{ submit.form.compensation.option_two }}"> <span class="form__radio-text">{{ submit.form.compensation.option_two }}</span>
+    <input id="compensation_yes" class="form__radio" type="{{ submit.form.compensation.type }}" name="{{ submit.form.compensation.name }}" value="{{ submit.form.compensation.option_one }}" checked> <span class="form__radio-text">{{ submit.form.compensation.option_one }}</span>
+    <input id="compensation_no" class="form__radio" type="{{ submit.form.compensation.type }}" name="{{ submit.form.compensation.name }}" value="{{ submit.form.compensation.option_two }}"> <span class="form__radio-text">{{ submit.form.compensation.option_two }}</span>
+    <span id="compensation_alert" class="alert alert--red hidden">Your apprenticeship must be paid</span>
 
     <label class="form__label" for="{{ submit.form.company.id }}">{{ submit.form.company.label }}</label>
     <input class="form__input" type="{{ submit.form.company.type }}" name="{{ submit.form.company.name }}" id="{{ submit.form.company.id }}" placeholder="{{ submit.form.company.placeholder }}" required>
 
     <label class="form__label" for="{{ submit.form.company_website.id }}">{{ submit.form.company_website.label }}</label>
-    <input class="form__input" type="{{ submit.form.company_website.type }}" name="{{ submit.form.company_website.name }}" id="{{ submit.form.company_website.id }}" placeholder="{{ submit.form.company_website.placeholder }}"validate required>
+    <input class="form__input" type="{{ submit.form.company_website.type }}" name="{{ submit.form.company_website.name }}" id="{{ submit.form.company_website.id }}" placeholder="{{ submit.form.company_website.placeholder }}" validate required>
 
     <section class="wrapper grid__item grid__item--two-quarters">
         <label class="form__label" for="{{ submit.form.category.id }}">{{ submit.form.category.label }}</label>
@@ -39,6 +40,6 @@
     <label class="form__label" for="{{ submit.form.email.id }}">{{ submit.form.email.label }}</label>
     <input class="form__input" type="{{ submit.form.email.type }}" name="{{ submit.form.email.name }}" id="{{ submit.form.email.id }}" placeholder="{{ submit.form.email.placeholder }}" validate required>
 
-    <button class="form__button button" type="{{ submit.form.button.type}}">{{ submit.form.button.text }}</button>
+    <button id="submit_form" class="form__button button" type="{{ submit.form.button.type}}">{{ submit.form.button.text }}</button>
   </form>
 </section>

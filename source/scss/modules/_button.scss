@@ -69,14 +69,3 @@
     }
   }
 }
-.form__button {
-  width: 100%;
-  background: $c--deep-sea-green;
-  background-color: rgba($c--deep-sea-green, .9);
-  @include rem( margin-top, 3 );
-  cursor: pointer;
-  color: $c--ice-cold;
-  -webkit-font-smoothing: antialiased;
-  font-weight: bold;
-  border-color: $c--ice-cold;
-}
