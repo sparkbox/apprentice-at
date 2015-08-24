@@ -253,7 +253,7 @@ submit:
       type: text
       placeholder: "Dayton, OH"
     learn_more:
-      label: Learn more link
+      label: Application link
       name: learn_more
       id: learn_more
       type: url

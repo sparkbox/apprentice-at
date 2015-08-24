@@ -29,7 +29,8 @@
     </section>
 
     <label class="form__label" for="{{ submit.form.summary.id }}">{{ submit.form.summary.label }}</label>
-    <textarea class="form__textarea" type="{{ submit.form.summary.type }}" name="{{ submit.form.summary.name }}" id="{{ submit.form.summary.id }}" placeholder="{{ submit.form.summary.placeholder }}" required></textarea>
+    <textarea class="form__textarea" type="{{ submit.form.summary.type }}" name="{{ submit.form.summary.name }}" id="{{ submit.form.summary.id }}" placeholder="{{ submit.form.summary.placeholder }}" maxlength="500" required></textarea>
+    <span class="helper">Limit 500 characters</span>
 
     <label class="form__label" for="{{ submit.form.location.id }}">{{ submit.form.location.label }}</label>
     <input class="form__input" type="{{ submit.form.location.type }}" name="{{ submit.form.location.name }}" id="{{ submit.form.location.id }}" placeholder="{{ submit.form.location.placeholder }}" required>
