@@ -66,6 +66,17 @@ apprenticeships:
       summary: |
         We turn promising designers and developers into UX pros through structured learning, one-on-one mentorship, and real-world experience. Our apprentices are early career web professionals who aspire to be leaders in the field by building beautiful, engaging web and mobile products.
   - apprenticeship:
+      company: Institute for Nonprofit News
+      anchor: institute-for-nonprofit-news
+      duration: 6 months
+      location: ["Remote"]
+      category: Software
+      cta: learn more and apply
+      company_url: http://nerds.inn.org/
+      apply_url: http://nerds.inn.org/2015/08/20/be-our-next-apprentice-make-the-world-a-better-place/
+      summary: |
+        The INN Product and Technology Team (aka The INN Nerds) is looking for at least one more apprentice to join our team this fall (and hopefully stick around through the spring). Unlike many other news/tech internships, you'll get paid. And we're not talking about minimum wage. You won't do work no one else wants to do. Instead, you'll work closely alongside our regular team members on real projects for our members and clients. You will learn a lot and make meaningful contributions. Some of your work will be determined by our needs at the time, but we also want to hear (and value) your ideas, help you build stuff, develop your skills and leave with projects ready to show to future employers. Sound good? Get in touch!
+  - apprenticeship:
       company: IQ Foundry
       anchor: iq-foundry
       duration: 6 months
@@ -77,6 +88,17 @@ apprenticeships:
       summary: |
         An IQ Foundry Interactive Designer Apprenticeship is geared toward individuals with enough experience in graphic design, user experience design, web design, and/or animation to know that they are ready to learn how to turn those skills into a long-term career. You will be paired with a veteran designer who will spend a significant portion of their time working with you directly—mentoring and guiding your learning for months, perhaps even years, as you become strong in your craft.
   - apprenticeship:
+      company: Junior
+      anchor: junior
+      duration: 3 months
+      location: ["San Francisco, CA"]
+      category: Design
+      cta: learn more and apply
+      company_url: http://www.junior.io/
+      apply_url: mailto:laura.morley@junior.io
+      summary: |
+        We are Junior, a San Francisco-based design and technology company founded in 2015. United by the belief that innovation and time to market are the biggest challenges facing businesses today, Junior is built for innovation and speed. We’re looking for designers, coders and revolutionary thinkers to help invent the future. Because we recently launched, we are small, hungry and intimate. You could go to a big agency and be a small cog in a giant machine. Or you could join us and be an important part of our future. It is, of course, up to you. Please see junior.io for more.
+  - apprenticeship:
       company: Merge
       anchor: merge
       duration: 3 months
@@ -87,6 +109,17 @@ apprenticeships:
       apply_url: http://www.mergeagency.com/careers
       summary: |
         Ours is a 12-week apprenticeship program for web developers. You will work side by side with our experienced team members and be mentored in high-level digital initiatives by our team, which includes our Creative Director, Digital Strategist, Project Manager and Merge’s CEO.
+  - apprenticeship:
+      company: SharpTop Company
+      anchor: sharptop-company
+      duration: 3 months
+      location: ["Lynchburg, VA"]
+      category: Development
+      cta: learn more and apply
+      company_url: http://www.sharptop.co
+      apply_url: http://www.sharptop.co/apprenticeships/
+      summary: |
+        Apprentices receive hands-on learning in the latest software technologies such as from experienced developers who have a passion for teaching, while working on projects from actual clients. Apprentices learn JavaScript, Node.js, AngularJS, Groovy, and Grails.
   - apprenticeship:
       company: Sparkbox
       anchor: sparkbox
@@ -152,7 +185,18 @@ apprenticeships:
       company_url: http://www.upstatement.com/
       apply_url: http://www.upstatement.com/careers/development-apprentice/
       summary: |
-        Being an apprentice at Upstatement means there’s less coffee-fetching and more git fetching. By the end of your tenure, you will have a broader view of the fast-paced consulting services industry as well as increased programming and communications skills. These alone would make you a formidable resource to any company. This is a paid position where you’ll get more experience with Front-end Development, WordPress, and the art of client services.
+        Being an apprentice at Upstatement means there’s less coffee-fetching and more git fetching. By the end of your tenure, you will have a broader view of the fast-paced consulting services industry as well as increased programming and communications skills. These alone would make you a formidable resource to any company. This is a paid position where you’ll get more experience with frontend Development, WordPress, and the art of client services.
+  - apprenticeship:
+      company: Woodlands Church
+      anchor: woodlands-church
+      duration: 3 months
+      location: ["Houston, TX"]
+      category: Development
+      cta: learn more and apply
+      company_url: http://wc.org
+      apply_url: mailto:creative@wc.org
+      summary: |
+        Make a difference with a paid apprenticeship at Woodlands Church. Interested in frontend web and mobile development? Love Bootstrap, JavaScript, and UX design? Do you enjoy mobile development and want to solve complex problems for good? Apply now!
 
 home:
   title:  Apprenticeships
