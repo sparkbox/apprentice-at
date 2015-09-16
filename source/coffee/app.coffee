@@ -75,3 +75,12 @@ $ ->
 
     # Filters visible apprenticeships based on the data attribute of clicked button
     apprenticeships.filter($(@).data('filters'))
+
+  $('input[type="radio"]').on 'click', (e) ->
+    console.log "clicked"
+    if $('#compensation_no').is(':checked')
+      $('#compensation_alert').removeClass('hidden')
+      $('#submit_form').attr('disabled','disabled')
+    else
+      $('#compensation_alert').addClass('hidden')
+      $('#submit_form').removeAttr('disabled')

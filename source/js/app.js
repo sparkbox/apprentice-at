@@ -75,7 +75,7 @@ $(function() {
     return list.push(new Apprenticeship(this));
   });
   apprenticeships = new Apprenticeships(list);
-  return $('.category__item').on('click', function(e) {
+  $('.category__item').on('click', function(e) {
     if (e.preventDefault) {
       e.preventDefault();
     } else {
@@ -85,5 +85,15 @@ $(function() {
     $('.category__item.is-active').removeClass('is-active');
     $(this).addClass('is-active');
     return apprenticeships.filter($(this).data('filters'));
+  });
+  return $('input[type="radio"]').on('click', function(e) {
+    console.log("clicked");
+    if ($('#compensation_no').is(':checked')) {
+      $('#compensation_alert').removeClass('hidden');
+      return $('#submit_form').attr('disabled', 'disabled');
+    } else {
+      $('#compensation_alert').addClass('hidden');
+      return $('#submit_form').removeAttr('disabled');
+    }
   });
 });
