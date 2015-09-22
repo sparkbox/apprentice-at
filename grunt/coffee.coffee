@@ -1,10 +1,15 @@
 module.exports = (grunt) ->
   grunt.config "coffee",
-    dev:
+    dev: {
       options:
         bare: true
-      src: ['source/coffee/**.coffee']
-      dest: 'source/js/app.js'
+      expand: true,
+      flatten: true,
+      cwd: 'source/coffee',
+      src: ['*.coffee'],
+      dest: 'source/js',
+      ext: '.js'
+    }
     spec:
       options:
         bare: true

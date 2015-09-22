@@ -5,7 +5,7 @@ module.exports = (grunt) ->
     tasks: "sass"
     options:
       livereload: true
-  
+
   autoprefixer:
     files: 'dist/css/*':'dist/css/*'
     tasks: "autoprefixer"
@@ -21,8 +21,8 @@ module.exports = (grunt) ->
     tasks: "copy:main"
 
   js:
-    files: "source/js/**/*"
-    tasks: "coffee"
+    files: "source/coffee/**/*"
+    tasks: ["coffee", "concat"]
     options:
       livereload: true
 
