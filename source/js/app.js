@@ -68,7 +68,7 @@ Apprenticeships = (function() {
 
 })();
 
-$(function() {
+$(document).ready(function() {
   var apprenticeships, list;
   list = [];
   $('.js-apprenticeship').each(function() {
@@ -81,19 +81,9 @@ $(function() {
     } else {
       event.returnValue = false;
     }
-    console.log("you clicked");
     $('.category__item.is-active').removeClass('is-active');
     $(this).addClass('is-active');
     return apprenticeships.filter($(this).data('filters'));
   });
-  return $('input[type="radio"]').on('click', function(e) {
-    console.log("clicked");
-    if ($('#compensation_no').is(':checked')) {
-      $('#compensation_alert').removeClass('hidden');
-      return $('#submit_form').attr('disabled', 'disabled');
-    } else {
-      $('#compensation_alert').addClass('hidden');
-      return $('#submit_form').removeAttr('disabled');
-    }
-  });
+  return validation();
 });

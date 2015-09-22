@@ -50,9 +50,8 @@ class Apprenticeships
 
     visibleList[visibleList.length - 1].addLastClass()
 
-
 # jQuery time on DOM ready
-$ ->
+$(document).ready ->
   list = []
   # Iterates through each apprenticeship in the DOM and instantiates it into a list
   $('.js-apprenticeship').each ->
@@ -68,7 +67,6 @@ $ ->
     else
       event.returnValue = false
 
-    console.log "you clicked"
     # Adds and removes active state on filter buttons
     $('.category__item.is-active').removeClass('is-active')
     $(@).addClass('is-active')
@@ -76,11 +74,4 @@ $ ->
     # Filters visible apprenticeships based on the data attribute of clicked button
     apprenticeships.filter($(@).data('filters'))
 
-  $('input[type="radio"]').on 'click', (e) ->
-    console.log "clicked"
-    if $('#compensation_no').is(':checked')
-      $('#compensation_alert').removeClass('hidden')
-      $('#submit_form').attr('disabled','disabled')
-    else
-      $('#compensation_alert').addClass('hidden')
-      $('#submit_form').removeAttr('disabled')
+  validation()

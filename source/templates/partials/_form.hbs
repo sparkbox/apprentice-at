@@ -16,7 +16,8 @@
 
     <section class="wrapper grid__item grid__item--two-quarters">
         <label class="form__label" for="{{ submit.form.category.id }}">{{ submit.form.category.label }}</label>
-        <select class="form__select" name="{{ submit.form.category.name }}">
+        <select class="form__select" name="{{ submit.form.category.name }}" required>
+          <option value="" disabled selected>Select One</option>
           {{#forEach submit.form.category.categories}}
             <option value="{{ item }}">{{ item }}</option>
           {{/forEach}}
@@ -25,7 +26,7 @@
 
     <section class="grid__item grid__item--two-quarters form__section">
         <label class="form__label" for="{{ submit.form.duration.id }}">{{ submit.form.duration.label }}</label>
-        <input class="form__number" type="{{ submit.form.duration.type }}" name="{{ submit.form.duration.name }}" id="{{ submit.form.duration.id }}" value="3" validate required>
+        <input class="form__number" type="{{ submit.form.duration.type }}" name="{{ submit.form.duration.name }}" id="{{ submit.form.duration.id }}" placeholder="3" validate required>
     </section>
 
     <label class="form__label" for="{{ submit.form.summary.id }}">{{ submit.form.summary.label }}</label>
@@ -37,6 +38,10 @@
 
     <label class="form__label" for="{{ submit.form.learn_more.id }}">{{ submit.form.learn_more.label }}</label>
     <input class="form__input" type="{{ submit.form.learn_more.type }}" name="{{ submit.form.learn_more.name }}" id="{{ submit.form.learn_more.id }}" placeholder="{{ submit.form.learn_more.placeholder }}" validate required>
+
+    <label class="form__label" for="{{ submit.form.referral.id }}">{{ submit.form.referral.label }}</label>
+    <input class="form__input" type="{{ submit.form.referral.type }}" name="{{ submit.form.referral.name }}" id="{{ submit.form.referral.id }}" placeholder="{{ submit.form.referral.placeholder }}" validate required>
+    <span class="helper">In order to effectively evaluate your listing, we would like to ask a graduate of your apprenticeship about their experience.</span>
 
     <label class="form__label" for="{{ submit.form.email.id }}">{{ submit.form.email.label }}</label>
     <input class="form__input" type="{{ submit.form.email.type }}" name="{{ submit.form.email.name }}" id="{{ submit.form.email.id }}" placeholder="{{ submit.form.email.placeholder }}" validate required>

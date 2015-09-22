@@ -26,6 +26,9 @@
     outline: none;
     transition: border .5s;
   }
+  &.invalid {
+    border-color: $c--rust;
+  }
 }
 .form__select,
 .form__number {

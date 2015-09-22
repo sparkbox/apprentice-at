@@ -234,7 +234,6 @@ submit:
       name: category
       id: category
       categories:
-        - item: Select One
         - item: Development
         - item: Design
         - item: Software
@@ -259,11 +258,17 @@ submit:
       type: url
       placeholder: http://
     email:
-      label: Email
+      label: Your Email
       name: email
       id: email
       type: email
       placeholder: you@example.com
+    referral:
+      label: Past Apprentice Email
+      name: apprentice
+      id: apprentice
+      type: email
+      placeholder: apprentice@example.com
     button:
       text: Submit
       type: submit
