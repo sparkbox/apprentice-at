@@ -17,7 +17,6 @@
 .form__input,
 .form__select,
 .form__textarea,
-.form__button,
 .form__number {
   border: 4px solid $c--iceberg;
   box-sizing: border-box;
@@ -29,9 +28,9 @@
   }
 }
 .form__select,
-.form__number { 
+.form__number {
   width: 100%;
-} 
+}
 .form__radio {
   background-color: transparent;
   border: 4px solid $c--iceberg;
@@ -48,7 +47,7 @@
   &:checked {
     background-color: $c--juniper;
     box-shadow: inset 0 0 0 .1875em $c--white;
-    transition: background .15s, box-shadow .1s, border .5s; 
+    transition: background .15s, box-shadow .1s, border .5s;
   }
 }
 .form__input,
@@ -79,6 +78,28 @@
   @include rem( height, 6 );
   resize: none;
 }
+.form__button {
+  width: 100%;
+  background: $c--deep-sea-green;
+  background-color: rgba($c--deep-sea-green, .9);
+  @include rem( margin-top, 3 );
+  cursor: pointer;
+  color: $c--white;
+  -webkit-font-smoothing: antialiased;
+  font-weight: bold;
+  border: none;
+  &[disabled=disabled] {
+    background: $c--shady-lady;
+    transition: none;
+    &:hover {
+      top: 0;
+      cursor: default;
+      &:before, &:after {
+        display: none;
+      }
+    }
+  }
+}
 input[type='number'] { -moz-appearance: textfield; }
 ::-webkit-inner-spin-button { -webkit-appearance: none;}
 ::-webkit-outer-spin-button { -webkit-appearance: none;}
@@ -99,5 +120,20 @@ textarea {
 .lt-ie9 {
   input[type="radio"] {
     border: none;
+  }
+}
+
+.alert {
+  display: block;
+  padding: 10px;
+  border: 3px solid $c--shady-lady;
+  color: $c--shady-lady;
+  margin-top: 5px;
+  &.hidden {
+    display: none;
+  }
+  &--red {
+    color: $c--rust;
+    border-color: $c--rust;
   }
 }
