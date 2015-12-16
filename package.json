@@ -2,9 +2,10 @@
   "name": "grunt-test",
   "version": "0.0.1",
   "description": "A test at setting up a new Grunt project.",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "grunt dist"
   },
   "repository": {
     "type": "git",
@@ -16,7 +17,7 @@
     "url": "https://github.com/sparkbox/apprenticeship-web-project/issues"
   },
   "homepage": "https://github.com/sparkbox/apprenticeship-web-project",
-  "devDependencies": {
+  "dependencies": {
     "assemble": "^0.4.42",
     "assemble-contrib-permalinks": "^0.3.6",
     "grunt": "^0.4.5",
@@ -27,6 +28,7 @@
     "grunt-contrib-concat": "^0.5.1",
     "grunt-contrib-copy": "^0.8.0",
     "grunt-contrib-watch": "^0.6.1",
-    "grunt-sass": "^0.18.1"
+    "grunt-sass": "^1.1.0",
+    "express": "^4.13.3"
   }
 }

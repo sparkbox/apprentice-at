@@ -5,14 +5,19 @@ module.exports = (grunt) ->
   ##### Tasks ######
   grunt.loadTasks "grunt"
 
+  grunt.registerTask "build", ["assemble", "sass", "autoprefixer", "coffee", "concat", "copy:main"]
+
   # CircleCI Continuous Deployment Task
-  grunt.registerTask "ci", ["assemble", "sass", "autoprefixer", "coffee", "concat", "copy:main"]
+  grunt.registerTask "ci", "build"
+
+  # Build for production
+  grunt.registerTask "dist", "build"
 
   # Clean Task
   grunt.registerTask "everything-clean", ["clean:all", "copy:main"]
 
   # Build Task
-  grunt.registerTask "build", ["assemble", "sass", "autoprefixer", "coffee", "concat", "copy:main", "watch"]
+  grunt.registerTask "dev", ["compile", "watch"]
 
   # Default task
-  grunt.registerTask "default", "build"
+  grunt.registerTask "default", "dev"
