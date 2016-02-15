@@ -36,13 +36,25 @@ apprenticeships:
       company: 8th Light
       anchor: 8th-light
       duration: 3-9 months
-      location: ["Chicago, IL", "Los Angeles, CA", "London, UK"]
+      location: ["Chicago, IL", "Los Angeles, CA", "New York, NY", "London, UK"]
       category: software
       cta: learn more and apply
       company_url: http://8thlight.com/
       apply_url: https://8thlight.com/apprenticeship/
       summary: |
         8th Light's modern apprenticeship program is perfect for life-long learners with a range of skills and experience who want to work with a group of hardworking, passionate, and disciplined developers. 8th Light will train you to be not only a strong developer, but also a strong consultant who discovers and solves challenging technical problems through productive partnerships.
+  - apprenticeship:
+      company: Clique Studios
+      anchor: clique-studios
+      duration: 3 months
+      location: ["Chicago, IL"]
+      category: development
+      cta: learn more and apply
+      company_url: http://www.cliquestudios.com
+      apply_url: http://cliquestudios.com/careers/
+      summary: |
+        A unique opportunity to develop in an agency environment and contribute to meaningful work with a seasoned engineering team. Our Modern Apprentice Program (MAP) is an intensive 3 month program to train new engineers on our unique process to develop enterprise websites and applications. With personalized growth plans, clearly defined mentorship and a structured curriculum we challenge our apprentices to building expertise in JS, PHP, Laravel, Magento and Apache2.
+
   - apprenticeship:
       company: Detroit Labs
       anchor: detroit-labs

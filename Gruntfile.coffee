@@ -17,7 +17,7 @@ module.exports = (grunt) ->
   grunt.registerTask "everything-clean", ["clean:all", "copy:main"]
 
   # Build Task
-  grunt.registerTask "dev", ["compile", "watch"]
+  grunt.registerTask "dev", ["build", "watch"]
 
   # Default task
   grunt.registerTask "default", "dev"
