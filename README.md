@@ -18,57 +18,43 @@ Releasable and sharable by tenth of June.
 
 To install and run the website you will need to download [Node](https://nodejs.org/download/).
 
-1. Clone the Repo
-```$ git clone git@github.com:sparkbox/apprenticeship-web-project.git```
+1. Clone the Repo `git clone git@github.com:sparkbox/apprenticeship-web-project.git`
 
-1. Change Directory
-```$ cd apprenticeship-web-project```
+1. Change Directory `cd apprenticeship-web-project`
 
-1. Install Grunt
-```$ npm install -g grunt-cli```
+1. Install Grunt `npm install -g grunt-cli`
 
-1. Install Node Modules
-```$ npm install```
+1. Install Node Modules `npm install`
 
 ## Command Line Interface
 
-1. Create ```dist/``` folder, and trigger default grunt tasks.
-```$ grunt```
+* `grunt` Runs the default grunt task: `dev`.
 
-1. Watch for changes to files and run sass, autoprefixer, copy and assemble as needed. Livereload is enabled to refresh pages after changes are made.
-```$ grunt --watch```
+* `grunt dev` Runs the `build` task to compile the static site in the `dist/` folder. Then it runs the `watch` task to check for updates to source files to automatically rebuild the site.
 
-1. Compile all sass files in the ```scss/``` folder into the ```dist/css/``` folder.
-```$ grunt sass```
+* `grunt build` runs a series of tasks to compile the static site. Runs:
+  `assemble`, `sass`, `autoprefixer`, `coffee`, `concat`, and `copy:main` in that order.
 
-1. Update css files in ```dist/css/``` to include necessary browser prefixes.
-```$ grunt autoprefix```
+* `grunt everything-clean` Runs the `clean:all` task to wipe out everything in `dist/` then runs `copy:main` to regenerate everything from `public/` into `dist/`.
 
-1. Generate static site templates into ```dist/```.
-```$ grunt assemble```
-  
-1. Wipe out everything in dist/ and run grunt contrib copy to regenerate everything from public/ into dist/.
-```$ grunt everything-clean```
+* `grunt autoprefix` Update css files in `dist/css/` to include necessary browser prefixes.
 
-	
+* `grunt assemble` Generate static site templates into `dist/`.
 
-## Divshot CLI Documentation
-1. Spin up a local development server at ```http://localhost:3474```.
-```$ divshot server``` 
-	
-1. **Don’t do this**: Move your local development repo to divshot staging. This should be avoided, as Circle CI handles deployment to staging.
-```$ divshot push staging```
+* `grunt --watch` Watch for changes to files and run sass, autoprefixer, copy and assemble as needed. Livereload is enabled to refresh pages after changes are made.
 
-1. Promote divshot environment from environment to environment.
-```$ divshot promote [FROM_ENVIRONMENT] [TO_ENVIRONMENT]```
-**Ex:** ```$ divshot promote staging production```
+* `grunt sass` Compile all sass files in the `scss/` folder into the `dist/css/` folder.
 
-1. Revert an environment to a previous release
-```$ divshot rollback [ENVIRONMENT]```
-**Ex:** ```$ divshot rollback production```
+## Heroku
 
+When `master` is updated the Heroku will rebuild and launch [apprentice.at](http://apprentice.at).
 
+### Local Development
 
+1. Install the [Heroku Toolbelt](https://toolbelt.heroku.com/).
 
+1. Run `grunt build` to compile the latest version of the static site. You can also run the default `grunt` task as a separate process to compile and watch the project as you develop.
 
+1. Spin up a local development server `heroku local`.
 
+1. Visit [localhost:5000](http://localhost:5000) in your browser.
