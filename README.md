@@ -28,17 +28,22 @@ To install and run the website you will need to download [Node](https://nodejs.o
 
 ## Command Line Interface
 
-1. `grunt` Creates the `dist/` folder, and trigger default grunt tasks.
+* `grunt` Runs the default grunt task: `dev`.
 
-1. `grunt --watch` Watch for changes to files and run sass, autoprefixer, copy and assemble as needed. Livereload is enabled to refresh pages after changes are made.
+* `grunt dev` Runs the `build` task to compile the static site in the `dist/` folder. Then it runs the `watch` task to check for updates to source files to automatically rebuild the site.
 
-1. `grunt sass` Compile all sass files in the `scss/` folder into the `dist/css/` folder.
+* `grunt build` runs a series of tasks to compile the static site. Runs:
+  `assemble`, `sass`, `autoprefixer`, `coffee`, `concat`, and `copy:main` in that order.
 
-1. `grunt autoprefix` Update css files in `dist/css/` to include necessary browser prefixes.
+* `grunt everything-clean` Runs the `clean:all` task to wipe out everything in `dist/` then runs `copy:main` to regenerate everything from `public/` into `dist/`.
 
-1. `grunt assemble` Generate static site templates into `dist/`.
+* `grunt autoprefix` Update css files in `dist/css/` to include necessary browser prefixes.
 
-1. `grunt everything-clean` Wipe out everything in dist/ and run grunt contrib copy to regenerate everything from public/ into dist/.
+* `grunt assemble` Generate static site templates into `dist/`.
+
+* `grunt --watch` Watch for changes to files and run sass, autoprefixer, copy and assemble as needed. Livereload is enabled to refresh pages after changes are made.
+
+* `grunt sass` Compile all sass files in the `scss/` folder into the `dist/css/` folder.
 
 ## Heroku
 
@@ -47,6 +52,8 @@ When `master` is updated the Heroku will rebuild and launch [apprentice.at](http
 ### Local Development
 
 1. Install the [Heroku Toolbelt](https://toolbelt.heroku.com/).
+
+1. Run `grunt build` to compile the latest version of the static site. You can also run the default `grunt` task as a separate process to compile and watch the project as you develop.
 
 1. Spin up a local development server `heroku local`.
 
