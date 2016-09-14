@@ -67,6 +67,17 @@ apprenticeships:
       summary: |
         The Detroit Labs Apprentice Program is an intensive, immersive training in software development. Apprentices receive classroom and hands-on training, gain experience in all aspects of software creation, and may be offered full-time employment with Detroit Labs partner companies upon successful completion of the program.
   - apprenticeship:
+      company: DevMynd Software
+      anchor: devmynd-software
+      duration: 6 months
+      location: ["Chicago, IL"]
+      category: development
+      cta: learn more and apply
+      company_url: http://devmynd.com
+      apply_url: https://www.devmynd.com/about/careers/
+      summary: |
+        Apprentices split their time between working on real client projects pairing alongside DevMynd engineers and on learning efforts (reading, blogging, exercises and challenges, and a personal project).They are assigned a mentor who will help guide the process and provide feedback. Throughout the course of the apprenticeship, they work on several different projects. This variety exposure them to a variety of technologies, people, techniques, and tools.
+  - apprenticeship:
       company: Fresh Tilled Soil
       anchor: fresh-tilled-soil
       duration: 4 months
