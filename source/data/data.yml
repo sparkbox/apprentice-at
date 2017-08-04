@@ -44,6 +44,17 @@ apprenticeships:
       summary: |
         8th Light's modern apprenticeship program is perfect for life-long learners with a range of skills and experience who want to work with a group of hardworking, passionate, and disciplined developers. 8th Light will train you to be not only a strong developer, but also a strong consultant who discovers and solves challenging technical problems through productive partnerships.
   - apprenticeship:
+      company: Base Two
+      anchor: base-two
+      duration: 3 months
+      location: ["Columbus, OH", "Pittsburgh, PA"]
+      category: development
+      cta: learn more and apply
+      company_url: http://base2.io
+      apply_url: http://base2.io/2016/12/21/the-base-two-apprenticeship/
+      summary: |
+        We offer a three-month apprenticeship program for individuals who are getting started with web development. Apprentices have the opportunity to dive into real work with support and mentorship from our team along the way. Our goal is to ensure that apprentices are employable by the end of their time with us.
+  - apprenticeship:
       company: Clique Studios
       anchor: clique-studios
       duration: 3 months
