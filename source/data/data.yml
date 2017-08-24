@@ -55,18 +55,6 @@ apprenticeships:
       summary: |
         We offer a three-month apprenticeship program for individuals who are getting started with web development. Apprentices have the opportunity to dive into real work with support and mentorship from our team along the way. Our goal is to ensure that apprentices are employable by the end of their time with us.
   - apprenticeship:
-      company: Clique Studios
-      anchor: clique-studios
-      duration: 3 months
-      location: ["Chicago, IL"]
-      category: development
-      cta: learn more and apply
-      company_url: http://www.cliquestudios.com
-      apply_url: http://cliquestudios.com/careers/
-      summary: |
-        A unique opportunity to develop in an agency environment and contribute to meaningful work with a seasoned engineering team. Our Modern Apprentice Program (MAP) is an intensive 3 month program to train new engineers on our unique process to develop enterprise websites and applications. With personalized growth plans, clearly defined mentorship and a structured curriculum we challenge our apprentices to building expertise in JS, PHP, Laravel, Magento and Apache2.
-
-  - apprenticeship:
       company: Detroit Labs
       anchor: detroit-labs
       duration: 3-4 months
@@ -77,17 +65,6 @@ apprenticeships:
       apply_url: http://www.detroitlabs.com/apprentice/
       summary: |
         The Detroit Labs Apprentice Program is an intensive, immersive training in software development. Apprentices receive classroom and hands-on training, gain experience in all aspects of software creation, and may be offered full-time employment with Detroit Labs partner companies upon successful completion of the program.
-  - apprenticeship:
-      company: DevMynd Software
-      anchor: devmynd-software
-      duration: 6 months
-      location: ["Chicago, IL"]
-      category: development
-      cta: learn more and apply
-      company_url: http://devmynd.com
-      apply_url: https://www.devmynd.com/about/careers/
-      summary: |
-        Apprentices split their time between working on real client projects pairing alongside DevMynd engineers and on learning efforts (reading, blogging, exercises and challenges, and a personal project).They are assigned a mentor who will help guide the process and provide feedback. Throughout the course of the apprenticeship, they work on several different projects. This variety exposure them to a variety of technologies, people, techniques, and tools.
   - apprenticeship:
       company: Fresh Tilled Soil
       anchor: fresh-tilled-soil
@@ -121,17 +98,6 @@ apprenticeships:
       apply_url: http://www.iqfoundry.com/careers
       summary: |
         An IQ Foundry Interactive Designer Apprenticeship is geared toward individuals with enough experience in graphic design, user experience design, web design, and/or animation to know that they are ready to learn how to turn those skills into a long-term career. You will be paired with a veteran designer who will spend a significant portion of their time working with you directly—mentoring and guiding your learning for months, perhaps even years, as you become strong in your craft.
-  - apprenticeship:
-      company: Merge
-      anchor: merge
-      duration: 3 months
-      location: ["Greenville, SC"]
-      category: development
-      cta: learn more and apply
-      company_url: http://www.mergeagency.com/
-      apply_url: http://www.mergeagency.com/careers
-      summary: |
-        Ours is a 12-week apprenticeship program for web developers. You will work side by side with our experienced team members and be mentored in high-level digital initiatives by our team, which includes our Creative Director, Digital Strategist, Project Manager and Merge’s CEO.
   - apprenticeship:
       company: Sparkbox
       anchor: sparkbox
@@ -176,28 +142,6 @@ apprenticeships:
       apply_url: http://www.apprentice.io/
       summary: |
         We want those ready to advance to the next level in their career. The program is ideal for developers at an intermediate level with Objective-C or Swift.
-  - apprenticeship:
-      company: Upstatement
-      anchor: upstatement
-      duration: 3 months
-      location: ["Boston, MA"]
-      category: design
-      cta: learn more and apply
-      company_url: http://www.upstatement.com/
-      apply_url: http://www.upstatement.com/careers/design-apprentice/
-      summary: |
-        We're looking for someone to join our team and help us make the next batch of great things. You must have great design thinking, awesome work and an understanding of HTML/CSS. Our team is on the smaller side and you’ll be right in the mix with our other designers and developers.
-  - apprenticeship:
-      company: Upstatement
-      anchor: upstatement
-      duration: 3 months
-      location: ["Boston, MA"]
-      category: development
-      cta: learn more and apply
-      company_url: http://www.upstatement.com/
-      apply_url: http://www.upstatement.com/careers/development-apprentice/
-      summary: |
-        Being an apprentice at Upstatement means there’s less coffee-fetching and more git fetching. By the end of your tenure, you will have a broader view of the fast-paced consulting services industry as well as increased programming and communications skills. These alone would make you a formidable resource to any company. This is a paid position where you’ll get more experience with Front-end Development, WordPress, and the art of client services.
 
 home:
   title:  Apprenticeships
