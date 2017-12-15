@@ -117,7 +117,7 @@ apprenticeships:
       category: design
       cta: learn more and apply
       company_url: https://thoughtbot.com/
-      apply_url: http://www.apprentice.io/
+      apply_url: https://thoughtbot.com/playbook/our-company/apprenticeship
       summary: |
         We want those ready to advance to the next level in their career. The program is ideal for designers with experience with graphical design for the web or iOS as well as HTML and CSS.
   - apprenticeship:
@@ -128,7 +128,7 @@ apprenticeships:
       category: development
       cta: learn more and apply
       company_url: https://thoughtbot.com/
-      apply_url: http://www.apprentice.io/
+      apply_url: https://thoughtbot.com/playbook/our-company/apprenticeship
       summary: |
         We want those ready to advance to the next level in their career. The program is ideal for intermediate developers and designers looking to build upon an already-strong foundation.
   - apprenticeship:
@@ -139,7 +139,7 @@ apprenticeships:
       category: mobile
       cta: learn more and apply
       company_url: https://thoughtbot.com/
-      apply_url: http://www.apprentice.io/
+      apply_url: https://thoughtbot.com/playbook/our-company/apprenticeship
       summary: |
         We want those ready to advance to the next level in their career. The program is ideal for developers at an intermediate level with Objective-C or Swift.
 
