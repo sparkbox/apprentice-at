@@ -62,7 +62,7 @@ apprenticeships:
       category: development
       cta: learn more and apply
       company_url: http://detroitlabs.com/
-      apply_url: http://www.detroitlabs.com/apprentice/
+      apply_url: https://www.detroitlabs.com/apprenticeships/
       summary: |
         The Detroit Labs Apprentice Program is an intensive, immersive training in software development. Apprentices receive classroom and hands-on training, gain experience in all aspects of software creation, and may be offered full-time employment with Detroit Labs partner companies upon successful completion of the program.
   - apprenticeship:
@@ -84,7 +84,7 @@ apprenticeships:
       category: development
       cta: learn more and apply
       company_url: http://teamgaslight.com
-      apply_url: https://teamgaslight.com/careers/developer_apprenticeship
+      apply_url: https://teamgaslight.com/careers/developer-apprenticeship
       summary: |
         Gaslight is an agile software development shop in Cincinnati. We're currently partnering with a local Fortune 500 client to develop a brand new developer apprenticeship program. This paid, 6-month apprenticeship will allow you to contribute to real projects, collaborate with other apprentices, receive hands-on mentoring from Gaslight Chief Scientist Chris Nelson, and work onsite at this Fortune 500 client.
   - apprenticeship:
