@@ -94,7 +94,3 @@ $(function() {
     return apprenticeships.filter($(this).data('filters'));
   });
 });
-
-$(function() {
-  return console.log('🚀');
-});

@@ -75,6 +75,3 @@ $ ->
 
     # Filters visible apprenticeships based on the data attribute of clicked button
     apprenticeships.filter($(@).data('filters'))
-
-$ ->
-  console.log '🚀'
