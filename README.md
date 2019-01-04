@@ -1,18 +1,6 @@
-# Apprenticeship Web Project
+# Apprentice.at
 
-A repository for the Sparkbox Apprentices to build the so-called Apprenticeship Marketplace.
-
-* full stack web app
-* revolves around apprenticeships and gathering apprentice data
-* central repository for apprenticeship info
-
-Releasable and sharable by tenth of June.
-
-# Site Structure
-
-* [Home](content/01-home.md)
-* [Submit Apprenticeship](content/03-submit-apprenticeship.md)
-* [By Apprentices for Apprentices](content/04-by-apprentices-for-apprentices.md)
+An online listing of apprenticeship opportunities.
 
 ## Environment Setup
 
@@ -45,11 +33,11 @@ To install and run the website you will need to download [Node](https://nodejs.o
 
 * `grunt sass` Compile all sass files in the `scss/` folder into the `dist/css/` folder.
 
-## Heroku
+## Hosting
 
-When `master` is updated the Heroku will rebuild and launch [apprentice.at](http://apprentice.at).
+When `master` is updated, Netlify will rebuild and launch [apprentice.at](http://apprentice.at).
 
-### Local Development
+## Local Development
 
 1. Install the [Heroku Toolbelt](https://toolbelt.heroku.com/).
 
