@@ -113,33 +113,33 @@ apprenticeships:
       company: thoughtbot
       anchor: thoughtbot
       duration: 3 months
-      location: ["Boston, MA", "San Francisco, CA"]
+      location: ["Austin, TX", "Boston, MA", "London, UK", "New York, NY", "Raleigh, NC", "San Francisco, CA"]
       category: design
       cta: learn more and apply
       company_url: https://thoughtbot.com/
-      apply_url: https://thoughtbot.com/playbook/our-company/apprenticeship
+      apply_url: https://tbot.io/apprenticeship
       summary: |
         We want those ready to advance to the next level in their career. The program is ideal for designers with experience with graphical design for the web or iOS as well as HTML and CSS.
   - apprenticeship:
       company: thoughtbot
       anchor: thoughtbot
       duration: 3 months
-      location: ["Boston, MA", "San Francisco, CA"]
+      location: ["Austin, TX", "Boston, MA", "London, UK", "New York, NY", "Raleigh, NC", "San Francisco, CA"]
       category: development
       cta: learn more and apply
       company_url: https://thoughtbot.com/
-      apply_url: https://thoughtbot.com/playbook/our-company/apprenticeship
+      apply_url: https://tbot.io/apprenticeship
       summary: |
         We want those ready to advance to the next level in their career. The program is ideal for intermediate developers and designers looking to build upon an already-strong foundation.
   - apprenticeship:
       company: thoughtbot
       anchor: thoughtbot
       duration: 3 months
-      location: ["Boston, MA", "San Francisco, CA"]
+      location: ["Austin, TX", "Boston, MA", "London, UK", "New York, NY", "Raleigh, NC", "San Francisco, CA"]
       category: mobile
       cta: learn more and apply
       company_url: https://thoughtbot.com/
-      apply_url: https://thoughtbot.com/playbook/our-company/apprenticeship
+      apply_url: https://tbot.io/apprenticeship
       summary: |
         We want those ready to advance to the next level in their career. The program is ideal for developers at an intermediate level with Objective-C or Swift.
 
