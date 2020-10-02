@@ -24,7 +24,7 @@ To install and run the website you will need to download [Node](https://nodejs.o
 
 1. Install Grunt `npm install -g grunt-cli`
 
-1. Install Node Modules `npm install`
+1. Install Node Modules `npm ci`
 
 ## Command Line Interface
 
