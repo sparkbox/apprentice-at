@@ -4,11 +4,11 @@ An online listing of apprenticeship opportunities.
 
 ## Environment Setup
 
-To install and run the website you will need to download [Node](https://nodejs.org/download/).
+To install and run the website you will need to download [Node](https://nodejs.org/en/download/).
 
-1. Clone the Repo `git clone git@github.com:sparkbox/apprenticeship-web-project.git`
+1. Clone the Repo `git clone git@github.com:sparkbox/apprentice-at.git`
 
-1. Change Directory `cd apprenticeship-web-project`
+1. Change Directory `cd apprentice-at`
 
 1. Install Grunt `npm install -g grunt-cli`
 
@@ -39,7 +39,7 @@ When `master` is updated, Netlify will rebuild and launch [apprentice.at](http:/
 
 ## Local Development
 
-1. Install the [Heroku Toolbelt](https://toolbelt.heroku.com/).
+1. Install the [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli).
 
 1. Run `grunt build` to compile the latest version of the static site. You can also run the default `grunt` task as a separate process to compile and watch the project as you develop.
 
