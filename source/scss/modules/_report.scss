@@ -1,13 +1,30 @@
 .report {
   font-family: $secondary-font;
-  font-size: .75em;
+  font-size: 0.75em;
   padding-bottom: 2rem;
   text-align: center;
   text-transform: capitalize;
   a {
     color: $c--juniper;
-    &:hover, &:active, &:visited {
+    position: relative;
+    padding-bottom: 4px;
+    &:hover,
+    &:active,
+    &:visited {
       color: $c--juniper;
+    }
+    &::after {
+      content: '';
+      position: absolute;
+      height: 1px;
+      width: 0%;
+      background: $c--juniper;
+      bottom: 0;
+      left: 0;
+      transition: width 0.25s ease-in-out;
+    }
+    &:hover::after {
+      width: 100%;
     }
   }
 }

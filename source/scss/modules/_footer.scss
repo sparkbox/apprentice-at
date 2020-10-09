@@ -1,7 +1,7 @@
 .footer {
   background: $c--blue-whale;
   color: $c--juniper;
-  @include rem( padding, 2, 0 );
+  @include rem(padding, 2, 0);
 }
 .footer__text {
   font-family: $heading-font;
@@ -10,18 +10,41 @@
   text-transform: uppercase;
 }
 .footer__logo {
-  display: block; 
-  margin: auto; 
+  display: block;
+  margin: auto;
 }
 .footer__inner {
   padding: 0;
 }
-.footer__logo--icon { 
-  fill: $c--blue-whale; 
+.footer__logo--icon {
+  fill: $c--blue-whale;
 }
-.footer__logo--icon-box, 
-.footer__logo--text { 
-  fill: $c--juniper; 
+.footer__logo--icon-box,
+.footer__logo--text {
+  fill: $c--juniper;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+}
+
+.sparkbox-logo {
+  position: relative;
+  padding-bottom: 4px;
+  &::after {
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 0%;
+    background: $c--juniper;
+    bottom: 0;
+    left: 0;
+    transition: width 0.25s ease-in-out;
+  }
+  &:hover::after {
+    width: 100%;
+  }
 }
 
 .no-svg .footer {
@@ -33,6 +56,6 @@
     margin: 0 auto;
     width: 159px;
     height: 38px;
-    background:  url(../img/sparkbox-logo.png) center center no-repeat;
+    background: url(../img/sparkbox-logo.png) center center no-repeat;
   }
 }
