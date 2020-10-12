@@ -1,30 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="300" viewBox="0 0 1000 300" xml:space="preserve">
-  <symbol id="awesome_star">
-    <g class="star">
-      <line fill="none" stroke="#68878F" stroke-linecap="round" stroke-miterlimit="10" x1="5" y1="5.9" x2="8" y2="8.3"></line>
-      <line fill="none" stroke="#68878F" stroke-linecap="round" stroke-miterlimit="10" x1="10" y1="9.9" x2="13" y2="12.2"></line>
-      <line fill="none" stroke="#68878F" stroke-linecap="round" stroke-miterlimit="10" x1="5.9" y1="13" x2="8.2" y2="10"></line>
-      <line fill="none" stroke="#68878F" stroke-linecap="round" stroke-miterlimit="10" x1="9.8" y1="8" x2="12.1" y2="5"></line>
-      <line fill="none" stroke="#68878F" stroke-linecap="round" stroke-miterlimit="10" x1="6.3" y1="9.4" x2="7.6" y2="9.2"></line>
-      <line fill="none" stroke="#68878F" stroke-linecap="round" stroke-miterlimit="10" x1="10.6" y1="8.9" x2="12" y2="8.8"></line>
-      <line fill="none" stroke="#68878F" stroke-linecap="round" stroke-miterlimit="10" x1="9.3" y1="11.9" x2="9.1" y2="10.6"></line>
-      <line fill="none" stroke="#68878F" stroke-linecap="round" stroke-miterlimit="10" x1="8.8" y1="7.6" x2="8.7" y2="6.2"></line>
+<svg xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="300" viewBox="0 0 1000 300">
+  <symbol id="a">
+    <g class="star" fill="none" stroke="#68878F" stroke-linecap="round" stroke-miterlimit="10">
+      <path d="M5 5.9l3 2.4M10 9.9l3 2.3M5.9 13l2.3-3M9.8 8l2.3-3M6.3 9.4l1.3-.2M10.6 8.9l1.4-.1M9.3 11.9l-.2-1.3M8.8 7.6l-.1-1.4"/>
     </g>
   </symbol>
-  
-  <!-- left -->
-  <use xlink:href="#awesome_star" x="0" y="0" transform="scale(0.9)"></use>
-  <use xlink:href="#awesome_star" x="50" y="30" transform="scale(0.07)"></use>
-  <use xlink:href="#awesome_star" x="10" y="45" transform="scale(1.15)"></use>
-  <use xlink:href="#awesome_star" x="60" y="160"></use>
-  <use xlink:href="#awesome_star" x="130" y="55"></use>
-  <use xlink:href="#awesome_star" x="200" y="20" transform="scale(1.15)"></use>
-  
-  <!-- right -->
-  <use xlink:href="#awesome_star" x="590" y="25" transform="scale(1.25)"></use>
-  <use xlink:href="#awesome_star" x="1150" y="100" transform="scale(0.75)"></use>
-  <use xlink:href="#awesome_star" x="830" y="125"></use>
-  <use xlink:href="#awesome_star" x="750" y="10" transform="scale(1.25)"></use>
-  <use xlink:href="#awesome_star" x="850" y="50" transform="scale(1.15)"></use>
+  <use xlink:href="#a" transform="scale(.9)"/>
+  <use xlink:href="#a" x="50" y="30" transform="scale(.07)"/>
+  <use xlink:href="#a" x="10" y="45" transform="scale(1.15)"/>
+  <use xlink:href="#a" x="60" y="160"/>
+  <use xlink:href="#a" x="130" y="55"/>
+  <use xlink:href="#a" x="200" y="20" transform="scale(1.15)"/>
+  <use xlink:href="#a" x="590" y="25" transform="scale(1.25)"/>
+  <use xlink:href="#a" x="1150" y="100" transform="scale(.75)"/>
+  <use xlink:href="#a" x="830" y="125"/>
+  <use xlink:href="#a" x="750" y="10" transform="scale(1.25)"/>
+  <use xlink:href="#a" x="850" y="50" transform="scale(1.15)"/>
 </svg>
-
