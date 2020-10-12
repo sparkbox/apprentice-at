@@ -31,6 +31,9 @@
     right: -29px;
     background: url(../img/cloud--right.png) center center no-repeat;
   }
+  &:hover{
+    border: 4px solid $c--deep-sea-green;
+  }
   &:hover, &:active, &:visited {
     @include rem( top, -.25 );
     &::after, &::before {
