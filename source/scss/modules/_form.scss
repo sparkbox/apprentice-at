@@ -91,6 +91,9 @@
   -webkit-font-smoothing: antialiased;
   font-weight: bold;
   border: none;
+  &:hover {
+    border: 0;
+  }
   &[disabled=disabled] {
     background: $c--shady-lady;
     transition: none;
