@@ -4,15 +4,17 @@ An online listing of apprenticeship opportunities.
 
 ## Environment Setup
 
-To install and run the website you will need to download [Node](https://nodejs.org/en/download/).
+To install and run the website you will need to download [Node](https://nodejs.org/en/download/) v12.
 
 1. Clone the Repo `git clone git@github.com:sparkbox/apprentice-at.git`
 
-1. Change Directory `cd apprentice-at`
+2. Change Directory `cd apprentice-at`
 
-1. Install Grunt `npm install -g grunt-cli`
+3. Install Grunt `npm install -g grunt-cli`
 
-1. Install Node Modules `npm ci`
+4. Install Node Modules `npm ci`
+
+5. Run `npm start` to start local development server
 
 ## Command Line Interface
 
@@ -33,16 +35,8 @@ To install and run the website you will need to download [Node](https://nodejs.o
 
 * `grunt sass` Compile all sass files in the `scss/` folder into the `dist/css/` folder.
 
+* `npm start` will run `grunt dev` & `npm serve` together
+
 ## Hosting
 
 When `master` is updated, Netlify will rebuild and launch [apprentice.at](http://apprentice.at).
-
-## Local Development
-
-1. Install the [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli).
-
-1. Run `grunt build` to compile the latest version of the static site. You can also run the default `grunt` task as a separate process to compile and watch the project as you develop.
-
-1. Spin up a local development server `heroku local`.
-
-1. Visit [localhost:5000](http://localhost:5000) in your browser.
