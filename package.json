@@ -5,7 +5,10 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall": "grunt dist"
+    "postinstall": "grunt dist",
+    "dev": "grunt dev",
+    "serve": "cd dist && browser-sync --no-notify --files \"**/*\"",
+    "start": "run-p dev serve"
   },
   "repository": {
     "type": "git",
