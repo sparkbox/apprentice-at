@@ -3,7 +3,8 @@
   <form class="form" accept-charset="UTF-8" action="/thank-you/" method="POST" netlify>
     <input type="hidden" name="utf8" value="✓">
 
-    <label class="form__label" for="{{ submit.form.compensation.id }}">{{ submit.form.compensation.label }}</label>
+    <label class="form__label" for="{{ submit.form.compensation.id }}">
+      {{ submit.form.compensation.label }}
     <input id="compensation_yes" class="form__radio" type="{{ submit.form.compensation.type }}"
       name="{{ submit.form.compensation.name }}" value="{{ submit.form.compensation.option_one }}" checked> <span
       class="form__radio-text">{{ submit.form.compensation.option_one }}</span>
@@ -11,6 +12,7 @@
       name="{{ submit.form.compensation.name }}" value="{{ submit.form.compensation.option_two }}"> <span
       class="form__radio-text">{{ submit.form.compensation.option_two }}</span>
     <span id="compensation_alert" class="alert alert--red hidden">Your apprenticeship must be paid</span>
+    </label>
 
     <label class="form__label" for="{{ submit.form.company.id }}">{{ submit.form.company.label }}</label>
     <input class="form__input" type="{{ submit.form.company.type }}" name="{{ submit.form.company.name }}"
