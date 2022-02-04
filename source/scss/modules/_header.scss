@@ -1,44 +1,19 @@
 .header {
   text-align: center;
-  .header__title {
-    color: $c--ice-cold;
-    font-family: $heading-font;  
-    font-size: 6em;
-    font-weight: 300;
-    @include rem( margin-bottom, 1 );
-    @include rem( margin-top, 1 );
-    a {
-      position: relative;
-      display: block;
-      &::before {
-        background: $c--ice-cold;
-        bottom: -1rem;
-        @include rem( border-radius, .1875 );
-        color: $c--blue-whale;
-        content: "Home";
-        display: inline-block;
-        font-family: $secondary-font;
-        font-size: .125em;
-        font-weight: 700;
-        left: calc( 50% - 2rem );
-        line-height: 1;
-        @include rem( margin-right, 1 );
-        opacity: .25;
-        @include rem( padding, .35, .5 );
-        position: absolute;
-        text-transform: uppercase;
-        transition: opacity .25s ease-in-out;
-        @include sb-media ( 30em ) {
-          bottom: calc( 50% - .75rem);
-          left: -4.25rem;
-        }
-      }
-      &:hover::before,&:active, &:visited {
-        opacity: 1.0;
+
+  &__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .link {
+      svg {
+        max-width: 100%;
       }
     }
   }
 }
+
 .header--inside {
   @include rem( padding, 2 );
   &:before {
@@ -59,15 +34,8 @@
     padding: 0;
     height: 8rem;
   }
-  .header__title {
-    @include sb-media ( 30em, max-height ) {
-      margin-top: 0;
-    }
-    @include sb-media ( 25em ) {
-      display: inline-block;
-    }
-  }
 }
+
 .lt-ie9 .header--inside {
   @include rem( padding, 2 );
   background: url(../img/pullout-bg.jpg) no-repeat top left;

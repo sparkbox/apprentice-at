@@ -87,8 +87,12 @@
     @include rem( padding-left, 7 );
   }
   h1 {  
-    @include rem( margin-bottom, 2 );
+    font-size: 2em;
     margin-top: 0;
     text-align: left;
+    @include rem( margin-bottom, 2 );
+    @include sb-media( 35em ) {
+      font-size: 2.5em;
+    }
   }
 }

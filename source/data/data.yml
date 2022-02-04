@@ -169,6 +169,7 @@ about:
       header: About Apprenticeships
     header_two:
       header: Why We Built This Site
+
   content_intro:
     text:
       - paragraph: "We know that the standard education model can’t keep up with the web’s universe—curriculum becomes outdated as the tech we use quickly morphs into something new. Technologies come and go at light speed. But the industry still needs qualified recruits as it grows towards a brighter future."
