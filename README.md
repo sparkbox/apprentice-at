@@ -18,24 +18,24 @@ To install and run the website you will need to download [Node](https://nodejs.o
 
 ## Command Line Interface
 
-* `grunt` Runs the default grunt task: `dev`.
+- `grunt` Runs the default grunt task: `dev`.
 
-* `grunt dev` Runs the `build` task to compile the static site in the `dist/` folder. Then it runs the `watch` task to check for updates to source files to automatically rebuild the site.
+- `grunt dev` Runs the `build` task to compile the static site in the `dist/` folder. Then it runs the `watch` task to check for updates to source files to automatically rebuild the site.
 
-* `grunt build` runs a series of tasks to compile the static site. Runs:
-  `assemble`, `sass`, `autoprefixer`, `coffee`, `concat`, and `copy:main` in that order.
+- `grunt build` runs a series of tasks to compile the static site. Runs:
+  `assemble`, `sass`, `autoprefixer`, `concat`, and `copy:main` in that order.
 
-* `grunt everything-clean` Runs the `clean:all` task to wipe out everything in `dist/` then runs `copy:main` to regenerate everything from `public/` into `dist/`.
+- `grunt everything-clean` Runs the `clean:all` task to wipe out everything in `dist/` then runs `copy:main` to regenerate everything from `public/` into `dist/`.
 
-* `grunt autoprefix` Update css files in `dist/css/` to include necessary browser prefixes.
+- `grunt autoprefix` Update css files in `dist/css/` to include necessary browser prefixes.
 
-* `grunt assemble` Generate static site templates into `dist/`.
+- `grunt assemble` Generate static site templates into `dist/`.
 
-* `grunt --watch` Watch for changes to files and run sass, autoprefixer, copy and assemble as needed. Livereload is enabled to refresh pages after changes are made.
+- `grunt --watch` Watch for changes to files and run sass, autoprefixer, copy and assemble as needed. Livereload is enabled to refresh pages after changes are made.
 
-* `grunt sass` Compile all sass files in the `scss/` folder into the `dist/css/` folder.
+- `grunt sass` Compile all sass files in the `scss/` folder into the `dist/css/` folder.
 
-* `npm start` will run `grunt dev` & `npm serve` together
+- `npm start` will run `grunt dev` & `npm serve` together
 
 ## Hosting
 
