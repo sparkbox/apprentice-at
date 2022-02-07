@@ -1,7 +1,10 @@
 {
-  "name": "grunt-test",
+  "name": "apprentice-at",
   "version": "0.0.1",
-  "description": "A test at setting up a new Grunt project.",
+  "description": "An online listing of apprenticeship opportunities.",
+  "engines" : { 
+    "node" : "12.0.0" 
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "postinstall": "grunt dist",
@@ -11,14 +14,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/sparkbox/apprenticeship-web-project.git"
+    "url": "https://github.com/sparkbox/apprentice-at.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/sparkbox/apprenticeship-web-project/issues"
+    "url": "https://github.com/sparkbox/apprentice-at/issues"
   },
-  "homepage": "https://github.com/sparkbox/apprenticeship-web-project",
+  "homepage": "https://github.com/sparkbox/apprentice-at",
   "dependencies": {
     "assemble": "^0.4.42",
     "assemble-contrib-permalinks": "^0.3.6",
