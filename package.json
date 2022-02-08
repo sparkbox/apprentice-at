@@ -2,15 +2,18 @@
   "name": "apprentice-at",
   "version": "0.0.1",
   "description": "An online listing of apprenticeship opportunities.",
-  "engines" : { 
-    "node" : "12.0.0" 
+  "engines": {
+    "node": "12.0.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm run sass:build && grunt build",
     "postinstall": "grunt dist",
     "dev": "grunt dev",
-    "serve": "cd dist && browser-sync --no-notify --files \"**/*\"",
-    "start": "run-p dev serve"
+    "serve": "mkdir -p dist && touch dist/index.html && cd dist && browser-sync --no-notify --files \"**/*\"",
+    "start": "run-p dev sass:watch serve",
+    "sass:build": "sass source/scss:dist/assets/css",
+    "sass:watch": "npm run sass:build -- --watch"
   },
   "repository": {
     "type": "git",
@@ -32,7 +35,7 @@
     "grunt-contrib-concat": "^0.5.1",
     "grunt-contrib-copy": "^0.8.0",
     "grunt-contrib-watch": "^0.6.1",
-    "grunt-sass": "^2.0.0"
+    "sass": "^1.49.7"
   },
   "devDependencies": {
     "browser-sync": "^2.27.7",
