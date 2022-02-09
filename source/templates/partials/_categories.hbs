@@ -1,6 +1,6 @@
 <ul class="list list--inline categories">
-  <li class="list__item category__item is-active" data-filters="all"><a href="#">all</a></li>
+  <li class="list__item category__item is-active" data-cy="filters-all" data-filters="all"><a href="#">all</a></li>
 {{#forEach apprenticeship_categories }}
-  <li class="list__item category__item" data-filters="{{ name }}"><a href="#">{{ name }}</a></li>
+  <li class="list__item category__item" data-cy="filters-{{name}}" data-filters="{{ name }}"><a href="#">{{ name }}</a></li>
 {{/forEach}}
 </ul>
