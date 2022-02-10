@@ -6,11 +6,13 @@
     "node": "12.0.0"
   },
   "scripts": {
-    "build": "npm run sass:build && grunt build",
+    "build": "npm run sass:build && npm run copy:public && npm run concat:js && grunt build",
+    "copy:public": "cp -r public/* dist/",
+    "concat:js": "mkdir -p dist && mkdir -p dist/assets && mkdir -p dist/assets/js && cat source/js/*.js > dist/assets/js/scripts.js",
     "postinstall": "grunt dist",
     "dev": "grunt dev",
     "serve": "mkdir -p dist && touch dist/index.html && cd dist && browser-sync --no-notify --files \"**/*\"",
-    "start": "run-p dev sass:watch serve",
+    "start": "run-p build dev sass:watch serve",
     "sass:build": "sass source/scss:dist/assets/css",
     "sass:watch": "npm run sass:build -- --watch",
     "test": "cypress open",
