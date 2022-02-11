@@ -8,5 +8,5 @@ TERM = "xterm"
 [[plugins]]
 # runs Cypress tests against the deployed URL
 package = "netlify-plugin-cypress"
-[plugins.inputs]
+  [plugins.inputs]
   record = true
