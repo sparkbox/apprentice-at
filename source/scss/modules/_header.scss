@@ -9,6 +9,9 @@
     .link {
       svg {
         max-width: 100%;
+				@include sb-media(45em) {
+					max-width: 75%;
+				}
       }
     }
   }
