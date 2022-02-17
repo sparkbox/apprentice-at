@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ site.title }}</title>
+    <meta name="description" content="{{ site.description }}">
+
+    <meta property="og:url" content="https://apprentice.at">
+    <meta property="og:title" content="{{ site.title }}">
+    <meta property="og:description" content="{{ site.description }}">
+    <meta property="og:image" content="https://apprentice.at/og-image-100x100.png">
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:url" content="https://apprentice.at">
+    <meta name="twitter:title" content="{{ site.title }}">
+    <meta name="twitter:description" content="{{ site.description }}">
+    <meta name="twitter:image" content="https://apprentice.at/og-image-100x100.png">
+
+    <!--[if (lt IE 9) & (!IEMobile)]>
+    <link href="{{ assets }}/css/no-mq-style.css" rel="stylesheet">
+    <![endif]-->
+    <!--[if (gte IE 9) | (IEMobile)]><!-->
+    <link href="{{ assets }}/css/style.css" rel="stylesheet">
+    <!--<![endif]-->
+    {{> _icons }}
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="//use.typekit.net/bwr5wmd.js"></script>
+    <script>try{Typekit.load();}catch(e){}</script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-20951146-7', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+  </head>
+  <body>
+  {{{content}}}
+
+  <script src="{{ assets }}/js/scripts.js"></script>
+  <script>
+    var anchors
+    anchors.options = {
+      visible: 'always',
+      placement: 'left',
+      icon: ''
+    };
+    anchors.add('.anchored');
+  </script>
+  </body>
+</html>

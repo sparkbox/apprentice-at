@@ -1,5 +1,5 @@
 <nav class="action">
 {{#forEach nav }}
-  <a class="button action__button" href="{{ url }}">{{ text }}</a>
+  <a class="button action__button" href="{{ item.url }}">{{ item.text }}</a>
 {{/forEach}}
 </nav>
