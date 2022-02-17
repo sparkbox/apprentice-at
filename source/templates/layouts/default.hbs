@@ -1,3 +1,12 @@
+---
+site:
+  title: Apprentice.at
+  description: An opportunity to sustainably satisfy the growing need for talented web professionals.
+  
+footer:
+  text: Your vehicle for this journey provided by
+---
+
 <!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
@@ -21,10 +30,10 @@
     <meta name="twitter:image" content="https://apprentice.at/og-image-100x100.png">
 
     <!--[if (lt IE 9) & (!IEMobile)]>
-    <link href="{{ assets }}/css/no-mq-style.css" rel="stylesheet">
+    <link href="/assets/css/no-mq-style.css" rel="stylesheet">
     <![endif]-->
     <!--[if (gte IE 9) | (IEMobile)]><!-->
-    <link href="{{ assets }}/css/style.css" rel="stylesheet">
+    <link href="/assets/css/style.css" rel="stylesheet">
     <!--<![endif]-->
     {{> _icons }}
     <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
@@ -43,9 +52,10 @@
     </script>
   </head>
   <body>
-  {{body}}
-
-  <script src="{{ assets }}/js/scripts.js"></script>
+  {{{content}}}
+  {{> _footer }}
+  {{> _report }}
+  <script src="/assets/js/scripts.js"></script>
   <script>
     var anchors
     anchors.options = {

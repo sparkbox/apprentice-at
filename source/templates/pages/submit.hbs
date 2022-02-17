@@ -1,3 +1,92 @@
+---
+layout: default
+submit:
+  title: Submit
+  description:
+  section_header:
+    header: Submit an Apprenticeship
+  guidelines:
+    text:
+      - paragraph: "You understand the benefit of apprenticeships—you get it, you really get it—and now you’re ready to start listing yours. That’s awesome, congrats. All you need to do is fill out this little form, send it off to us, and we’ll review your submission and get it up on the site. Pretty simple and it's free!"
+      - paragraph: 'But first, a little bit about what we’re looking for. Your apprenticeship must be paid, it must be focused on education (at least half of the apprentice’s time should be spent learning), and it must be centered around building the web. That’s really it.'
+  form:
+    header: Get On Board
+    compensation:
+      label: Is your apprenticeship a paid opportunity?
+      name: compensation
+      id: compensation
+      type: radio
+      option_one: Yes
+      option_two: No
+    company:
+      label: Company
+      name: name
+      id: company
+      type: text
+      placeholder: Your company
+    company_website:
+      label: Company website
+      name: url
+      id: company_website
+      type: url
+      placeholder: http://
+    duration:
+      label: Duration (in months)
+      name: duration
+      id: duration
+      type: number
+    category:
+      label: Category
+      name: category
+      id: category
+      categories:
+        - item: Development
+        - item: Design
+        - item: Software
+        - item: Mobile
+        - item: UX
+    summary:
+      label: Summary/Abstract
+      name: summary
+      id: summary
+      type: text
+      placeholder: What will the apprentices spend their time doing? How much of an education focus is there? What languages will be studied?
+    location:
+      label: Location(s)
+      name: location
+      id: location
+      type: text
+      placeholder: 'Dayton, OH'
+    learn_more:
+      label: Application link
+      name: learn_more
+      id: learn_more
+      type: url
+      placeholder: http://
+    email:
+      label: Your Email
+      name: email
+      id: email
+      type: email
+      placeholder: you@example.com
+    referral:
+      label: Past Apprentice Email
+      name: apprentice
+      id: apprentice
+      type: email
+      placeholder: apprentice@example.com
+    button:
+      text: Submit
+      type: submit
+    nav:
+      - item:
+        text: learn about apprenticeships
+        url: /about/
+      - item:
+        text: see available apprenticeships
+        url: /
+---
+
 {{> _header--inside submit }}
 <main class="wrapper">
   <section class="wrapper__inner content">
@@ -6,5 +95,3 @@
     {{> _form }}
   </section>
 </main>
-{{> _footer }}
-{{> _report }}

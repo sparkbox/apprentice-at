@@ -5,13 +5,6 @@ module.exports = function(grunt) {
   },
     tasks: "autoprefixer"
   },
-  partials: {
-    files: ["source/templates/**/*", "source/data/*"],
-    tasks: "assemble",
-    options: {
-      livereload: true
-    }
-  },
   public: {
     files: [ "public/**/*" ],
     tasks: "copy:main"

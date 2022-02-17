@@ -6,7 +6,7 @@
     "node": "12.0.0"
   },
   "scripts": {
-    "build": "npm run sass:build && npm run copy:public && npm run concat:js && grunt build",
+    "build": "npm run sass:build && npm run copy:public && npm run concat:js && grunt build && eleventy",
     "copy:public": "cp -r public/* dist/",
     "concat:js": "mkdir -p dist && mkdir -p dist/assets && mkdir -p dist/assets/js && cat source/js/*.js > dist/assets/js/scripts.js",
     "postinstall": "grunt dist",
@@ -38,9 +38,11 @@
     "grunt-contrib-concat": "^0.5.1",
     "grunt-contrib-copy": "^0.8.0",
     "grunt-contrib-watch": "^0.6.1",
+    "handlebars-helpers": "^0.10.0",
     "sass": "^1.49.7"
   },
   "devDependencies": {
+    "@11ty/eleventy": "^1.0.0",
     "browser-sync": "^2.27.7",
     "cypress": "^9.4.1",
     "netlify-plugin-cypress": "^2.2.0",

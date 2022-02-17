@@ -1,6 +1,14 @@
+---
+layout: default
+error:
+  title: '404'
+  content_pullout:
+    text:
+      - paragraph: "Uh oh! Looks like you've gotten lost in orbit."
+      - paragraph: "Please return home."
+---
+
 {{> _header--inside error }}
 <main class="wrapper">
   {{> _pullout error.content_pullout }}
 </main>
-{{> _footer }}
-{{> _report }}

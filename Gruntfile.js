@@ -5,7 +5,7 @@ module.exports = function(grunt) {
   //#### Tasks ######
   grunt.loadTasks("grunt");
 
-  grunt.registerTask("build", ["assemble", "autoprefixer"]);
+  grunt.registerTask("build", ["autoprefixer"]);
 
   // CircleCI Continuous Deployment Task
   grunt.registerTask("ci", "build");
