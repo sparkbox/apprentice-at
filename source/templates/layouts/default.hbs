@@ -1,3 +1,8 @@
+---
+footer:
+  text: Your vehicle for this journey provided by
+---
+
 <!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
@@ -44,7 +49,8 @@
   </head>
   <body>
   {{{content}}}
-
+  {{> _footer }}
+  {{> _report }}
   <script src="{{ assets }}/js/scripts.js"></script>
   <script>
     var anchors
