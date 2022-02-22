@@ -6,7 +6,8 @@
     "node": "12.0.0"
   },
   "scripts": {
-    "build": "npm run sass:build && npm run copy:public && npm run concat:js && grunt build && eleventy",
+    "autoprefix": "postcss dist/assets/css/style.css -u autoprefixer -d dist/assets/css",
+    "build": "npm run sass:build && npm run copy:public && npm run concat:js && grunt build && eleventy && npm run autoprefix",
     "copy:public": "cp -r public/* dist/",
     "concat:js": "mkdir -p dist && mkdir -p dist/assets && mkdir -p dist/assets/js && cat source/js/*.js > dist/assets/js/scripts.js",
     "postinstall": "grunt dist",
@@ -31,6 +32,7 @@
   "dependencies": {
     "assemble": "^0.4.42",
     "assemble-contrib-permalinks": "^0.3.6",
+    "autoprefixer": "^10.4.2",
     "grunt": "^0.4.5",
     "grunt-autoprefixer": "^3.0.0",
     "grunt-cli": "^0.1.13",
@@ -39,6 +41,8 @@
     "grunt-contrib-copy": "^0.8.0",
     "grunt-contrib-watch": "^0.6.1",
     "handlebars-helpers": "^0.10.0",
+    "postcss": "^8.4.6",
+    "postcss-cli": "^9.1.0",
     "sass": "^1.49.7"
   },
   "devDependencies": {
