@@ -11,22 +11,22 @@
     <input id="compensation_no" class="form__radio" type="{{ submit.form.compensation.type }}"
       name="{{ submit.form.compensation.name }}" value="{{ submit.form.compensation.option_two }}"> <span
       class="form__radio-text">{{ submit.form.compensation.option_two }}</span>
-    <span id="compensation_alert" class="alert alert--red hidden">Your apprenticeship must be paid</span>
+    <span id="compensation_alert" class="alert hidden">Your apprenticeship must be paid</span>
     </label>
 
     <label class="form__label" for="{{ submit.form.company.id }}">{{ submit.form.company.label }}</label>
     <input class="form__input" type="{{ submit.form.company.type }}" name="{{ submit.form.company.name }}"
-      id="{{ submit.form.company.id }}" placeholder="{{ submit.form.company.placeholder }}" required>
+      id="{{ submit.form.company.id }}" placeholder="{{ submit.form.company.placeholder }}">
 
     <label class="form__label"
       for="{{ submit.form.company_website.id }}">{{ submit.form.company_website.label }}</label>
     <input class="form__input" type="{{ submit.form.company_website.type }}"
       name="{{ submit.form.company_website.name }}" id="{{ submit.form.company_website.id }}"
-      placeholder="{{ submit.form.company_website.placeholder }}" validate required>
+      placeholder="{{ submit.form.company_website.placeholder }}">
 
     <section class="wrapper grid__item grid__item--two-quarters">
       <label class="form__label" for="{{ submit.form.category.id }}">{{ submit.form.category.label }}</label>
-      <select class="form__select" name="{{ submit.form.category.name }}" required>
+      <select class="form__select" name="{{ submit.form.category.name }}">
         <option value="" disabled selected>Select One</option>
         {{#forEach submit.form.category.categories}}
         <option value="{{ item }}">{{ item }}</option>
@@ -37,32 +37,32 @@
     <section class="grid__item grid__item--two-quarters form__section">
       <label class="form__label" for="{{ submit.form.duration.id }}">{{ submit.form.duration.label }}</label>
       <input class="form__number" type="{{ submit.form.duration.type }}" name="{{ submit.form.duration.name }}"
-        id="{{ submit.form.duration.id }}" placeholder="3" validate required>
+        id="{{ submit.form.duration.id }}" placeholder="3">
     </section>
 
     <label class="form__label" for="{{ submit.form.summary.id }}">{{ submit.form.summary.label }}</label>
     <textarea class="form__textarea" type="{{ submit.form.summary.type }}" name="{{ submit.form.summary.name }}"
       id="{{ submit.form.summary.id }}" placeholder="{{ submit.form.summary.placeholder }}" maxlength="500"
-      required></textarea>
+     ></textarea>
     <span class="helper">Limit 500 characters</span>
 
     <label class="form__label" for="{{ submit.form.location.id }}">{{ submit.form.location.label }}</label>
     <input class="form__input" type="{{ submit.form.location.type }}" name="{{ submit.form.location.name }}"
-      id="{{ submit.form.location.id }}" placeholder="{{ submit.form.location.placeholder }}" required>
+      id="{{ submit.form.location.id }}" placeholder="{{ submit.form.location.placeholder }}">
 
     <label class="form__label" for="{{ submit.form.learn_more.id }}">{{ submit.form.learn_more.label }}</label>
     <input class="form__input" type="{{ submit.form.learn_more.type }}" name="{{ submit.form.learn_more.name }}"
-      id="{{ submit.form.learn_more.id }}" placeholder="{{ submit.form.learn_more.placeholder }}" validate required>
+      id="{{ submit.form.learn_more.id }}" placeholder="{{ submit.form.learn_more.placeholder }}">
 
     <label class="form__label" for="{{ submit.form.referral.id }}">{{ submit.form.referral.label }}</label>
     <input class="form__input" type="{{ submit.form.referral.type }}" name="{{ submit.form.referral.name }}"
-      id="{{ submit.form.referral.id }}" placeholder="{{ submit.form.referral.placeholder }}" validate required>
+      id="{{ submit.form.referral.id }}" placeholder="{{ submit.form.referral.placeholder }}">
     <span class="helper">In order to effectively evaluate your listing, we would like to ask a graduate of your
       apprenticeship about their experience.</span>
 
     <label class="form__label" for="{{ submit.form.email.id }}">{{ submit.form.email.label }}</label>
     <input class="form__input" type="{{ submit.form.email.type }}" name="{{ submit.form.email.name }}"
-      id="{{ submit.form.email.id }}" placeholder="{{ submit.form.email.placeholder }}" validate required>
+      id="{{ submit.form.email.id }}" placeholder="{{ submit.form.email.placeholder }}">
 
     <button id="submit_form" class="form__button button"
       type="{{ submit.form.button.type}}">{{ submit.form.button.text }}</button>
