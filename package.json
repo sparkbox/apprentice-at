@@ -2,18 +2,15 @@
   "name": "apprentice-at",
   "version": "0.0.1",
   "description": "An online listing of apprenticeship opportunities.",
-  "engines": {
-    "node": "12.0.0"
-  },
   "scripts": {
     "autoprefix": "postcss dist/assets/css/style.css -u autoprefixer -d dist/assets/css",
-    "build": "npm run sass:build && npm run copy:public && npm run concat:js && grunt build && eleventy && npm run autoprefix",
+    "build": "npm run sass:build && npm run copy:public && npm run concat:js && eleventy && npm run autoprefix",
     "copy:public": "cp -r public/* dist/",
-    "concat:js": "mkdir -p dist && mkdir -p dist/assets && mkdir -p dist/assets/js && cat source/js/*.js > dist/assets/js/scripts.js",
-    "postinstall": "grunt dist",
-    "dev": "grunt dev",
+    "concat:js": "cat source/js/*.js > dist/assets/js/scripts.js",
+    "eleventy:watch": "eleventy --watch",
+    "js:watch": "watch 'npm run concat:js' ./source/js",
     "serve": "mkdir -p dist && touch dist/index.html && cd dist && browser-sync --no-notify --files \"**/*\"",
-    "start": "run-p build dev sass:watch serve",
+    "start": "run-p build sass:watch eleventy:watch js:watch serve",
     "sass:build": "sass source/scss:dist/assets/css",
     "sass:watch": "npm run sass:build -- --watch",
     "test": "cypress open",
@@ -50,6 +47,7 @@
     "browser-sync": "^2.27.7",
     "cypress": "^9.4.1",
     "netlify-plugin-cypress": "^2.2.0",
-    "npm-run-all": "^4.1.5"
+    "npm-run-all": "^4.1.5",
+    "watch": "^1.0.2"
   }
 }
