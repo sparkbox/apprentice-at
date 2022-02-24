@@ -70,6 +70,10 @@ describe('Apprenticeship submit form', () => {
 
     describe('Should submit a successful form', () => {
         it('should submit a successful aprrenticeship form', () => {
+            cy.intercept('POST', '/thank-you/', (req) => {
+              req.redirect('/thank-you', 301)
+            }).as('thankYou');
+
             cy.get('[data-cy=form_compensation-field]')
             .should('be.visible')
             .check('Yes');
