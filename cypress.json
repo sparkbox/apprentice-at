@@ -3,5 +3,8 @@
     "video": false,
     "supportFile": false,
     "pluginsFile": false,
-    "projectId": "mn98r3"
+    "projectId": "mn98r3",
+    "viewportWidth": 1000,
+    "viewportHeight": 1000
+    
 }

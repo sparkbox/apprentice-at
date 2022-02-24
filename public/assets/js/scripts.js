@@ -32,7 +32,7 @@ const validation = function() {
       name: "Please enter your company name",
       url: {
         required: "Please enter your company website",
-        url: "Please enter a valid URL"
+        url: "Please be sure your URL is written in this format: http://www.example.com"
       },
       category: "Please select a category",
       duration: {
@@ -44,17 +44,16 @@ const validation = function() {
       location: "Please enter a location",
       learn_more :{
         required: "Please enter a link to the application",
-        url: "Please enter a valid URL"
+        url: "Please be sure your URL is written in this format: http://www.example.com"
       },
       apprentice: {
         required: "Please enter a past apprentice email",
-        email: "Plesae enter a valid email address"
+        email: "Please enter a valid email address"
       },
       email: {
         required: "Please enter an email address",
         email: "Please enter a valid email address"
       }
-
     }
   })
 
@@ -70,6 +69,7 @@ const validation = function() {
     }
   });
 };
+
 
 var Apprenticeship, Apprenticeships;
 
