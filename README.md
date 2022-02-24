@@ -4,38 +4,33 @@ An online listing of apprenticeship opportunities.
 
 ## Environment Setup
 
-To install and run the website you will need to download [Node](https://nodejs.org/en/download/) v12.
+To install and run the website you will need to download [Node](https://nodejs.org/en/download/) v16.
 
 1. Clone the Repo `git clone git@github.com:sparkbox/apprentice-at.git`
 
 2. Change Directory `cd apprentice-at`
 
-3. Install Grunt `npm install -g grunt-cli`
+3. Install Node Modules `npm ci`
 
-4. Install Node Modules `npm ci`
-
-5. Run `npm start` to start local development server
+4. Run `npm start` to start local development server
 
 ## Command Line Interface
 
-- `grunt` Runs the default grunt task: `dev`.
+- `clean:all` script to wipe out everything in `dist/`.
 
-- `grunt dev` Runs the `build` task to compile the static site in the `dist/` folder. Then it runs the `watch` task to check for updates to source files to automatically rebuild the site.
+- `autoprefix` update css files in `dist/css/` to include necessary browser prefiexes. 
 
-- `grunt build` runs a series of tasks to compile the static site. Runs:
-  `assemble`, `sass`, `autoprefixer`, `concat`, and `copy:main` in that order.
+- `eleventy` generates static site demplates into `dist/`
 
-- `grunt everything-clean` Runs the `clean:all` task to wipe out everything in `dist/` then runs `copy:main` to regenerate everything from `public/` into `dist/`.
+- `sass:build` compiles all sass files in the `scss/` folder into the `dist/css/` folder. 
 
-- `grunt autoprefix` Update css files in `dist/css/` to include necessary browser prefixes.
+- `eleventy:watch`, `sass:watch` & `js:watch` watch for changes to files in the `.hbs`, `.scss` & `.js` files of our project. BrowserSync is used to refresh pages after changes are made. 
 
-- `grunt assemble` Generate static site templates into `dist/`.
+- `npm run build` runs a series of scripts to compile the static site in the `dist/` folder.
+Runs: 
+  `clean:all`, `sass:build`, `copy:public`, `concat:js`, `eleventy` and `autoprefix` in that order. 
 
-- `grunt --watch` Watch for changes to files and run sass, autoprefixer, copy and assemble as needed. Livereload is enabled to refresh pages after changes are made.
-
-- `grunt sass` Compile all sass files in the `scss/` folder into the `dist/css/` folder.
-
-- `npm start` will run `grunt dev` & `npm serve` together
+- `npm start` will run the scripts `build`, `sass:watch`, `eleventy:watch`, `js:watch` & `serve` together in parallel. 
 
 ## Hosting
 
